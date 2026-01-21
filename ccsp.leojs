@@ -1,0 +1,159 @@
+{
+  "leoHeader": {
+    "fileFormat": 2
+  },
+  "vnodes": [
+    {
+      "gnx": "srd.20260113205330.1",
+      "vh": "@clean readme"
+    },
+    {
+      "gnx": "srd.20260113194242.1",
+      "vh": "Domain 1",
+      "children": [
+        {
+          "gnx": "srd.20260113194548.1",
+          "vh": "Module 01",
+          "children": [
+            {
+              "gnx": "srd.20260121195852.1",
+              "vh": "Essentials"
+            },
+            {
+              "gnx": "srd.20260121200505.1",
+              "vh": "Core Concepts"
+            },
+            {
+              "gnx": "srd.20260121200524.1",
+              "vh": "Service Models",
+              "children": [
+                {
+                  "gnx": "srd.20260121203211.1",
+                  "vh": "Infrasturcture as a Service (IaaS)"
+                },
+                {
+                  "gnx": "srd.20260121203254.1",
+                  "vh": "Platform as a Service (PaaS)"
+                },
+                {
+                  "gnx": "srd.20260121203334.1",
+                  "vh": "Software as a Service (SaaS)"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260121200556.1",
+              "vh": "Deployment Types",
+              "children": [
+                {
+                  "gnx": "srd.20260121204235.1",
+                  "vh": "Private Cloud"
+                },
+                {
+                  "gnx": "srd.20260121204538.1",
+                  "vh": "HERE_ Public Cloud"
+                },
+                {
+                  "gnx": "srd.20260121204605.1",
+                  "vh": "HERE_Hybrid Cloud"
+                },
+                {
+                  "gnx": "srd.20260121204624.1",
+                  "vh": "HERE_Community Cloud"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gnx": "srd.20260113200102.1",
+          "vh": "Tier 1A"
+        },
+        {
+          "gnx": "srd.20260121195227.1",
+          "vh": "Module 02"
+        },
+        {
+          "gnx": "srd.20260121195346.1",
+          "vh": "Module 03"
+        },
+        {
+          "gnx": "srd.20260121195512.1",
+          "vh": "Module 04"
+        },
+        {
+          "gnx": "srd.20260121195633.1",
+          "vh": "Module 05"
+        }
+      ]
+    },
+    {
+      "gnx": "srd.20260113194456.1",
+      "vh": "Domain 2",
+      "children": [
+        {
+          "gnx": "srd.20260113204831.1",
+          "vh": "subNode 02",
+          "children": [
+            {
+              "gnx": "srd.20260113200404.1",
+              "vh": "Tier 2A"
+            }
+          ]
+        },
+        {
+          "gnx": "srd.20260113200253.1",
+          "vh": "SubNode 03"
+        }
+      ]
+    },
+    {
+      "gnx": "srd.20260114161206.1",
+      "vh": "Domain 3",
+      "children": [
+        {
+          "gnx": "srd.20260113194548.1"
+        }
+      ]
+    },
+    {
+      "gnx": "srd.20260121194711.1",
+      "vh": "Domain 4"
+    },
+    {
+      "gnx": "srd.20260121194820.1",
+      "vh": "Domain 5"
+    },
+    {
+      "gnx": "srd.20260121194856.1",
+      "vh": "Domain 6"
+    }
+  ],
+  "tnodes": {
+    "srd.20260113205330.1": "Notes for CCSP exam\nUsing Leo in VSCODE for Literate programming and node aware outlines\n\n",
+    "srd.20260113194242.1": "Domain 1: Cloud Concepts, Architecture and Design\n17 %",
+    "srd.20260113194548.1": "Understanding Cloud Computing  Concepts\n",
+    "srd.20260121195852.1": "Cloud computing represents a paradigm shift from traditional computing methods, where physical infrastucture and software are already owned and managed by users, to mode where pgysical infrastucture and software are directly owned and managed by users, to a model where resources are dilivered over the internet as on-demand services.",
+    "srd.20260121200505.1": "Cloud comupting is defined by its abiility to privide scalable and elestic IT-related capabilities as aservice to external customers using internet technologies \n\nIt centraizes data storage, memeory, processing and bandiwith into virtualied resources that can be alllocate and istrubutes quickly\n\nThis mode offers significant costs benefits, transforming capital-intensive infrastructures into variable cost environments.",
+    "srd.20260121200524.1": "Several service models exits catering to different business needs",
+    "srd.20260121203211.1": "Examples: Amazon EC2 and Googlr Compute Engine\nThis foundational model provides virtulised phyical computing resources over the Internet\n\nIaaS allows business to rent servers, storage, and networking technology on-demand, therby eliminating the capital expenditiure of owning hardware.",
+    "srd.20260121203254.1": "ExamplesL Google App Engine and Microsoft Azure\n\nThis service model provides a platform allowing customers to develop, run and manage application without the complexity of building and maintaining the infrastucture.",
+    "srd.20260121203334.1": "Examples: Salesforce.com amd Microsoft Office 365\nSaas delivers software applications ove the Internet, on a subscription basis, freeing users from complex software and hardware mangagement.",
+    "srd.20260121200556.1": "Cloud Computing deployment models define the types of access to the cloud environment, whaich can significantly impact the scalability and security of IT systems.",
+    "srd.20260121204235.1": "Operates solely for a single organization. It cam be managed internally or by a third party and hosted internally or externally. Benefets include greate control and security. ",
+    "srd.20260121195227.1": "Describe Cloud Referance Architecture",
+    "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
+    "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
+    "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
+    "srd.20260113194456.1": "Domain 2: Cloud Data Security\n20%",
+    "srd.20260114161206.1": "Domian 3: Cloud Platform and Infrastructure security \n17%",
+    "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
+    "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
+    "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
+  },
+  "uas": {
+    "srd.20260113205330.1": {
+      "_mod_time": 1769024034.382
+    }
+  }
+}
