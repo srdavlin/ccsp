@@ -17,7 +17,25 @@
           "children": [
             {
               "gnx": "srd.20260121195852.1",
-              "vh": "Essentials"
+              "vh": "Essentials",
+              "children": [
+                {
+                  "gnx": "srd.20260121211842.1",
+                  "vh": "Key Features"
+                },
+                {
+                  "gnx": "srd.20260121211910.1",
+                  "vh": "Elasticity and Scalability"
+                },
+                {
+                  "gnx": "srd.20260121212045.1",
+                  "vh": "Self-Service Provisioning"
+                },
+                {
+                  "gnx": "srd.20260121212211.1",
+                  "vh": "Metered Service"
+                }
+              ]
             },
             {
               "gnx": "srd.20260121200505.1",
@@ -51,15 +69,15 @@
                 },
                 {
                   "gnx": "srd.20260121204538.1",
-                  "vh": "HERE_ Public Cloud"
+                  "vh": "Public Cloud"
                 },
                 {
                   "gnx": "srd.20260121204605.1",
-                  "vh": "HERE_Hybrid Cloud"
+                  "vh": "Hybrid Cloud"
                 },
                 {
                   "gnx": "srd.20260121204624.1",
-                  "vh": "HERE_Community Cloud"
+                  "vh": "Community Cloud"
                 }
               ]
             }
@@ -134,6 +152,10 @@
     "srd.20260113194242.1": "Domain 1: Cloud Concepts, Architecture and Design\n17 %",
     "srd.20260113194548.1": "Understanding Cloud Computing  Concepts\n",
     "srd.20260121195852.1": "Cloud computing represents a paradigm shift from traditional computing methods, where physical infrastucture and software are already owned and managed by users, to mode where pgysical infrastucture and software are directly owned and managed by users, to a model where resources are dilivered over the internet as on-demand services.",
+    "srd.20260121211842.1": "Elasticity, scalibility, Self-Servie Provisioning, Metered Services",
+    "srd.20260121211910.1": "Rabidly scale up and down with demand, paying only for what you use.",
+    "srd.20260121212045.1": "Users can spin up compute resources for almost any type of workload on-demand.",
+    "srd.20260121212211.1": "Cloud systems automatically control and optimize resources by leveraging a metering capability at some level of abstraction appropiate to the type of service (e.g., starage, processing, bandwidth and active user accounts).",
     "srd.20260121200505.1": "Cloud comupting is defined by its abiility to privide scalable and elestic IT-related capabilities as aservice to external customers using internet technologies \n\nIt centraizes data storage, memeory, processing and bandiwith into virtualied resources that can be alllocate and istrubutes quickly\n\nThis mode offers significant costs benefits, transforming capital-intensive infrastructures into variable cost environments.",
     "srd.20260121200524.1": "Several service models exits catering to different business needs",
     "srd.20260121203211.1": "Examples: Amazon EC2 and Googlr Compute Engine\nThis foundational model provides virtulised phyical computing resources over the Internet\n\nIaaS allows business to rent servers, storage, and networking technology on-demand, therby eliminating the capital expenditiure of owning hardware.",
@@ -141,6 +163,9 @@
     "srd.20260121203334.1": "Examples: Salesforce.com amd Microsoft Office 365\nSaas delivers software applications ove the Internet, on a subscription basis, freeing users from complex software and hardware mangagement.",
     "srd.20260121200556.1": "Cloud Computing deployment models define the types of access to the cloud environment, whaich can significantly impact the scalability and security of IT systems.",
     "srd.20260121204235.1": "Operates solely for a single organization. It cam be managed internally or by a third party and hosted internally or externally. Benefets include greate control and security. ",
+    "srd.20260121204538.1": "Services are rendered over a network that is open for public use. Public clouds offer efficiency and scale benefits, and are owned and operated by businesses offering cloud services.",
+    "srd.20260121204605.1": "This environment uses mix of on-premies, private cloud, and third-party, public cloud services with orchestration between the two platforms.\n\nIt alloews businesses to scale cloud-based services to meet flucuation workloads.",
+    "srd.20260121204624.1": "Shares infrastucture between several organizations froma specific community with common concerns (security,compliance, jurisdiction, etc.), possibly managed by a third party or he organization in the community.\n ",
     "srd.20260121195227.1": "Describe Cloud Referance Architecture",
     "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
