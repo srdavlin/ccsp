@@ -9,11 +9,11 @@
     },
     {
       "gnx": "srd.20260113194242.1",
-      "vh": "Domain 1",
+      "vh": "Domain 1 - Cloud Concepts, Architecture and Design",
       "children": [
         {
           "gnx": "srd.20260113194548.1",
-          "vh": "Module 01",
+          "vh": "Module 01 - Understanding Cloud Computing  Concepts",
           "children": [
             {
               "gnx": "srd.20260121195852.1",
@@ -80,16 +80,64 @@
                   "vh": "Community Cloud"
                 }
               ]
+            },
+            {
+              "gnx": "srd.20260113200102.1",
+              "vh": "Computing Roles and Responsibility",
+              "children": [
+                {
+                  "gnx": "srd.20260122171610.1",
+                  "vh": "Cloud Service Customer"
+                },
+                {
+                  "gnx": "srd.20260122171706.1",
+                  "vh": "Cloud Serives Provider"
+                },
+                {
+                  "gnx": "srd.20260122171721.1",
+                  "vh": "Cloud Service Partner"
+                },
+                {
+                  "gnx": "srd.20260122171736.1",
+                  "vh": "Cloud Service Broker"
+                },
+                {
+                  "gnx": "srd.20260122174708.1",
+                  "vh": "Regulator"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260122171747.1",
+              "vh": "Building Block Technologies",
+              "children": [
+                {
+                  "gnx": "srd.20260122175254.1",
+                  "vh": "Virtualization"
+                },
+                {
+                  "gnx": "srd.20260122175320.1",
+                  "vh": "Storage"
+                },
+                {
+                  "gnx": "srd.20260122175330.1",
+                  "vh": "Networking"
+                },
+                {
+                  "gnx": "srd.20260122175358.1",
+                  "vh": "Databases"
+                },
+                {
+                  "gnx": "srd.20260122175410.1",
+                  "vh": "Orchestration"
+                }
+              ]
             }
           ]
         },
         {
-          "gnx": "srd.20260113200102.1",
-          "vh": "Tier 1A"
-        },
-        {
           "gnx": "srd.20260121195227.1",
-          "vh": "Module 02"
+          "vh": "Module 02 - Cloud Referance Archtecture"
         },
         {
           "gnx": "srd.20260121195346.1",
@@ -166,6 +214,13 @@
     "srd.20260121204538.1": "Services are rendered over a network that is open for public use. Public clouds offer efficiency and scale benefits, and are owned and operated by businesses offering cloud services.",
     "srd.20260121204605.1": "This environment uses mix of on-premies, private cloud, and third-party, public cloud services with orchestration between the two platforms.\n\nIt alloews businesses to scale cloud-based services to meet flucuation workloads.",
     "srd.20260121204624.1": "Shares infrastucture between several organizations froma specific community with common concerns (security,compliance, jurisdiction, etc.), possibly managed by a third party or he organization in the community.\n ",
+    "srd.20260113200102.1": "The following groups play key roles and hold specific responsibilities associated with cloud computing:",
+    "srd.20260122171610.1": "An enitity that utilizes or subscribes to cloud-based resources or services",
+    "srd.20260122171706.1": "A third Party enitity that manages and bears operational responsibility for cloud-based data backup services and solutions, offering these to constomuers central  data center data ",
+    "srd.20260122171721.1": "A third party  provider offering a range of cloud based services, including  infrastuctur storage, application , and application and platform services, while utilizg a related Cloud servious provide.",
+    "srd.20260122171736.1": "An Organization that acts as an intemediary bewteen the cloud service provider ad the cloud servious providr and the cloud customer, facilitating transactions or negotiations.",
+    "srd.20260122174708.1": "Regulatory agencis like the FTC and SEXC enforce complaince with laws such as HIPPA, SOX, and GLBA\n",
+    "srd.20260122171747.1": "Resource Pooling made possible through virtulaization\n\nNetwork advancements that facilitate seemless access and connectivity \n\nOrchestration, enhanciing the cost eand optimizaing resource utilization",
     "srd.20260121195227.1": "Describe Cloud Referance Architecture",
     "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
