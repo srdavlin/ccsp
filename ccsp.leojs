@@ -137,7 +137,13 @@
         },
         {
           "gnx": "srd.20260121195227.1",
-          "vh": "Module 02 - Cloud Referance Archtecture"
+          "vh": "Module 02 - Cloud Referance Archtecture",
+          "children": [
+            {
+              "gnx": "srd.20260122194911.1",
+              "vh": "HERE_Computiing Activites"
+            }
+          ]
         },
         {
           "gnx": "srd.20260121195346.1",
