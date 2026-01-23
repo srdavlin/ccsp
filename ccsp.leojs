@@ -141,13 +141,151 @@
           "children": [
             {
               "gnx": "srd.20260122194911.1",
-              "vh": "HERE_Computiing Activites"
+              "vh": "Computiing  Capabilities ",
+              "children": [
+                {
+                  "gnx": "srd.20260123163536.1",
+                  "vh": "Infrastucture"
+                },
+                {
+                  "gnx": "srd.20260123163754.1",
+                  "vh": "Platform"
+                },
+                {
+                  "gnx": "srd.20260123163911.1",
+                  "vh": "Application"
+                },
+                {
+                  "gnx": "srd.20260123164207.1",
+                  "vh": "Categories",
+                  "children": [
+                    {
+                      "gnx": "srd.20260123160050.1",
+                      "vh": "SaaS Consumer"
+                    },
+                    {
+                      "gnx": "srd.20260123160117.1",
+                      "vh": "PaaS Consumer"
+                    },
+                    {
+                      "gnx": "srd.20260123160425.1",
+                      "vh": "IaaS Consumer"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260123165750.1",
+                  "vh": "Abilities",
+                  "children": [
+                    {
+                      "gnx": "srd.20260123160537.1",
+                      "vh": "Cloud Provider"
+                    },
+                    {
+                      "gnx": "srd.20260123160753.1",
+                      "vh": "Cloud Auditor"
+                    },
+                    {
+                      "gnx": "srd.20260123161313.1",
+                      "vh": "Cloud Broker"
+                    },
+                    {
+                      "gnx": "srd.20260123162933.1",
+                      "vh": "Cloud Carrier"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260123170010.1",
+                  "vh": "Deployment Models",
+                  "children": [
+                    {
+                      "gnx": "srd.20260123170121.1",
+                      "vh": "Public Cloud"
+                    },
+                    {
+                      "gnx": "srd.20260123170201.1",
+                      "vh": "Private Cloud"
+                    },
+                    {
+                      "gnx": "srd.20260123170212.1",
+                      "vh": "Hybrid Cloud"
+                    },
+                    {
+                      "gnx": "srd.20260123170220.1",
+                      "vh": "Community Cloud"
+                    },
+                    {
+                      "gnx": "srd.20260123170231.1",
+                      "vh": "Multi Cloud"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260123175956.1",
+                  "vh": "Shared Considerations",
+                  "children": [
+                    {
+                      "gnx": "srd.20260123180109.1",
+                      "vh": "Interoperability "
+                    },
+                    {
+                      "gnx": "srd.20260123180756.1",
+                      "vh": "Portability"
+                    },
+                    {
+                      "gnx": "srd.20260123181039.1",
+                      "vh": "Reversibility"
+                    },
+                    {
+                      "gnx": "srd.20260123181452.1",
+                      "vh": "Perfomance, Availibility & Resiliency"
+                    },
+                    {
+                      "gnx": "srd.20260123182236.1",
+                      "vh": "Security"
+                    },
+                    {
+                      "gnx": "srd.20260123182329.1",
+                      "vh": "Privacy"
+                    },
+                    {
+                      "gnx": "srd.20260123182255.1",
+                      "vh": "Governace"
+                    },
+                    {
+                      "gnx": "srd.20260123182401.1",
+                      "vh": "HERE- Maintenance and Versioning"
+                    },
+                    {
+                      "gnx": "srd.20260123182422.1",
+                      "vh": "Service Level Agreements"
+                    },
+                    {
+                      "gnx": "srd.20260123182430.1",
+                      "vh": "Auditability"
+                    },
+                    {
+                      "gnx": "srd.20260123182449.1",
+                      "vh": "Regulatory"
+                    },
+                    {
+                      "gnx": "srd.20260123182517.1",
+                      "vh": "Outsourcing"
+                    },
+                    {
+                      "gnx": "srd.20260123182600.1",
+                      "vh": "Emerging Tech"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
         {
           "gnx": "srd.20260121195346.1",
-          "vh": "Module 03"
+          "vh": "Module 03 - Understand Secuirty Concepts"
         },
         {
           "gnx": "srd.20260121195512.1",
@@ -228,6 +366,31 @@
     "srd.20260122174708.1": "Regulatory agencis like the FTC and SEXC enforce complaince with laws such as HIPPA, SOX, and GLBA\n",
     "srd.20260122171747.1": "Resource Pooling made possible through virtulaization\n\nNetwork advancements that facilitate seemless access and connectivity \n\nOrchestration, enhanciing the cost eand optimizaing resource utilization",
     "srd.20260121195227.1": "Describe Cloud Referance Architecture",
+    "srd.20260122194911.1": "SaaS, PaaS IaaS Consumer's, Cloud Providers, Cloud Auditors, Cloud Brokers, and Cloud Carrier's are distingushed by different activities they are focused on.\n\nThe following capabilities form the fondation of cloud service categories\n",
+    "srd.20260123163536.1": "The cloud consumer can provision and exercise significant configuration control over processing, staorage and netwirk resources.",
+    "srd.20260123163754.1": " The customer can deploy code and applications using programming languages and libririe maintained and controlled by thr cloud provider\n ",
+    "srd.20260123163911.1": " Customers utilizes a fully established application provided by the provider with limites user configuration options.\n",
+    "srd.20260123160050.1": "Enables consumers to use the providerd applications running on a cloud platform and accessible via a web browser\n\nHuman Resources\nSocial Networks\nFinaicials\nContent Mangegment\nEmail and Office Productivity\nDocument Management\nGames \nVirtual Desktops\nCollaboration\nBilling\nCRM\nSales\nERP\n\nDelivers As:\n\nHosted Application MAnagement: commercially avaiible software delivered over the web\n\nSoftware on Demand: offer costomer network access to a single copy of an application specifically designed for SaaS delivery. ",
+    "srd.20260123160117.1": " Provide the customer the capability to deploy thier own or acquired applications onto the cloud infrastucture to utilise programming languses, libraries,services and tools, i.e Googlr apps Etelos Long Jump etc.\n \n Database\n Application Deployment tools\n Integration\n Development & Testing\n Business Intelligence",
+    "srd.20260123160425.1": "Aallows consumers to provision essiential resources, i.e processing power, storage and networking to enable the deployment and running of various software, applicatins and operating systems without owning the underlying infrastructure hardware but rather paying for its usage as needed.  \n\n Services Mangement\n Platform Hosting\n Compute (Virtual Machines)\n Backup & Recovery\n CDN\n Storage",
+    "srd.20260123160537.1": "Service Deployment\nService Orchestration\nCloud Service Mangement\nSecurity \nPrivacy\n",
+    "srd.20260123160753.1": " Is an entity capable of conducting an independent investigation of cloud service controls  with the objective of providing a conclusive assesment\n\nInvolves assessing the services offered by a cloud provider across varioos dimensions, including security controls, perfrmance, privacy impact and more\n\nA cloud auditor evaluates the security controls within the information system to determine thier accuracy of implementation, adherance to excpected operations, and the ability to produce the desired security outcomes in alignment with the systems securit requirements.\n",
+    "srd.20260123161313.1": "Service Intermediation\nService Aggregation\nService Arbitrage\n\nInstead of directly contacting cloud providers, consumers can opt to request cloud services through a broker who acts as an intermediary , managing the use, performance and delivery of cloud services and facilitating negotiations and relationships between providers and consumers.",
+    "srd.20260123162933.1": " Acts as a Mediator that ficilitates the connectiviity and transprotation of services between consumers and providors\n\n Access is provided through various network and telecommunication devices, i.e laptops, desktops, mobile phones and internet devices typically managed by network and telecom carriers or disignated transport agent.\n",
+    "srd.20260123170010.1": "Deployment Models",
+    "srd.20260123170121.1": "Offers resources dynamically provisioned via the Internet for flexibility and scalbility\n\nAvailible to the general public or large Industry groups\n\nOpeerated by Organizations providing divere computing needs\n\nExamples Amazon Elastic Compute Elastic\n\nBenefits:\n\n- Streamlined and easily provisioned that are scalable\n- Easy and Inexpensive to setup - the provider covers the cost of applications, hardware and bandwidth\n- No waste of resorces, payment is based upon consumption\n",
+    "srd.20260123170201.1": " An internal or organizational cloud involving a distinct and secure cloud -based environment where only specific clients may operate\n\n Maganged by the organization itself or by third party, mayb hosted on-premise or off premise\n\n Benefits:\n\n Inceased Contro; over data, applications and underlying systems.\n\n Ownership and retention of governance controls\n\n Assurance of data location\n\n Elimination of legal / compliance requirements across multiple jurusdictions\n ",
+    "srd.20260123170212.1": "Where two or more sprcific env's (public, private, internal or external) are combined\n\nFacilitates flexability of deployment options allowing workloads to move between priv and public resources as needed or as cost change\n\nOten used for archiving and backing up data by replicating local data to a public cloud\n\nBenefits:\n\nReuses Past Tech investment and allows for control over critical components and systems\n\nRetains ownership and oversight or critial tech assests, task, and processes while being a cost effective method for handeling non-critical business functions and/or bursting capabilities.",
+    "srd.20260123170220.1": " Enables groups or Orgs acess to distrubuted systems formed by combining services from various clouds to meet a specific need of the community, business, or industry\n\n te Infrastructure is shared by organizations with similar concerns or tasks and is typically managed by a third party or through collaboration amoung community members.\n\n Benefits:\n\n Cost Effective\n Security of shared resources and infrastucure is often enhanced\n Collaboration and data sharing is Ideal amoung users.\n",
+    "srd.20260123170231.1": " Utilizes multiple public  or private clouds and deployment strategies that intergrate resources from both env's often across vendord or regions but without combining public/private env like a hybrid.  public-to-public  or priv-to-priv\n\n Can offer tools to enhance the reliabilty of services and enhances availibility \n\n Benefits:\n\nUusing different providers enable mix -math of the best feture of ech provider service to meet a specific need of the business, application or workload.\n\nReduced latency  - select regions and zones that are close in proximity  to clients to min latency\n\nHigh Service Availibility - rare for two providers to experience an incdent and proximity enhances the user experience\n\n",
+    "srd.20260123175956.1": "Irrespective of the serfice category  some aspects of cloud computing are univaersal\n",
+    "srd.20260123180109.1": "Interoperability  refers to the ability and/or ease of which an applications components can be moved or reused\n\nThe underlying platform, API structure, operating system or cloud provider should not hinder the efficient trasition of services to a alternative solution\n\nOrganizations with a high degree of interoperablity  within its systems are not restricted to a single provider and can easily migrate to another for equal or greater service  or better pricing",
+    "srd.20260123180756.1": " allows data to move between different providers easily \n Orgs that optimize ots data for portabilty gains flexibity to transition between providers and hosting models to leverage advantages\n\n Enables an Orgs to continuously explore cloud hosting services\n",
+    "srd.20260123181039.1": "The capability of a customer to extraxt all thier systems and data from a provider with assurance that it all has been completly removed within the ageed amout of time.\n\nEncompasses the ability to trnsistion to a different provider",
+    "srd.20260123181452.1": "Fundemental ascpects of a cloud to the inherent characteristics\n\nResiliency and availibility are distigused features often with a SLA \n\nPerformance is crucial and must be prioritiesd\n\nCustomrs are unlikly  to remain with a provider for long periords and will shift to another provider if they fall short \n\n",
+    "srd.20260123182236.1": "Security is a major concern in multi tenant  envns eith in the same framework\n\nProvider must ensure the customer controls are met while also adapt to changing requriements\n\nAmid large organizational proiders , security controls are not public\n\nSecurity is often implemented by establishing minimum standerds with enhanced secuity as an extra cost",
+    "srd.20260123182329.1": " Of Paramount importance due to numerous regulatory  and legal reqs byt can vary signaificantly  depending on use case and location\n\n The added complexity  arises from laws /regulations based upon \n - where data is stored (data at rest)  \n - where the data is accessed and used (data in transit)\n \n",
+    "srd.20260123182255.1": "Involes assigning jobs, roles, tasks and responsibilities and ensueing  they are satisfactorily  performed\n\nCloud complexity can add to goverance req's due to protection requirements nad the involvement of the third party provider.",
     "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
     "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
