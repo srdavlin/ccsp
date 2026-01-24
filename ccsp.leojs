@@ -255,7 +255,7 @@
                     },
                     {
                       "gnx": "srd.20260123182401.1",
-                      "vh": "HERE- Maintenance and Versioning"
+                      "vh": "Maintenance and Versioning"
                     },
                     {
                       "gnx": "srd.20260123182422.1",
@@ -391,6 +391,7 @@
     "srd.20260123182236.1": "Security is a major concern in multi tenant  envns eith in the same framework\n\nProvider must ensure the customer controls are met while also adapt to changing requriements\n\nAmid large organizational proiders , security controls are not public\n\nSecurity is often implemented by establishing minimum standerds with enhanced secuity as an extra cost",
     "srd.20260123182329.1": " Of Paramount importance due to numerous regulatory  and legal reqs byt can vary signaificantly  depending on use case and location\n\n The added complexity  arises from laws /regulations based upon \n - where data is stored (data at rest)  \n - where the data is accessed and used (data in transit)\n \n",
     "srd.20260123182255.1": "Involes assigning jobs, roles, tasks and responsibilities and ensueing  they are satisfactorily  performed\n\nCloud complexity can add to goverance req's due to protection requirements nad the involvement of the third party provider.",
+    "srd.20260123182401.1": "The contract and SLA should explicitly outline maintenance responsibilities across different\ncloud service categories.",
     "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
     "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
@@ -402,7 +403,7 @@
   },
   "uas": {
     "srd.20260113205330.1": {
-      "_mod_time": 1769024034.382
+      "_mod_time": 1769126051.409
     }
   }
 }
