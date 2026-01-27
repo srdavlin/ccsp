@@ -390,7 +390,63 @@
             },
             {
               "gnx": "srd.20260127164832.1",
-              "vh": "Integrated Network and Virtualization Security"
+              "vh": "Integrated Network and Virtualization Security",
+              "children": [
+                {
+                  "gnx": "srd.20260127185748.1",
+                  "vh": "Network  Security",
+                  "children": [
+                    {
+                      "gnx": "srd.20260127185821.1",
+                      "vh": "Network Security Groups (NSGs)"
+                    },
+                    {
+                      "gnx": "srd.20260127190034.1",
+                      "vh": "Traffic Inspection and Monitring"
+                    },
+                    {
+                      "gnx": "srd.20260127190057.1",
+                      "vh": "GeoFencing and Zero Trust Models"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260127191012.1",
+                  "vh": "Virtualisation Security ",
+                  "children": [
+                    {
+                      "gnx": "srd.20260127191154.1",
+                      "vh": "Hypervisor Security "
+                    },
+                    {
+                      "gnx": "srd.20260127191214.1",
+                      "vh": "Container Security "
+                    },
+                    {
+                      "gnx": "srd.20260127191647.1",
+                      "vh": "Ephemeral and Serverless Computing"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260127192033.1",
+              "vh": "Itegrated Strategies",
+              "children": [
+                {
+                  "gnx": "srd.20260127192219.1",
+                  "vh": "Segmentation and Micro-Segmentation"
+                },
+                {
+                  "gnx": "srd.20260127192339.1",
+                  "vh": "Unified Threat Management (UTM)"
+                },
+                {
+                  "gnx": "srd.20260127192509.1",
+                  "vh": "Automated Security Policies"
+                }
+              ]
             },
             {
               "gnx": "srd.20260127171245.1",
@@ -398,17 +454,95 @@
             },
             {
               "gnx": "srd.20260127171313.1",
-              "vh": "Security Hygiene"
+              "vh": "Security Hygiene",
+              "children": [
+                {
+                  "gnx": "srd.20260127193510.1",
+                  "vh": "Patching"
+                },
+                {
+                  "gnx": "srd.20260127193650.1",
+                  "vh": "Baselining"
+                }
+              ]
             }
           ]
         },
         {
           "gnx": "srd.20260121195512.1",
-          "vh": "Module 04 - Design Pricipals of Secure Cloud Computing"
+          "vh": "Module 04 - HERE Design Pricipals of Secure Cloud Computing",
+          "children": [
+            {
+              "gnx": "srd.20260127195415.1",
+              "vh": "Secure Data Lifecycle"
+            },
+            {
+              "gnx": "srd.20260127195523.1",
+              "vh": "Cloud Business Continuity"
+            },
+            {
+              "gnx": "srd.20260127195546.1",
+              "vh": "Disaster Recovery"
+            },
+            {
+              "gnx": "srd.20260127195634.1",
+              "vh": "Business Impact Analysis",
+              "children": [
+                {
+                  "gnx": "srd.20260127195716.1",
+                  "vh": "Cost Benefit Analysis"
+                },
+                {
+                  "gnx": "srd.20260127195739.1",
+                  "vh": "Return on Investment"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260127200016.1",
+              "vh": "Functional Secuirty Requirements",
+              "children": [
+                {
+                  "gnx": "srd.20260127200101.1",
+                  "vh": "IaaS Considerations"
+                },
+                {
+                  "gnx": "srd.20260127200135.1",
+                  "vh": "SaaS Considerations"
+                },
+                {
+                  "gnx": "srd.20260127200241.1",
+                  "vh": "PaaS Considerations"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260127200429.1",
+              "vh": "Cloud Design Patterns",
+              "children": [
+                {
+                  "gnx": "srd.20260127200718.1",
+                  "vh": "SANS Security Principals"
+                },
+                {
+                  "gnx": "srd.20260127200757.1",
+                  "vh": "Well-Architected Framework"
+                },
+                {
+                  "gnx": "srd.20260127200843.1",
+                  "vh": "Cloud Security Alliance Enterprise Architecture"
+                },
+                {
+                  "gnx": "srd.20260127200916.1",
+                  "vh": "DevOps Security"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260121195633.1",
-          "vh": "Module 05 - Evalute Cloud Service Providers"
+          "vh": "Module 05 - Evaluate Cloud Service Providers"
         }
       ]
     },
@@ -503,6 +637,24 @@
     "srd.20260127175124.1": "Privileged access refers to computer access with higher rights than a typical user within an\norganisation.\n\nIt is primarily used for tasks such as upgrading, maintaining, and configuring critical servers,\napplications, databases, and IT infrastructure.\n\nExamples of privileged access include access to service accounts, root access, and\nadministrator access.\n\nIn many organisations, the majority of company users are limited to utilising applications\nthrough their user interface.\n\nConsequently, any access to a server's command line interface may be considered privileged\naccess in some cases.\n\nCertain privileged accounts have access to the operating system's command line, while others\npossess elevated rights within applications, such as the ability to modify application\nconfigurations.",
     "srd.20260127171220.1": "Internally, it is possible to sanitise storage media because users have physical access to it.\nUsers can decide how to perform sanitisation, including the option to physically destroy the\nstorage media. Moreover, users can choose when to schedule media sanitisation and data\nerasure.\n\nHowever, in a cloud environment, this task becomes more challenging. The physical medium\ncannot be accessed directly, and data storage is shared and distributed among various users.\n\nAs a result, users do not have the ability to access the physical disks, and cloud service\nproviders (CSPs) do not typically allow users to physically destroy them.\n\nData in the cloud is regularly relocated and backed up, making it difficult to ascertain if a data\nitem has been completely removed from all copies. This raises significant concerns regarding\nprivacy and security.",
     "srd.20260127175741.1": "Over time, cloud storage involves the overwriting of erased data.\n\nOnce a specific area is assigned to and used by the same or another\ncustomer, the previously deleted data gets overwritten. These\ndeleted data areas are marked for reuse.\n\nIt is worth noting that data or fragments may still exist for some\ntime even after overwriting, as there is no fixed timeframe for their\ncomplete removal.\n\nTo ensure the safety and confidentiality of data, encryption is\ncrucial. All data stored in the cloud can be encrypted, provided that\ncryptographic keys are inaccessible or securely erased.",
+    "srd.20260127175913.1": "During this process, cryptographic keys are destroyed (crypto\nshredded), effectively eliminating the key necessary for data\ndecryption.\n\nEncryption, along with data and media sanitisation and\noverwriting, is crucial for maintaining the privacy and security\nof your data.\n\nSecure cryptographic key erasure virtually guarantees the\nprevention of data retrieval.",
+    "srd.20260127164832.1": "The integrated approach to network and virtualisation security in cloud environments is crucial\nfor protecting data, applications, and the underlying infrastructure from threats and\nunauthorised access.\n\nThis approach ensures that security measures are not siloed but are comprehensively designed\nto cover all aspects of the cloud environment, from the physical servers to the virtual networks\nand the applications running on them.\n\nIncorporating advanced strategies, cutting edge technologies, and established best practices,\nthis integrated security framework leverages the synergies between network security and\nvirtualisation.\n\nBy doing so, it enhances the overall security posture, minimises vulnerabilities, and ensures\nthat security protocols are agile enough to adapt to the dynamic nature of cloud technologies.\n\nThis results in a more resilient infrastructure capable of defending against both conventional\nsecurity threats and emerging challenges in the digital landscape.",
+    "srd.20260127185748.1": "Network security in cloud computing must address the challenges of\nmultitenancy, distributed resources, and the dynamic scaling of\nservices. Key aspects include:",
+    "srd.20260127185821.1": "These are used to define security rules that govern the ingress and\negress of traffic at the virtual machine, network interface, and\nsubnet levels.\n\nNSGs act as virtual firewalls providing an essential layer of security\nto cloud resources.",
+    "srd.20260127190034.1": "Effective network security requires continuous monitoring and analysis of network traffic to\ndetect anomalies, potential breaches, and DDoS attacks.\n\nTools used for this purpose analyse traffic flows and can automatically trigger protective\nmeasures when suspicious activities are detected.",
+    "srd.20260127190057.1": "Geofencing uses geographical location data to control access to resources, enhancing security\nby restricting access based on physical location parameters.\n\nThe Zero Trust model, on the other hand, assumes no inherent trust within the network,\nrequiring verification and authentication for every access request, regardless of origin.",
+    "srd.20260127191012.1": "Virtualisation allows for the efficient utilisation of physical resources to support multiple virtual\nenvironments. It also introduces specific security concerns that must be addressed:",
+    "srd.20260127191154.1": "The hypervisor, or virtual machine monitor (VMM), is a primary target for attacks due to its\nrole in managing virtual machines.\n\nEnsuring the security of the hypervisor is paramount, involving regular updates, strict access\ncontrols, and monitoring to prevent breaches.",
+    "srd.20260127191214.1": "Containers offer a lightweight alternative to full virtual machines, providing an isolated\nenvironment for running applications.\n\nSecurity for containers involves managing access rights, securing container orchestration\nplatforms like Kubernetes, and using trusted images.",
+    "srd.20260127191647.1": "These technologies reduce the attack surface by limiting the lifespan of computing resources.\n\nEphemeral computing resources exist only while needed, minimising the window of\nopportunity for attacks.\n\nServerless computing abstracts the server layer, shifting security responsibilities to the cloud\nprovider, focusing on securing the code and data inputs/outputs.",
+    "srd.20260127192033.1": "Combining network and virtualisation security involves several integrated strategies:",
+    "srd.20260127192219.1": "These techniques divide the network into distinct\nsecurity segments down to the individual workload level, limiting the lateral movement of\nattackers within the network.",
+    "srd.20260127192339.1": "This involves using a comprehensive solution that\nincorporates firewall, VPN, antivirus, and intrusion detection functionalities to protect both\nvirtual and physical networks.",
+    "srd.20260127192509.1": "Automation plays a critical role in maintaining security across\ndynamic cloud environments. Automated security policies ensure that security settings are\nconsistently applied across all virtual instances, adapting to changes in the network\narchitecture.",
+    "srd.20260127171245.1": "Automation plays a critical role in maintaining security across\ndynamic cloud environments. Automated security policies ensure that security settings are\nconsistently applied across all virtual instances, adapting to changes in the network\narchitecture.",
+    "srd.20260127171313.1": "Security hygiene, also known as cybersecurity hygiene,\nencompasses a set of routine actions taken by businesses and\nindividuals to ensure the safety of users, devices, networks, and\ndata.\n\nCyber hygiene aims to protect sensitive information and defend it\nagainst theft and threats.\n\nThe concept operates in a manner similar to personal hygiene,\nwhere individuals can maintain their health by taking preventive\nmeasures such as flossing to prevent cavities and handwashing to\ncombat the spread of disease.\n\nSimilarly, organisations can maintain good cybersecurity health and\nprevent data breaches and other security incidents by practicing\nproactive cyber hygiene.",
+    "srd.20260127193510.1": "Traditionally, network security focused on patching known vulnerabilities, but with increasing\nnetwork complexity, businesses often struggle to promptly patch every device, system, and\napplication.\n\nCybercriminals exploit delays in patching, typically taking organisations 100 120 days to apply\nfixes, during which systems can be compromised and sensitive data accessed.\n\nContinuous patching can be challenging, leading many businesses to adopt a monthly patching\nschedule, following the example of manufacturers like Microsoft who release fixes once a\nmonth.\n\nHowever, given the increasing number of reported vulnerabilities, checking for updates once a\nmonth or even once a week may no longer be sufficient.",
+    "srd.20260127193650.1": "A set of procedures known as cybersecurity hygiene is employed by businesses to manage the\nmost prevalent and pervasive cybersecurity threats.\n\nIdentify and prioritise the most critical organisational services, products, and resources. Risks\nto the company's essential services and products should be identified, prioritised, and\nmitigated.\n\nDevelop an incident response strategy. Conduct cybersecurity education and awareness\ncampaigns.\n\nEstablish network surveillance and security. Manage user access accounts and restrict access\nbased on the principle of least privilege.\n\nUtilise standardised, secure settings, and control technological\nchanges.\n\nImplement strategies to protect data and ensure its recovery in case\nof loss or breach.\n\nImplement robust measures to prevent malware exposures and\ntrack their origins to safeguard data and system integrity effectively.\n\nManage cyber threats related to external dependencies and\nsuppliers.\n\nMonitor threats and vulnerabilities to address and mitigate risks\npromptly.",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
     "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
     "srd.20260113194456.1": "Domain 2: Cloud Data Security\n20%",
