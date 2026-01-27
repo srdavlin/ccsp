@@ -9,7 +9,7 @@
     },
     {
       "gnx": "srd.20260113194242.1",
-      "vh": "Domain 1 - Cloud Concepts, Architecture and Design",
+      "vh": "Domain 1 - Cloud Concepts, Architecture and Design:",
       "children": [
         {
           "gnx": "srd.20260113194548.1",
@@ -141,7 +141,7 @@
           "children": [
             {
               "gnx": "srd.20260122194911.1",
-              "vh": "Computiing  Capabilities ",
+              "vh": "Computiing  Capabilities / Activities",
               "children": [
                 {
                   "gnx": "srd.20260123163536.1",
@@ -285,58 +285,63 @@
         },
         {
           "gnx": "srd.20260121195346.1",
-          "vh": "HERE - Module 03 - Understand Secuirty Concepts"
+          "vh": "Module 03 - Understand Secuirty Concepts",
+          "children": [
+            {
+              "gnx": "srd.20260127164712.1",
+              "vh": "Crypto Key Management"
+            },
+            {
+              "gnx": "srd.20260127171130.1",
+              "vh": "Idenity abd Access Control"
+            },
+            {
+              "gnx": "srd.20260127171220.1",
+              "vh": "Data and Media Sanitisation"
+            },
+            {
+              "gnx": "srd.20260127164832.1",
+              "vh": "Integrated Network and Virtualization Security"
+            },
+            {
+              "gnx": "srd.20260127171245.1",
+              "vh": "Common Threats"
+            },
+            {
+              "gnx": "srd.20260127171313.1",
+              "vh": "Security Hygiene"
+            }
+          ]
         },
         {
           "gnx": "srd.20260121195512.1",
-          "vh": "Module 04"
+          "vh": "Module 04 - Design Pricipals of Secure Cloud Computing"
         },
         {
           "gnx": "srd.20260121195633.1",
-          "vh": "Module 05"
+          "vh": "Module 05 - Evalute Cloud Service Providers"
         }
       ]
     },
     {
       "gnx": "srd.20260113194456.1",
-      "vh": "Domain 2",
-      "children": [
-        {
-          "gnx": "srd.20260113204831.1",
-          "vh": "subNode 02",
-          "children": [
-            {
-              "gnx": "srd.20260113200404.1",
-              "vh": "Tier 2A"
-            }
-          ]
-        },
-        {
-          "gnx": "srd.20260113200253.1",
-          "vh": "SubNode 03"
-        }
-      ]
+      "vh": "Domain 2 - Cloud Data Security:"
     },
     {
       "gnx": "srd.20260114161206.1",
-      "vh": "Domain 3",
-      "children": [
-        {
-          "gnx": "srd.20260113194548.1"
-        }
-      ]
+      "vh": "Domain 3 - Cloud Platform & Infrastructure Security:"
     },
     {
       "gnx": "srd.20260121194711.1",
-      "vh": "Domain 4"
+      "vh": "Domain 4 - Cloud Application Security:"
     },
     {
       "gnx": "srd.20260121194820.1",
-      "vh": "Domain 5"
+      "vh": "Domain 5 - Cloud Security Operations:"
     },
     {
       "gnx": "srd.20260121194856.1",
-      "vh": "Domain 6"
+      "vh": "Domain 6 - Legal,Risk and Compliance:"
     }
   ],
   "tnodes": {
