@@ -289,15 +289,104 @@
           "children": [
             {
               "gnx": "srd.20260127164712.1",
-              "vh": "Crypto Key Management"
+              "vh": "Crypto Key Management",
+              "children": [
+                {
+                  "gnx": "srd.20260127173240.1",
+                  "vh": "Principals of Crypto KMS",
+                  "children": [
+                    {
+                      "gnx": "srd.20260127173418.1",
+                      "vh": "KMS Lifecycle Management",
+                      "children": [
+                        {
+                          "gnx": "srd.20260127173642.1",
+                          "vh": "Generation"
+                        },
+                        {
+                          "gnx": "srd.20260127173658.1",
+                          "vh": "Distribution"
+                        },
+                        {
+                          "gnx": "srd.20260127173705.1",
+                          "vh": "Usage"
+                        },
+                        {
+                          "gnx": "srd.20260127173448.1",
+                          "vh": "Storage",
+                          "children": [
+                            {
+                              "gnx": "srd.20260127174120.1",
+                              "vh": "On Premise"
+                            },
+                            {
+                              "gnx": "srd.20260127174152.1",
+                              "vh": "Cloud Based"
+                            },
+                            {
+                              "gnx": "srd.20260127174202.1",
+                              "vh": "Hybrid"
+                            }
+                          ]
+                        },
+                        {
+                          "gnx": "srd.20260127173740.1",
+                          "vh": "Destruction"
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260127173448.1"
+                    },
+                    {
+                      "gnx": "srd.20260127173510.1",
+                      "vh": "Encryption",
+                      "children": [
+                        {
+                          "gnx": "srd.20260127174345.1",
+                          "vh": "Data at Rest"
+                        },
+                        {
+                          "gnx": "srd.20260127174419.1",
+                          "vh": "Data in Transit"
+                        },
+                        {
+                          "gnx": "srd.20260127174438.1",
+                          "vh": "End-to-End Encryption"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
             },
             {
               "gnx": "srd.20260127171130.1",
-              "vh": "Idenity abd Access Control"
+              "vh": "Idenity and Access Management",
+              "children": [
+                {
+                  "gnx": "srd.20260127174758.1",
+                  "vh": "User Access"
+                },
+                {
+                  "gnx": "srd.20260127175124.1",
+                  "vh": "Privilege Access"
+                }
+              ]
             },
             {
               "gnx": "srd.20260127171220.1",
-              "vh": "Data and Media Sanitisation"
+              "vh": "Data and Media Sanitisation",
+              "children": [
+                {
+                  "gnx": "srd.20260127175741.1",
+                  "vh": "Overwriting"
+                },
+                {
+                  "gnx": "srd.20260127175913.1",
+                  "vh": "Cryptographic Erase"
+                }
+              ]
             },
             {
               "gnx": "srd.20260127164832.1",
@@ -403,6 +492,17 @@
     "srd.20260123182517.1": "A cloud outsourcing company offers businesses managed cloud services, providing them with\nvarious advantages.\n\nBy opting for cloud outsourcing, businesses gain the benefits of cloud computing along with a\nspecialised team to manage their cloud services.\n\nThese service providers can design elastic cloud architectures and migrate existing\ninfrastructure and legacy applications to the cloud.\n\nThe provider's team ensures that the business's systems and processes operate efficiently in\nthe cloud, handling any necessary maintenance.\n\nAfter evaluating your existing technology utilisation, the managed solution provider develops a\nunique solution using one, two, or all three of the different cloud computing service models.",
     "srd.20260123182600.1": "Data Science\nMachine Learning\nArtificial Intelligence (AI)\nBlockchain\nInternet Of Things (Iot)\nContainers\nQuantum Computing\nEdge Computing\nConfidential Computing\nDevSecOps\n",
     "srd.20260121195346.1": "Understand Security Concepts Relevant to Cloud Computing",
+    "srd.20260127164712.1": " Crypto is  a critical component in the architecture of cloud security that ensures ...CIA ...\n\n     Confidentiality -\n\n    Integrity - \n\n    Availibiliity -\n\nEffective Key Management Systems (KMS)  help mitigate  risk associated woth data breaches and unauthorized access.\n\n Pricipals of crypto KMS's include key lifecycle management, key storage solutions and the implementation of robust encryption stratiegies",
+    "srd.20260127173418.1": "Key management in cloud environments encompasses several critical responsibilities and\nprocesses designed to protect cryptographic keys throughout their lifecycle.\n\nFrom generation to destruction, every step is vital for maintaining the security of data.\n\nEffective lifecycle management ensures that keys are used appropriately and are never exposed\nto unauthorised entities. Key lifecycle stages include:",
+    "srd.20260127173448.1": "Secure storage of cryptographic keys is paramount to maintaining the security of a cloud\nenvironment. Options for key storage include:",
+    "srd.20260127173510.1": "Implementing robust encryption strategies is essential for protecting data at rest and in transit.\nConsiderations for encryption include:",
+    "srd.20260127174345.1": "Encrypting stored data ensures that it remains confidential even if unauthorised\naccess to storage occurs. Key management should be designed to facilitate seamless\nencryption and decryption processes.",
+    "srd.20260127174419.1": "Protecting data during transmission is crucial. Implementing protocols such as\nSSL/TLS and IPSec helps secure data as it moves between network points.",
+    "srd.20260127174438.1": "This method ensures that data is encrypted on the sender's side and\nonly decrypted by the intended recipient, minimising the risk of interception during\ntransmission.",
+    "srd.20260127174758.1": "Identity and Access Management (IAM), also known as User Access Management (UAM),\ninvolves the administration of user identities and the control of their access to IT resources,\nincluding networks, systems, applications, and files.\n\nIdentity management is crucial in any modern organisation, both for security and productivity.",
+    "srd.20260127175124.1": "Privileged access refers to computer access with higher rights than a typical user within an\norganisation.\n\nIt is primarily used for tasks such as upgrading, maintaining, and configuring critical servers,\napplications, databases, and IT infrastructure.\n\nExamples of privileged access include access to service accounts, root access, and\nadministrator access.\n\nIn many organisations, the majority of company users are limited to utilising applications\nthrough their user interface.\n\nConsequently, any access to a server's command line interface may be considered privileged\naccess in some cases.\n\nCertain privileged accounts have access to the operating system's command line, while others\npossess elevated rights within applications, such as the ability to modify application\nconfigurations.",
+    "srd.20260127171220.1": "Internally, it is possible to sanitise storage media because users have physical access to it.\nUsers can decide how to perform sanitisation, including the option to physically destroy the\nstorage media. Moreover, users can choose when to schedule media sanitisation and data\nerasure.\n\nHowever, in a cloud environment, this task becomes more challenging. The physical medium\ncannot be accessed directly, and data storage is shared and distributed among various users.\n\nAs a result, users do not have the ability to access the physical disks, and cloud service\nproviders (CSPs) do not typically allow users to physically destroy them.\n\nData in the cloud is regularly relocated and backed up, making it difficult to ascertain if a data\nitem has been completely removed from all copies. This raises significant concerns regarding\nprivacy and security.",
+    "srd.20260127175741.1": "Over time, cloud storage involves the overwriting of erased data.\n\nOnce a specific area is assigned to and used by the same or another\ncustomer, the previously deleted data gets overwritten. These\ndeleted data areas are marked for reuse.\n\nIt is worth noting that data or fragments may still exist for some\ntime even after overwriting, as there is no fixed timeframe for their\ncomplete removal.\n\nTo ensure the safety and confidentiality of data, encryption is\ncrucial. All data stored in the cloud can be encrypted, provided that\ncryptographic keys are inaccessible or securely erased.",
     "srd.20260121195512.1": "Understand Design Principles of Secure Cloud Computing",
     "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
     "srd.20260113194456.1": "Domain 2: Cloud Data Security\n20%",
