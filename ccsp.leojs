@@ -9,7 +9,7 @@
     },
     {
       "gnx": "srd.20260113194242.1",
-      "vh": "Domain 1 - Cloud Concepts, Architecture and Design:",
+      "vh": "Domain 1 - Cloud Concepts (Architecture and Design):",
       "children": [
         {
           "gnx": "srd.20260113194548.1",
@@ -578,13 +578,99 @@
         },
         {
           "gnx": "srd.20260121195633.1",
-          "vh": "Module 05 - Evaluate Cloud Service Providers"
+          "vh": "Module 05 - Evaluate Cloud Service Providers",
+          "children": [
+            {
+              "gnx": "srd.20260128194355.1",
+              "vh": "Verification Criteria",
+              "children": [
+                {
+                  "gnx": "srd.20260128194516.1",
+                  "vh": "ISO / IEC  Stndards",
+                  "children": [
+                    {
+                      "gnx": "srd.20260128195503.1",
+                      "vh": "ISO / IEC 27001:2013"
+                    },
+                    {
+                      "gnx": "srd.20260128195127.1",
+                      "vh": "ISO / IEC 27002:2013"
+                    },
+                    {
+                      "gnx": "srd.20260128194749.1",
+                      "vh": "ISO / IEC 27017:2015"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260128194539.1",
+                  "vh": "SOC Levels 1,2,3"
+                },
+                {
+                  "gnx": "srd.20260128194614.1",
+                  "vh": "NIST SP 800-53"
+                },
+                {
+                  "gnx": "srd.20260128194645.1",
+                  "vh": "PCI DSS"
+                },
+                {
+                  "gnx": "srd.20260128201616.1",
+                  "vh": "System / Subsystem Product Certification",
+                  "children": [
+                    {
+                      "gnx": "srd.20260128201709.1",
+                      "vh": "Common Criteria"
+                    },
+                    {
+                      "gnx": "srd.20260128201917.1",
+                      "vh": "FIPS 140 series 2/3"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
       "gnx": "srd.20260113194456.1",
-      "vh": "Domain 2 - Cloud Data Security:"
+      "vh": "HERE ** Domain 2 - Cloud Data Security (Concepts, Architecture and Design):",
+      "children": [
+        {
+          "gnx": "srd.20260128203117.1",
+          "vh": "Module 1: Cloud Data Concepts"
+        },
+        {
+          "gnx": "srd.20260128203453.1",
+          "vh": "Module 2: Design and Implementation of Cloud Data Storage Architectures"
+        },
+        {
+          "gnx": "srd.20260128203601.1",
+          "vh": "Module 3: Design and Apply Data Security Technologies and Strategies"
+        },
+        {
+          "gnx": "srd.20260128203720.1",
+          "vh": "Module 4: Implementing Data Discovery "
+        },
+        {
+          "gnx": "srd.20260128203745.1",
+          "vh": "Module 5: Implmenting Data Classification"
+        },
+        {
+          "gnx": "srd.20260128203912.1",
+          "vh": "Module 6: Design and Implement Information Rights Management (IRM) "
+        },
+        {
+          "gnx": "srd.20260128204028.1",
+          "vh": "Module 7: Plan and Implement Data Retention, Deletion and Archiving Policies"
+        },
+        {
+          "gnx": "srd.20260128204211.1",
+          "vh": "Module 8: Design and Implement Auditability, Traceability, and Accountability of Data Events"
+        }
+      ]
     },
     {
       "gnx": "srd.20260114161206.1",
@@ -709,6 +795,16 @@
     "srd.20260128171425.1": "The Cloud Security Alliance (CSA) Enterprise Architecture provides a comprehensive framework for developing secure cloud infrastructures, integrating best practices and methodologies to enhance cloud security.\n\nOverview of CSA Enterprise Architecture\n\nThe Cloud Security Alliance (CSA) is dedicated to defining standards, certifications, and best practices to ensure a secure cloud computing environment. The Enterprise Architecture (EA) is a key component of CSA's efforts, serving as both a methodology and a set of tools designed to help organizations assess and improve their cloud security posture.\n\nKey Features of the CSA Enterprise Architecture\n\n1. \nFramework for Security: The EA provides a structured approach to designing and implementing secure cloud infrastructures. It combines business drivers with security infrastructure to enhance the value proposition of cloud services within an enterprise model. \n\n2.\nIntegration of Standards: The CSA EA leverages established architecture models such as TOGAF, ITIL, SABSA, and Jericho. This integration allows organizations to utilize a comprehensive approach that aligns with industry standards and best practices. \n\n3.\nAssessment and Roadmapping: The EA enables security architects and risk management professionals to assess their current security capabilities, identify areas for improvement, and create roadmaps for technology adoption. This is crucial for aligning security measures with business needs. \n\n4.\nMapping to Cloud Controls Matrix (CCM): The CSA EA is closely linked to the Cloud Controls Matrix (CCM), which provides a set of security controls for cloud providers. This mapping helps organizations ensure that their EA is operating securely and meets compliance requirements. \n\n5.\nReference Guide: The Enterprise Architecture Reference Guide offers detailed insights into each domain of the EA, helping organizations understand how to apply these principles effectively. It serves as a resource for evaluating cloud providers and security technology vendors against a common set of capabilities. \n\n\n\nPractical Applications\n\nOrganizations can use the CSA Enterprise Architecture to:\n\nDevelop secure and interoperable identity, access, and compliance management configurations.\nIdentify reusable security patterns and assess various cloud providers against a standardized set of capabilities.\nCreate a common roadmap to meet their cloud security needs, guided by regulations and standards such as ISO-27002 and COBIT. \n\nIn summary, the CSA Enterprise Architecture is a vital resource for organizations looking to enhance their cloud security frameworks, providing a structured approach to integrating security into their cloud strategies. For more detailed information, you can refer to the Enterprise Architecture Reference Guide and other resources provided by the CSA.\n\nhttps://ea.cloudsecurityalliance.org/",
     "srd.20260127200916.1": "DevOps Security, also known as DevSecOps, encompasses a set of methodologies, cultural\npractices, and technologies that integrate software development (Dev), IT operations (Ops),\nand security (Sec).\n\nIts goal is to enhance an organisation's ability to deliver applications and services at a high\nvelocity while maintaining security.\n\nDevOps practices enable the rapid deployment of new application features and facilitate\nfrequent updates through incremental changes.\n\nThese processes often involve extensive automation, with applications structured around\nmultiple microservices and delivered in containerised and cloud environments.\n\nIn conjunction with cloud based elastic infrastructure, DevOps can respond to demand spikes\nthrough auto scaling procedures that provision additional computing resources, such as virtual\nmachines or containers, and deploy more instances of an application as needed.",
     "srd.20260121195633.1": "Evaluate Cloud Service Providers\n",
+    "srd.20260128194355.1": "The following are security standards, frameworks, and controls commonly applied to cloud\nenvironments:",
+    "srd.20260128195503.1": "Provides high level implementation guidance for controls specified in 27017 standards ",
+    "srd.20260128195127.1": "Provides high level implementation guidance for controls specified in 27017 standards ",
+    "srd.20260128194749.1": "ISO/IEC 27017 provides controls and implementation guidance designed for both Cloud Service\nProviders and cloud service customers.\n\nThis standard offers guidelines for information security controls relevant to the delivery and\nutilisation of cloud services.\n\nISO/IEC 27017 introduces additional controls along with implementation\nguidance specifically tailored to cloud services.",
+    "srd.20260128194539.1": "SOC 1, SOC 2, and SOC 3 are different types of System and Organization Controls AND reports that provide assurance regarding the internal controls of service organizations.\n\n\nPurpose: SOC 1 reports focus on internal controls relevant to a user entity’s financial reporting. They are essential for organizations that handle financial transactions or data, such as payroll processors or payment processors.\n\nThere are two types of SOC 1 reports:\nType I: Evaluates the design of controls at a specific point in time.\nType II: Assesses the operational effectiveness of those controls over a specified period (usually 6-12 months). \n\n\nSOC 2\nPurpose: SOC 2 reports are designed for service organizations that manage customer data, focusing on the security, availability, processing integrity, confidentiality, and privacy of that data. This report is particularly relevant for technology and cloud service providers.\nType of Report: Similar to SOC 1, SOC 2 also has Type I and Type II reports, with Type II providing a more comprehensive evaluation over time. \n\n\nSOC 3\nPurpose: SOC 3 reports are a public-facing version of SOC 2 reports. They summarize the results of a SOC 2 audit without disclosing detailed information about the controls or testing procedures. This report is often used for marketing purposes to demonstrate a commitment to security and compliance.\nType of Report: SOC 3 reports are always Type II and can be shared publicly, making them suitable for organizations that want to provide assurance to clients and stakeholders without revealing sensitive information. \n\n\n",
+    "srd.20260128194614.1": "The NIST Special Publication 800-53 Revision 5 provides a comprehensive catalog of security and privacy controls for information systems and organizations. It is designed to protect operations, assets, individuals, and the nation from threats such as cyberattacks, human errors, natural disasters, and privacy risks.\n\nThe framework is flexible and customizable, allowing organizations to tailor controls based on mission needs, laws, regulations, and risk management strategies. It supports the Risk Management Framework (RMF) and aligns with other standards like the NIST Cybersecurity Framework and ISO/IEC 27001:2022 through mapping and crosswalks.\n\nKey Control Families include:\n\nAccess Control (AC) – Managing permissions and user access.\n\nAudit and Accountability (AU) – Logging and monitoring activities.\n\nIncident Response (IR) – Detecting, reporting, and responding to incidents.\n\nSystem and Communications Protection (SC) – Safeguarding data in transit and at rest.\n\nSupply Chain Risk Management (SR) – Addressing third-party and vendor risks.\n\nElments also support Benchmarking and Automation support",
+    "srd.20260128194645.1": "PCI DSS (Payment Card Industry Data Security Standard) is a\nsecurity standard established by major credit card companies\nincluding Visa, MasterCard, and American Express.\n\nIt mandates that all organisations involved in handling cardholder\ndata whether they are accepting, transmitting, or storing it must\ncomply with this standard.\n\nThis compliance is mandatory irrespective of the organisation's size\nor the volume of transactions it processes.\n\nThis ensures a uniform level of protection for personal financial\ninformation across all platforms and industries.",
+    "srd.20260128201616.1": "System and subsystem product certification assesses the security claims made for a system and\nits components.",
+    "srd.20260128201709.1": "The CC is an international set of specifications and guidelines developed for assessing\ninformation security products to ensure they meet an agreed upon security standard for\ngovernment entities and agencies.\n\nThe CC has two key components:\n\n1. Protection profiles.\n\n2. The Evaluation Assurance Levels (EALs).",
+    "srd.20260128201917.1": "Federal Information Processing Standard (FIPS) 140-2\n\nEncryption and cryptography are primarily used to maintain the integrity and confidentiality of\ncritical data, particularly in various cloud computing deployment services.\n\nThis ensures secure handling and storage of sensitive information across platforms.\n\nThe Federal Information Processing Standards (FIPS) 140 Publication Series is issued by the\nNational Institute of Standards and Technology (NIST).\n\nIt establishes unified standards and requirements for cryptographic modules. This alignment\nensures consistent security practices across cryptographic implementations.\n\nThe FIPS 140-2 standard provides four distinct levels of security designed to accommodate a\nwide range of potential applications and environments.\n\nRelted specifications include the following:\n\n- Cryptograhic Module Specifications\n- Authentication\n- Cryptographic Key Management\n- Cryptographic Module Ports\n- Physical Security\n- Design Assurance\n- Interfaces, Roles, and Services\n- Operational Environment\n- Controls and Mitigating Techniques Against Attacks",
     "srd.20260113194456.1": "Domain 2: Cloud Data Security\n20%",
     "srd.20260114161206.1": "Domian 3: Cloud Platform and Infrastructure security \n17%",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
