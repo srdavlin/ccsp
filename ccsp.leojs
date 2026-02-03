@@ -636,15 +636,87 @@
     },
     {
       "gnx": "srd.20260113194456.1",
-      "vh": "HERE ** Domain 2 - Cloud Data Security (Concepts, Architecture and Design):",
+      "vh": "Domain 2 - Cloud Data Security (Concepts, Architecture and Design):",
       "children": [
         {
           "gnx": "srd.20260128203117.1",
-          "vh": "Module 1: Cloud Data Concepts"
+          "vh": "Module 1: Cloud Data Concepts",
+          "children": [
+            {
+              "gnx": "srd.20260203171101.1",
+              "vh": "Lifecycle Management",
+              "children": [
+                {
+                  "gnx": "srd.20260203162630.1",
+                  "vh": "Six Data life Cycle /  Phases",
+                  "children": [
+                    {
+                      "gnx": "srd.20260203162856.1",
+                      "vh": "Create"
+                    },
+                    {
+                      "gnx": "srd.20260203162912.1",
+                      "vh": "Store"
+                    },
+                    {
+                      "gnx": "srd.20260203163028.1",
+                      "vh": "Use"
+                    },
+                    {
+                      "gnx": "srd.20260203163036.1",
+                      "vh": "Share"
+                    },
+                    {
+                      "gnx": "srd.20260203163042.1",
+                      "vh": "Archive"
+                    },
+                    {
+                      "gnx": "srd.20260203163050.1",
+                      "vh": "Destroy"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203165336.1",
+              "vh": "Data Dispersion"
+            },
+            {
+              "gnx": "srd.20260203170416.1",
+              "vh": "Data Flows",
+              "children": [
+                {
+                  "gnx": "srd.20260203170634.1",
+                  "vh": "Data In Transit"
+                },
+                {
+                  "gnx": "srd.20260203170643.1",
+                  "vh": "Data at Rest"
+                },
+                {
+                  "gnx": "srd.20260203170652.1",
+                  "vh": "Data In Use"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203171120.1",
+              "vh": "Compliance & Legal Requirements"
+            },
+            {
+              "gnx": "srd.20260203171134.1",
+              "vh": "Cloud Data Architectures"
+            },
+            {
+              "gnx": "srd.20260203171145.1",
+              "vh": "Data Loss Prevention"
+            }
+          ]
         },
         {
           "gnx": "srd.20260128203453.1",
-          "vh": "Module 2: Design and Implementation of Cloud Data Storage Architectures"
+          "vh": "** HERE ** Module 2: Design and Implementation of Cloud Data Storage Architectures"
         },
         {
           "gnx": "srd.20260128203601.1",
@@ -806,6 +878,22 @@
     "srd.20260128201709.1": "The CC is an international set of specifications and guidelines developed for assessing\ninformation security products to ensure they meet an agreed upon security standard for\ngovernment entities and agencies.\n\nThe CC has two key components:\n\n1. Protection profiles.\n\n2. The Evaluation Assurance Levels (EALs).",
     "srd.20260128201917.1": "Federal Information Processing Standard (FIPS) 140-2\n\nEncryption and cryptography are primarily used to maintain the integrity and confidentiality of\ncritical data, particularly in various cloud computing deployment services.\n\nThis ensures secure handling and storage of sensitive information across platforms.\n\nThe Federal Information Processing Standards (FIPS) 140 Publication Series is issued by the\nNational Institute of Standards and Technology (NIST).\n\nIt establishes unified standards and requirements for cryptographic modules. This alignment\nensures consistent security practices across cryptographic implementations.\n\nThe FIPS 140-2 standard provides four distinct levels of security designed to accommodate a\nwide range of potential applications and environments.\n\nRelted specifications include the following:\n\n- Cryptograhic Module Specifications\n- Authentication\n- Cryptographic Key Management\n- Cryptographic Module Ports\n- Physical Security\n- Design Assurance\n- Interfaces, Roles, and Services\n- Operational Environment\n- Controls and Mitigating Techniques Against Attacks",
     "srd.20260113194456.1": "Domain 2: Cloud Data Security\n20%",
+    "srd.20260203171101.1": "This encompasses the entire lifecycle of data in the cloud, including\ncreation, storage, use, sharing, archiving, and destruction. Effective data lifecycle management\ninvolves policies and procedures for each stage.",
+    "srd.20260203162630.1": "Data is constantly being generated, stored, utilised, and transmitted, and when it is no longer\nvaluable, it is destroyed.\n\nIn such a dynamic environment, it is useful to model the various stages that information\nundergoes.\n\nThis model provides a practical approach to identify broad categories of data risks and their\ncorresponding protections, rather than trying to pinpoint every individual data element within\nan organisation.\n\nThe secure cloud data lifecycle is typically linear, though some data may not pass through every\nstage. Additionally, data can exist in multiple phases simultaneously.\"",
+    "srd.20260203162856.1": "Creation of Data\n\nData is 'created' when it is first entered into a system or when existing data is modified. This\nincludes a variety of scenarios such as a user creating and saving a document, a process that\ngathers data through an API and stores it in a database, or a user who opens and updates a\nshared document.\n\nWhile the data lifecycle often involves repeated modifications, it is also common for data to be\ncreated once and never updated.\n\nControls in the Creation Phase\n\nData classification is a crucial security control at this stage. It allows an organisation to assess the value of the data and apply appropriate security measures. During creation, data must be classified either by its owner or the person creating it.",
+    "srd.20260203162912.1": "Storing Data\n\nThe act of storing data involves placing it in a location where it can be retrieved later, such as on a Solid State Drive (SSD), in hard copy records, or within an application database. Often, the storage phase occurs simultaneously with the creation phase. For example, a user might upload a new document to a file sharing service as soon as it is created.\n\nControls in the Storage Phase\n\nWhen data is stored, especially in cloud services, it may need protection during transit. This is particularly relevant when data must traverse public networks to reach an organisation's cloud applications.\n\nTo safeguard data in transit, various protections can be employed, such as Transport Layer\nSecurity (TLS), Secure Shell (SSH), or a Virtual Private Network (VPN). These measures ensure\nthat the data remains secure as it moves to its storage destination.\n",
+    "srd.20260203163028.1": "Using Data\n\nThe 'Use' phase encompasses accessing, viewing, and processing data, often referred to as\nhandling. Data management during this phase can take various forms, such as through web\napplication usage, retrieving data via an API, or reading and manipulating files.\n\nControls in the Use Phase\n\nTypically, the 'Use' phase is the most prolonged part of the data lifecycle, analogous to\nhow systems spend most of their time in the operations and maintenance phase when\nactively utilised.\n\nThe controls in this phase are extensive and proportional to its duration and complexity.\nThey include data flow management with tools like Data Loss Prevention (DLP) and\nInformation Rights Management (IRM), system access controls such as authorisation and\naccess reviews, and the use of network monitoring tools.",
+    "srd.20260203163036.1": "Sharing Data\n\nThe 'Share' phase involves granting access to data to other users or entities who require it. Not every decision to share data is made explicitly, and not all data is shared.\n\nHighly classified data may be strictly accessible to only a few key personnel, while less sensitive information might be more broadly shared, for instance, by storing it in a collaborative application.\n\nControls in the Share Phase\n\nAccess controls form the backbone of security measures during the 'Share' phase. These\ncontrols are both proactive and reactive.\n\n\nProactive measures include procedures for granting access and implementing role based\naccess authorisation.\n\nThese controls ensure that data is shared appropriately and securely, maintaining the\nintegrity and confidentiality of sensitive information.\n\nReactive controls, such as Information Rights Management (IRM), Data Loss Prevention\n(DLP), and access reviews, play a crucial role in the 'Share' phase.\n\nThese controls are designed to detect unauthorised sharing of data. In certain situations,\nthey can even prevent data from leaving the organisation's control.\n\nBy monitoring and responding to data sharing activities, these reactive measures help\nmaintain the security and integrity of the data throughout its lifecycle",
+    "srd.20260203163042.1": "Archiving Data\n\nArchiving data involves storing it in a form that allows for long term retrieval. This process is particularly important for certain types of organisations and data, such as healthcare or\nfinancial institutions, which often have mandatory data retention requirements.\n\nControls in the Archive Phase\n\nSince archiving is essentially a specific form of storage, the data controls in the archive\nphase are similar to those in the storage phase.\n\nHowever, due to the extended duration of archival storage, there are additional\nconsiderations, especially regarding encryption.\n\nAlternatively, it may require the labor intensive process of decrypting data with the old key\nand then re encrypting it with the new key. These measures ensure the continued\nprotection and accessibility of archived data.",
+    "srd.20260203163050.1": "Secure Destruction of Data\n\nData that is no longer valuable or subject to retention requirements must be securely\ndestroyed.\n\nThe methods of destruction vary in security level, ranging from lower security options like\nsimply deleting filesystem pointers and reusing disks, to more secure methods.\n\nThese secure methods include overwriting disks, physically destroying storage media, or\nemploying crypto shredding (cryptographic erasure), where the keying material is securely\nerased, rendering the encrypted data inaccessible.\n\nControls in the Destroy Phase\n\nChoosing the appropriate method of destruction involves balancing two key\nconsiderations: the options available within the cloud service environment and the value\nof the data being destroyed.\n\nFor data of low sensitivity, such as public information, extraordinary destruction methods\nmay not be necessary.\n\nHowever, for high value data, such as Personally Identifiable Information (PII), more\nsecure destruction methods are warranted to ensure that the data cannot be recovered\nor misused after it is supposed to be erased.\n",
+    "srd.20260203165336.1": "\nData dispersion is a technique used in cloud computing to enhance data security and\navailability.\n\nIt involves breaking data into smaller chunks and distributing them across various physical\nstorage devices.\n\nThis concept is similar to striping in RAID (Redundant Arrays of Independent Disks), where data\nis divided and written across multiple disks.\n\nHowever, cloud based data dispersion also incorporates erasure coding, enabling data\nreconstruction in case some segments are lost.\n\nErasure coding works similarly to calculating parity bits in RAID storage. When data is written, it is divided into segments; a mathematical calculation is performed on these segments, and the  result (a parity bit) is stored alongside the data.\n\nIf some segments are lost, the parity bit and the remaining segments can be used to\nreconstruct the missing data, akin to solving an algebraic equation.\n\nSecurity Implications of Data Dispersion\n\nIn cloud environments, data dispersion can influence an organisation's security both positively\nand negatively.\n\nThe primary advantage is increased availability: even if a physical storage device fails, the data can be rebuilt.\n\nAdditionally, if a physical device is compromised, it would not contain a complete, usable copy\nof the data.\n\nHowever, challenges arise from the dispersion of data segments across different geographic\nlocations, each with varying regulatory or legal frameworks.\n\nThis dispersion can subject an organisation to unexpected laws and requirements. Many Cloud\nService Providers (CSPs) now offer geographic restriction features to allow clients to benefit\nfrom dispersion without added regulatory or legal complexities.\n\nRole of the CCSP in Managing Data Dispersion\n\nFor a Certified Cloud Security Professional (CCSP), configuring cloud services appropriately is\ncrucial to meet an organisation's compliance objectives.\n\nFor instance, organisations subject to the EU's General Data Protection Regulation (GDPR) may\nprefer to keep data within the European Union rather than dispersing it globally.\n\nThis configuration might be straightforward for certain services or could require complex IT\nproject planning and system architecture.\n\n\n",
+    "srd.20260203170416.1": "Understanding data flows in cloud computing is a key part of this certification, as it relates to the design, implementation, and management of a secure cloud environment.",
+    "srd.20260203170634.1": "This refers to data that is moving across the network. In cloud environments,\nthis could be data moving between user devices and the cloud, or between different cloud\nservices.",
+    "srd.20260203170643.1": "Data at rest is data that is stored in cloud services. Securing data at rest involves\nencryption of the stored data, access controls, and possibly the use of specific storage services that offer enhanced security features.",
+    "srd.20260203170652.1": "This refers to data that is being processed or used by applications. Protecting data\nin use is challenging and often involves ensuring that the underlying infrastructure (like virtual machines or containers) is secure.",
+    "srd.20260203171120.1": "Understanding the legal and compliance aspects of data in\nthe cloud is crucial. This includes data residency requirements, compliance with regulations like GDPR or HIPAA, and understanding the shared responsibility model in cloud computing.",
+    "srd.20260203171134.1": "Understanding different cloud data architectures, such as multi tenant\nmodels, hybrid clouds, and the use of public, private, and community cloud services, is important.",
+    "srd.20260203171145.1": "Implementing DLP strategies in the cloud to prevent data breaches or\nunintended data leaks is essential. This can involve the use of DLP software, encryption, and\ntraining for staff on data handling best practices.",
     "srd.20260114161206.1": "Domian 3: Cloud Platform and Infrastructure security \n17%",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
