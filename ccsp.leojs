@@ -716,19 +716,215 @@
         },
         {
           "gnx": "srd.20260128203453.1",
-          "vh": "** HERE ** Module 2: Design and Implementation of Cloud Data Storage Architectures"
+          "vh": "Module 2: Design and Implementation of Cloud Data Storage Architectures",
+          "children": [
+            {
+              "gnx": "srd.20260203183919.1",
+              "vh": "Storage Types and Threats",
+              "children": [
+                {
+                  "gnx": "srd.20260203184141.1",
+                  "vh": "Ephemeral Storage (IaaS)"
+                },
+                {
+                  "gnx": "srd.20260203184206.1",
+                  "vh": "Volume Storage (IaaS)"
+                },
+                {
+                  "gnx": "srd.20260203184236.1",
+                  "vh": "Object Storage (IaaS/PaaS)"
+                },
+                {
+                  "gnx": "srd.20260203184306.1",
+                  "vh": "Database & BLOB Storage (PaaS)"
+                },
+                {
+                  "gnx": "srd.20260203184326.1",
+                  "vh": "SaaA Storage (SaaS)"
+                },
+                {
+                  "gnx": "srd.20260203185050.1",
+                  "vh": "Other General Threats & Mitigations"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260128203601.1",
-          "vh": "Module 3: Design and Apply Data Security Technologies and Strategies"
+          "vh": "Module 3: Design and Apply Data Security Technologies and Strategies",
+          "children": [
+            {
+              "gnx": "srd.20260203185453.1",
+              "vh": "Integrated Encryption",
+              "children": [
+                {
+                  "gnx": "srd.20260203185657.1",
+                  "vh": "Application Level Encryption"
+                },
+                {
+                  "gnx": "srd.20260203185833.1",
+                  "vh": "Database Level Encryption"
+                },
+                {
+                  "gnx": "srd.20260203185917.1",
+                  "vh": "File Level Encryption"
+                },
+                {
+                  "gnx": "srd.20260203190018.1",
+                  "vh": "Volume Level Encryption"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203190131.1",
+              "vh": "Cloud Key Management (KMS)"
+            },
+            {
+              "gnx": "srd.20260203190417.1",
+              "vh": "Customer Managed Encryption Key (CMEK)",
+              "children": [
+                {
+                  "gnx": "srd.20260203190512.1",
+                  "vh": "Creation"
+                },
+                {
+                  "gnx": "srd.20260203190624.1",
+                  "vh": "Storage"
+                },
+                {
+                  "gnx": "srd.20260203190630.1",
+                  "vh": "Usage"
+                },
+                {
+                  "gnx": "srd.20260203190651.1",
+                  "vh": "Sharing"
+                },
+                {
+                  "gnx": "srd.20260203190926.1",
+                  "vh": "Archiving"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203191031.1",
+              "vh": "Managing Secrets and Certificates"
+            },
+            {
+              "gnx": "srd.20260203191153.1",
+              "vh": "Hashing",
+              "children": [
+                {
+                  "gnx": "srd.20260203191344.1",
+                  "vh": "Hash Functions"
+                },
+                {
+                  "gnx": "srd.20260203191501.1",
+                  "vh": "Digital Signatures"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203192105.1",
+              "vh": "Data Obfuscation",
+              "children": [
+                {
+                  "gnx": "srd.20260203192211.1",
+                  "vh": "Regulatory Compliance"
+                },
+                {
+                  "gnx": "srd.20260203192236.1",
+                  "vh": "Methods of Obfuscation"
+                },
+                {
+                  "gnx": "srd.20260203192525.1",
+                  "vh": "Challenges with Encryption"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203192624.1",
+              "vh": "Tokenisation",
+              "children": [
+                {
+                  "gnx": "srd.20260203192919.1",
+                  "vh": "Retrival and Access Controls"
+                },
+                {
+                  "gnx": "srd.20260203193053.1",
+                  "vh": "Common Applications"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203193335.1",
+              "vh": "Data Loss Prevention (DLP)"
+            },
+            {
+              "gnx": "srd.20260203193425.1",
+              "vh": "Functions of DLP"
+            },
+            {
+              "gnx": "srd.20260203193546.1",
+              "vh": "Components of DLP"
+            }
+          ]
         },
         {
           "gnx": "srd.20260128203720.1",
-          "vh": "Module 4: Implementing Data Discovery "
+          "vh": "Module 4: Implementing Data Discovery ",
+          "children": [
+            {
+              "gnx": "srd.20260203194037.1",
+              "vh": "Structured Data",
+              "children": [
+                {
+                  "gnx": "srd.20260203194545.1",
+                  "vh": "Key Attributes"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260203194110.1",
+              "vh": "Unstructured Data"
+            },
+            {
+              "gnx": "srd.20260203194143.1",
+              "vh": "Semi Structured Data"
+            },
+            {
+              "gnx": "srd.20260203194249.1",
+              "vh": "Location",
+              "children": [
+                {
+                  "gnx": "srd.20260203200033.1",
+                  "vh": "Consideratons"
+                },
+                {
+                  "gnx": "srd.20260203200219.1",
+                  "vh": "Geographical Landscape"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260128203745.1",
-          "vh": "Module 5: Implmenting Data Classification"
+          "vh": "**HERE**Module 5: Implmenting Data Classification",
+          "children": [
+            {
+              "gnx": "srd.20260203200417.1",
+              "vh": "Classification Policies"
+            },
+            {
+              "gnx": "srd.20260203200509.1",
+              "vh": "Data Mapping"
+            },
+            {
+              "gnx": "srd.20260203200531.1",
+              "vh": "Data Labeling"
+            }
+          ]
         },
         {
           "gnx": "srd.20260128203912.1",
@@ -894,6 +1090,46 @@
     "srd.20260203171120.1": "Understanding the legal and compliance aspects of data in\nthe cloud is crucial. This includes data residency requirements, compliance with regulations like GDPR or HIPAA, and understanding the shared responsibility model in cloud computing.",
     "srd.20260203171134.1": "Understanding different cloud data architectures, such as multi tenant\nmodels, hybrid clouds, and the use of public, private, and community cloud services, is important.",
     "srd.20260203171145.1": "Implementing DLP strategies in the cloud to prevent data breaches or\nunintended data leaks is essential. This can involve the use of DLP software, encryption, and\ntraining for staff on data handling best practices.",
+    "srd.20260203183919.1": "Understanding the diverse types of storage and the specific threats each faces is crucial for\nmaintaining robust security frameworks.\n\nCertified Cloud Security Professionals (CCSP) need to be adept at navigating the complexities of\nstorage in various cloud service models Infrastructure as a Service (IaaS), Platform as a\nService (PaaS), and Software as a Service (SaaS) and implementing strategies to mitigate\nassociated risks.",
+    "srd.20260203184141.1": "\nEphemeral Storage (IaaS)\n\nEphemeral storage provides temporary data storage that only persists during the active life of\nthe cloud instance.\n\nCommonly implemented as RAM or other volatile memory systems, this storage type is wiped\nclean upon instance termination.\n\nCommon Use:\n\nThis is typically used for temporary data that requires quick access and processing but does\nnot need to be saved permanently, such as session states.\n\nSecurity Threats:\n\nThe primary risk is data loss if the instance is terminated unexpectedly. Vulnerability to\ncertain types of cyber attacks that target volatile memory is also a concern.\n",
+    "srd.20260203184206.1": "\nVolume Storage (IaaS)\n\nVolume storage emulates physical drive storage systems in a cloud environment, providing\npersistent storage for applications and systems.\n\nCommon Use:\n\nIt is versatile, used for databases, application files, or any data needing persistent storage\nacross instance reboots.\n\nSecurity Threats:\n\nRisks include unauthorised data access and breaches, especially if encryption and access\ncontrols are not properly implemented.\n",
+    "srd.20260203184236.1": "\nObject Storage (IaaS/PaaS)\n\nManages data as discrete units (objects) within a distributed storage environment. Each object\nis a self contained repository that includes the data, metadata, and a unique identifier.\n\nCommon Use:\n\nIdeal for managing large amounts of unstructured data, such as photos, video content, and\nbackup files.\n\nSecurity Threats:\n\nExposed to unauthorised access, data manipulation, and potential compliance violations if\ndata management practices are not aligned with regulatory requirements.",
+    "srd.20260203184306.1": "\nDatabase and BLOB Storage (PaaS)\n\nThis storage type encompasses structured data storage options such as SQL databases and\nunstructured data storage such as Binary Large Objects (BLOBs) which handle large data files.\n\nCommon Use:\n\nDatabases are crucial for applications requiring structured query language (SQL) interaction,\nwhile BLOBs are used for storing large media files, documents, and other binary data.\n\nSecurity Threats:\n\nVulnerable to both structured query language (SQL) injection attacks and unauthorised\naccess to unstructured data.",
+    "srd.20260203184326.1": "5.\nSaaS Storage\n\nIn the SaaS model, the cloud service provider manages all aspects of the storage\ninfrastructure. Storage types may be highly specialised to support specific applications offered\nas a service.\n\nCommon Use:\n\nUsed in applications such as CRM systems, email services, and collaborative tools where the\nend user interacts with data through a web interface.\n\nSecurity Threats:\n\nRisks include loss of control over data management and potential data leakage, especially if\nthe CSP fails to enforce robust security measures.",
+    "srd.20260203185050.1": "General Threats to Cloud Storage and Mitigations\n\nUnauthorised Access\n\nImplement comprehensive access controls, use strong authentication mechanisms, and\nencrypt data both at rest and in transit to protect against unauthorised access.\n\nRegulatory Noncompliance\n\nEnsure that all storage solutions comply with relevant regulations such as GDPR, HIPAA, or\nCCPA. Regular audits and compliance checks can help mitigate this risk.\n\nJurisdictional Issues\n\nBe aware of data sovereignty laws that may affect where data can be legally stored and\naccessed. Choose CSPs that provide region specific storage options to comply with legal\nrequirements.",
+    "srd.20260203185453.1": "Integrated Encryption and Key Management is crucial for ensuring that sensitive data stored in\nthe cloud is inaccessible to unauthorised users.\n\nEncryption transforms plain text into unreadable ciphertext, requiring cryptographic keys to\ndecrypt.\n\nKey management is the systematic management of these keys, including their creation,\nstorage, use, and destruction.",
+    "srd.20260203185657.1": "Directly implemented within cloud applications, this method encrypts data entered by the user\nbefore it is stored, giving organisations direct control over encryption keys and limiting access by cloud service providers (CSPs).",
+    "srd.20260203185833.1": "Focused on protecting data stored in databases, it\nencrypts entire files or specific columns/tables.\n\nDatabase encryption is particularly effective in Platform\nas a Service (PaaS) environments, where consumers control the encryption keys.",
+    "srd.20260203185917.1": "Executed at the file system level by client applications,\nthis allows the encryption and decryption of files on the\nfly, managed directly by the user, thus securing data from\nother tenants and CSP personnel.",
+    "srd.20260203190018.1": "Encrypts entire data volumes, with keys managed by the consumer,\nsafeguarding data against physical theft and unauthorised access by\nCSP staff or other tenants.\n",
+    "srd.20260203190131.1": "A versatile tool that supports various cryptographic operations\nand the lifecycle management of keys within cloud environments.\n\nIt ensures that encryption operations and key management are\nconfined within a secure boundary, reducing exposure to external\nthreats.",
+    "srd.20260203190417.1": "Allows customers to manage their encryption keys, integrating\nwith Cloud KMS for enhanced control over data encryption,\nparticularly concerning data at rest, thus adhering to specific\nsecurity policies and compliance requirements.",
+    "srd.20260203190512.1": "Keys are generated using secure methods like cryptographically\nsecure pseudo random number generators to ensure they are\nstrong and random.",
+    "srd.20260203190624.1": "Keys must be stored in secure environments, such as encrypted key vaults or using\nhardware security modules (HSMs), with restricted access to ensure they are protected\nfrom unauthorised use.",
+    "srd.20260203190630.1": "Proper protocols and permissions must be in place to ensure that keys are used correctly\nand only by authorised personnel, with all usage logged and monitored.",
+    "srd.20260203190651.1": "Sharing keys is generally discouraged but, if necessary, should be done through secure\nchannels, ensuring keys are transferred to legitimate parties only.",
+    "srd.20260203190926.1": "Old keys that are no longer actively used but still needed for decryption of historical data\nshould be securely archived.",
+    "srd.20260203191031.1": "Managing Secrets and Certificates\n\nSecret Manager\n\nManages and secures sensitive data such as API keys and passwords. Features like access\ncontrol and audit logging help maintain data integrity and confidentiality.\n\nCertificate Manager\n\nA system for managing digital certificates that ensures secure storage and handling of\nprivate keys and certificates.",
+    "srd.20260203191153.1": "Hashing, often referred to as \"one way encryption,\" plays a crucial role in upholding the\nintegrity principle of the CIA triad Confidentiality, Integrity, and Availability.\n\nINTEGRITY\n\nIntegrity focuses on preventing, detecting, and rectifying unauthorised or unintended changes\nto data, whether they occur accidentally or maliciously.\n\n\n\nIn cloud environments, hashes offer various SECCURITY SERVICES:\n\nVerify the accuracy of data copies, such as backups.\n\nEnsure the integrity of messages, such as emails\n\nWidely implemented in security tools to detect changes indicative of system compromise.\n\nHashing is a fundamental security measure for maintaining data integrity and is essential in\ncloud security practices.",
+    "srd.20260203191344.1": "Hash Functions\n\nHash functions are cryptographic algorithms that take data of any length and perform\nmathematical operations to create a unique hash value.\n\nThis process can be repeated, and in the future, two hash values can be compared. If the input\ndata has been altered, mismatched hash values indicate data changes.",
+    "srd.20260203191501.1": "\nHashes are integral to digital signatures, which enable users to verify the integrity and source\nof files, messages, or data, including applications.\n\nThe signing party computes a hash and uses its private key to encrypt the hash value.\n\nThe receiving party, such as a user receiving a message, downloading an app, or accessing\nsoftware from a repository, computes a hash of the received data and decrypts the digital\nsignature using the sender's public key.\n\nMatching hashes assure the data's originality, as only the original sender could change the\ndata, calculate the hash, and use the sender's private key to create the digital signature.\n\nCCSP's Role\n\nCertified Cloud Security Professionals (CCSPs) must be familiar with digital signatures as a\nmethod for verifying apps and messages in cloud environments, particularly when integrating\nthird party software.\n\n",
+    "srd.20260203192105.1": "Data obfuscation, similar to data masking, is a technique frequently employed when sensitive\ndata needs to be used in different Factors.\n\nWhile testers may not be authorised to view sensitive data, they can effectively perform their\ntasks using synthetic data that closely resembles live data.\n",
+    "srd.20260203192211.1": "Data obfuscation, also known as de identification, is often mandated by regulations when data\nis intended for purposes beyond regular operations.\n",
+    "srd.20260203192236.1": "There are several methods for data obfuscation, often integrated into database export\nfunctions, data management tools like spreadsheets, or business applications. These methods\nenable users to access and utilise datasets without needing access to sensitive data elements.\n\no Substitution: Involves replacing some information with other data. This substitution can\nfollow integrity rules or be done randomly.\n\no Shuffling: This method involves rearranging data, often within a single column.\n\no Value Variance: Mathematical alterations applied primarily to numerical data, such as\ndates, financial information, or measurements.",
+    "srd.20260203192525.1": "While encryption can be used for obfuscation, it presents challenges. Encrypted data is\nunreadable, making it less useful for testing or research purposes.\n\nData obfuscation plays a critical role in safeguarding sensitive information while allowing\nauthorised parties to perform their tasks effectively and comply with regulations.",
+    "srd.20260203192624.1": "Tokenisation is a process that involves substituting a sensitive data element with a non\nsensitive equivalent, commonly referred to as a token.\n\nIt is important to note that tokenisation is not the same as encryption and offers unique\nadvantages and challenges.\n\nKey Differences from Encryption\n\n• While encryption uses a key to obscure data, tokenisation takes a different approach. It\ncompletely removes the sensitive data from the database and replaces it with a mechanism to\nrecognise and access resources.\n\nPurpose of Tokenisation\n\n• Tokenisation is primarily used to safeguard sensitive data in secure, protected, or regulated\nenvironments. It serves as an effective method for ensuring data security while allowing\nauthorised access when needed.",
+    "srd.20260203192919.1": "Tokens generated through tokenisation can be traced back to the original information. This\nprocess typically involves access controls that verify the user's identity and authorisation,\nensuring that only authorised individuals can view the sensitive data associated with a token.\n",
+    "srd.20260203193053.1": "Tokenisation is commonly employed in various online payment systems, especially when\nhandling credit card numbers.\n\nInstead of storing actual credit card numbers within an application, tokenisation is used to\nenhance security. The credit card numbers are replaced with tokens, providing an added layer\nof protection.\n\nTokenisation is a valuable tool in maintaining data security and privacy, particularly in scenarios where sensitive information needs to be accessed while minimising exposure.",
+    "srd.20260203193335.1": "Data Loss Prevention, also known as Data Leakage Prevention, encompasses a set of controls\nimplemented by organisations to ensure that specific types of data, both structured and\nunstructured, remain within the organisation's control in accordance with established policies,\nstandards, and procedures.",
+    "srd.20260203193425.1": "One of the primary functions of DLP is to detect and prevent the unauthorised exfiltration of\nsensitive data, which may include key data such as Social Security Numbers (SSNs) and account\nnumbers.\n\nTo achieve this, the monitoring engine of DLP is typically deployed near the organisational\ngateway when using a network based DLP solution.",
+    "srd.20260203193546.1": "1. Policy Management:\n\nThis component involves defining and configuring policies that specify\nwhich types of data should be protected and how they should be handled. Policies are aligned\nwith organisational requirements and compliance standards.\n\n2. Monitoring and Enforcement: \n\nDLP solutions continuously monitor data flows within the\norganisation, both at rest and in transit. They enforce policies by detecting and responding to\npotential data breaches or policy violations.\n\n3. Incident Response and Reporting:\n\nDLP systems provide mechanisms for incident response,\nallowing organisations to take immediate action when data breaches are detected.\nAdditionally, DLP solutions offer reporting and analysis capabilities to gain insights into data\nsecurity incidents and trends.",
+    "srd.20260203194037.1": "Structured Data: Organised and Controlled Information\n\nStructured data encompasses information of a predefined format and content type, making it\nhighly organised and easily manageable.\n\nOne of the most prominent examples of structured data is found within relational databases.\n\nRelational Databases: The Pinnacle of Structured Data\n\nRelational databases serve as a prime illustration of structured data management. In these\nsystems, data is meticulously organised into distinct fields, each with a predefined structure\nand permissible data values.\n\nAdditionally, stringent controls are typically enforced to validate and sanitise data before it is committed to storage.",
+    "srd.20260203194545.1": "Key Attributes of Structured Data\n\nDefined Structure: Structured data adheres to a well defined structure, ensuring that each\ndata element is categorised into specific fields.\n\nData Validation: Before storage, structured data undergoes validation processes to ensure\naccuracy and consistency.\n\nEase of Search: The structured nature of this data type makes it exceptionally easy to search\nand retrieve specific information efficiently.\n\nAnalytical Power: Structured data is highly amenable to analysis, facilitating insightful data\ndriven decision making processes.\n\nStructured data's inherent order and control make it a foundational component of information\nmanagement, enabling organisations to harness data for strategic purposes with precision and\nconfidence.",
+    "srd.20260203194110.1": "Unstructured Data: The Essence of Information Chaos\n\nUnstructured data represents the antithesis of structured data, characterised by its lack of\norganisation according to defined structures or formats.\n\nUnstructured Data Variety: Both Text and Binary\n\nUnstructured data is an expansive category that encompasses a wide range of content,\nspanning text and binary data types.\n\nExamples of Unstructured Data:\n\n1. Documents and Text Files: Rich textual content, often lacking predefined structure, falls into this category. Examples include articles, essays, and free form notes.\n\n2. Emails: The contents of emails, including subject lines, message bodies, and attachments, are\nquintessential unstructured data.\n\n3. Images: Digital images, photographs, and graphics, with their visual complexity, are prime\nexamples.\n\n4. Videos: Video files, from home videos to professional productions, contain unstructured visual and auditory information.\n\n5. Office Documents: Spreadsheets, presentations, and word processing files may exhibit\nunstructured elements.\n\n6. Scientific Data: Complex datasets generated in scientific research, often with varied formats, can be unstructured.\n\n7. Sensory or Imagery Intelligence: Data from sensors, surveillance, and imagery sources often\nlacks standardised structure.\n\n8. Weather Data: Meteorological information, including satellite imagery and weather\nobservations, can be considered unstructured due to its diverse formats.",
+    "srd.20260203194143.1": "Semi-tructured Data: Bridging the Gap Between Structure and Freedom\n\n• Semi structured data represents a unique middle ground in the data landscape, distinct from\nthe rigidly structured tables of relational databases.\n\n• Unlike structured data, which adheres to a strict tabular format, semi structured data\nintroduces a layer of flexibility through the use of markers or tags.\n\n• These markers serve to delineate semantic components and establish hierarchies among fields\nand records within the data.\n\nKey Characteristics of Semi-tructured Data:\n\n1. Flexibility in Entity Attributes: Entities of the same class within semi structured data can\nexhibit varying attributes, providing versatility in representing information. These attributes\nare often grouped together with others, blurring the fixed boundaries seen in structured data.\n\n2. Dynamic Attribute Ordering: In semi structured data, the order of attributes within entities is not prescribed or fixed, allowing for fluid arrangements based on Factor.\n\nThe Rise of Semi- Structured Data\n\n• With the advent of the internet, semi structured data has gained prominence. It serves as a\ncrucial format for sharing information in scenarios where traditional structured data or full text documents no longer suffice.\n\n• Moreover, semi structured data finds extensive use in object oriented databases,\naccommodating the needs of various applications.\n\nSemi Structured Data\n\n• A Hybrid of Information: Semi structured data exhibits qualities that straddle the line between structured and unstructured data.\n\n• It may contain metadata tags, such as those indicating location, date, or the source, yet the\ninformation encapsulated within these tags remains unstructured.\n\n• This hybrid nature makes semi structured data a versatile and adaptable format for a wide\nrange of data types.\n\n• In essence, semi structured data provides a bridge between the structured rigidity of\ntraditional databases and the free form chaos of unstructured data.\n\n• It offers the flexibility to represent diverse information while introducing an element of\norganisation through tags and hierarchies.",
+    "srd.20260203194249.1": "Data Mobility in Cloud Computing: Navigating the Cloud's Geographical Reach\n\nCloud computing offers an unparalleled level of data mobility, enabling seamless access to\nresources from virtually anywhere in the world.\n\nYet, this newfound freedom comes with nuances, particularly concerning the location of data,\nthat organisations must navigate.\n\nIn many cases, cloud customers may not be acutely aware of the precise geographical\nwhereabouts of their data, and for everyday operations, this may not be a significant concern.\n\nHowever, when an enterprise entrusts sensitive data to cloud storage, understanding the\ndata's location becomes paramount.",
+    "srd.20260203200033.1": "1. Sensitive Data Management\n\nEnterprises that deal with sensitive or regulated data may have stringent compliance\nrequirements.\n\nKnowing the geographical location of such data is essential for regulatory adherence and\nmaintaining data integrity.\n\n2. Preferred Data Location\n\nSome organisations may wish to define a preferred data location, whether for legal,\ncompliance, or operational reasons.\n\nThis preference often necessitates a contractual agreement between the consumer and the\ncloud service provider, specifying that the data must reside in a specific geographical region or on known servers.",
+    "srd.20260203200219.1": "Navigating the Cloud's Geographical Landscape\n\nCloud service providers operate globally, often relying on distributed data centers and\nredundant infrastructure.\n\nWhile this offers benefits like redundancy and high availability, it also adds complexity to\ntracking data locations.\n\nIn response, cloud consumers should proactively engage with their providers to gain clarity on\ndata storage locations and ensure alignment with their specific needs.\n\nThis collaboration helps strike a balance between harnessing the cloud's mobility and\nsafeguarding data according to regulatory and operational requirements.\n\nIn essence, while cloud computing grants unmatched data mobility, organisations must remain\ndiligent in understanding the geographical aspects of their data, especially when dealing with\nsensitive information.",
     "srd.20260114161206.1": "Domian 3: Cloud Platform and Infrastructure security \n17%",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
