@@ -910,39 +910,397 @@
         },
         {
           "gnx": "srd.20260128203745.1",
-          "vh": "**HERE**Module 5: Implmenting Data Classification",
+          "vh": "Module 5: Implmenting Data Classification",
           "children": [
             {
               "gnx": "srd.20260203200417.1",
-              "vh": "Classification Policies"
+              "vh": "Classification Policies",
+              "children": [
+                {
+                  "gnx": "srd.20260204154840.1",
+                  "vh": "Key Objectives"
+                },
+                {
+                  "gnx": "srd.20260204155044.1",
+                  "vh": "Compliance and Security"
+                }
+              ]
             },
             {
               "gnx": "srd.20260203200509.1",
-              "vh": "Data Mapping"
+              "vh": "Data Mapping",
+              "children": [
+                {
+                  "gnx": "srd.20260204155228.1",
+                  "vh": "Discovery"
+                },
+                {
+                  "gnx": "srd.20260204155245.1",
+                  "vh": "MetaData"
+                }
+              ]
             },
             {
               "gnx": "srd.20260203200531.1",
-              "vh": "Data Labeling"
+              "vh": "Data Labeling",
+              "children": [
+                {
+                  "gnx": "srd.20260204155846.1",
+                  "vh": "Complexity"
+                }
+              ]
             }
           ]
         },
         {
           "gnx": "srd.20260128203912.1",
-          "vh": "Module 6: Design and Implement Information Rights Management (IRM) "
+          "vh": "Module 6: Design and Implement Information Rights Management (IRM) ",
+          "children": [
+            {
+              "gnx": "srd.20260204160145.1",
+              "vh": "Objectives",
+              "children": [
+                {
+                  "gnx": "srd.20260204160635.1",
+                  "vh": "Layered Access Control"
+                },
+                {
+                  "gnx": "srd.20260204160718.1",
+                  "vh": "Access Conrol List"
+                },
+                {
+                  "gnx": "srd.20260204161812.1",
+                  "vh": "Location Agnosticism"
+                },
+                {
+                  "gnx": "srd.20260204161932.1",
+                  "vh": "Protection Across Data Types:"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260204160204.1",
+              "vh": "PKI Tools",
+              "children": [
+                {
+                  "gnx": "srd.20260204165434.1",
+                  "vh": "Certificate  Revocation List  (CRL)"
+                },
+                {
+                  "gnx": "srd.20260204165453.1",
+                  "vh": "Client Verification"
+                },
+                {
+                  "gnx": "srd.20260204165654.1",
+                  "vh": "Serial Number Lookup"
+                },
+                {
+                  "gnx": "srd.20260204165708.1",
+                  "vh": "CRL Distribution"
+                },
+                {
+                  "gnx": "srd.20260204165725.1",
+                  "vh": "CRL Expiry"
+                },
+                {
+                  "gnx": "srd.20260204170113.1",
+                  "vh": "Online Certificate Status Protocol (OCSP)"
+                },
+                {
+                  "gnx": "srd.20260204170238.1",
+                  "vh": "Performance Considerations"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260128204028.1",
-          "vh": "Module 7: Plan and Implement Data Retention, Deletion and Archiving Policies"
+          "vh": "Module 7: Plan and Implement Data Retention, Deletion and Archiving Policies",
+          "children": [
+            {
+              "gnx": "srd.20260204171207.1",
+              "vh": "Data Rentention Policies",
+              "children": [
+                {
+                  "gnx": "srd.20260204171702.1",
+                  "vh": "Objectives",
+                  "children": [
+                    {
+                      "gnx": "srd.20260204171356.1",
+                      "vh": "Regulatory Compliance"
+                    },
+                    {
+                      "gnx": "srd.20260204171422.1",
+                      "vh": "Operational Efficiency"
+                    },
+                    {
+                      "gnx": "srd.20260204171444.1",
+                      "vh": "Cost Management"
+                    },
+                    {
+                      "gnx": "srd.20260204171459.1",
+                      "vh": "Risk Mitigation"
+                    },
+                    {
+                      "gnx": "srd.20260204171523.1",
+                      "vh": "Data Accessibility & Retrival"
+                    },
+                    {
+                      "gnx": "srd.20260204171543.1",
+                      "vh": "Policy Review & Updates"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260204171902.1",
+                  "vh": "A Good Retention Policy Defines",
+                  "children": [
+                    {
+                      "gnx": "srd.20260204171921.1",
+                      "vh": "Purpose and Scope"
+                    },
+                    {
+                      "gnx": "srd.20260204171937.1",
+                      "vh": "Retention Periods"
+                    },
+                    {
+                      "gnx": "srd.20260204171947.1",
+                      "vh": "Data Classification"
+                    },
+                    {
+                      "gnx": "srd.20260204172012.1",
+                      "vh": "Roles & Responsibilities"
+                    },
+                    {
+                      "gnx": "srd.20260204172025.1",
+                      "vh": "Storage and Security"
+                    },
+                    {
+                      "gnx": "srd.20260204172036.1",
+                      "vh": "Disposal Procedures"
+                    },
+                    {
+                      "gnx": "srd.20260204172052.1",
+                      "vh": "Legal and Compliance Considerations"
+                    },
+                    {
+                      "gnx": "srd.20260204172129.1",
+                      "vh": "Review and Update Mechanisms"
+                    },
+                    {
+                      "gnx": "srd.20260204172146.1",
+                      "vh": "Training and Awareness"
+                    },
+                    {
+                      "gnx": "srd.20260204172201.1",
+                      "vh": "Audit and Monitoring"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260204172257.1",
+                  "vh": "Components  of Data Retention Policy",
+                  "children": [
+                    {
+                      "gnx": "srd.20260204172329.1",
+                      "vh": "Purpose Statement"
+                    },
+                    {
+                      "gnx": "srd.20260204172344.1",
+                      "vh": "Scope of Application"
+                    },
+                    {
+                      "gnx": "srd.20260204172357.1",
+                      "vh": "Data Classifcation"
+                    },
+                    {
+                      "gnx": "srd.20260204172508.1",
+                      "vh": "Retention Periods"
+                    },
+                    {
+                      "gnx": "srd.20260204172545.1",
+                      "vh": "Roles and Responsibilities"
+                    },
+                    {
+                      "gnx": "srd.20260204172547.1",
+                      "vh": "Storage and Management Procedurres"
+                    },
+                    {
+                      "gnx": "srd.20260204172717.1",
+                      "vh": "Data Retrival and Access"
+                    },
+                    {
+                      "gnx": "srd.20260204172816.1",
+                      "vh": "Disposal and Deletion Protocols"
+                    },
+                    {
+                      "gnx": "srd.20260204172835.1",
+                      "vh": "Complince and Legal Requirements"
+                    },
+                    {
+                      "gnx": "srd.20260204172852.1",
+                      "vh": "Policy Review and Modification"
+                    },
+                    {
+                      "gnx": "srd.20260204172906.1",
+                      "vh": "Training and Awareness Programs"
+                    },
+                    {
+                      "gnx": "srd.20260204172926.1",
+                      "vh": "Auditing and Monitoring"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260204173223.1",
+                  "vh": "Data Deletions Procedures and Mechanisims",
+                  "children": [
+                    {
+                      "gnx": "srd.20260204173256.1",
+                      "vh": "Purpose Statement"
+                    },
+                    {
+                      "gnx": "srd.20260204173448.1",
+                      "vh": "Scope of Application"
+                    },
+                    {
+                      "gnx": "srd.20260204173503.1",
+                      "vh": "Data Classification"
+                    },
+                    {
+                      "gnx": "srd.20260204173517.1",
+                      "vh": "Retention Periods"
+                    },
+                    {
+                      "gnx": "srd.20260204173605.1",
+                      "vh": "Roles and Responsibilities"
+                    },
+                    {
+                      "gnx": "srd.20260204173626.1",
+                      "vh": "Storage Management Procedures"
+                    },
+                    {
+                      "gnx": "srd.20260204173644.1",
+                      "vh": "Data Retrival and Access"
+                    },
+                    {
+                      "gnx": "srd.20260204173704.1",
+                      "vh": "Disposal and Deletion Protocols"
+                    },
+                    {
+                      "gnx": "srd.20260204173732.1",
+                      "vh": "Compliance and Legal Requirements"
+                    },
+                    {
+                      "gnx": "srd.20260204173753.1",
+                      "vh": "Policy Review and Modification"
+                    },
+                    {
+                      "gnx": "srd.20260204173818.1",
+                      "vh": "Training and Awareness Programs"
+                    },
+                    {
+                      "gnx": "srd.20260204173830.1",
+                      "vh": "Auditing and Monitiring"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260204173931.1",
+                  "vh": "Data Archiving Procedures and Mechanisms",
+                  "children": [
+                    {
+                      "gnx": "srd.20260204174002.1",
+                      "vh": "Data Encryption Procedures"
+                    },
+                    {
+                      "gnx": "srd.20260204174022.1",
+                      "vh": "Data Monitorinig Procedures"
+                    },
+                    {
+                      "gnx": "srd.20260204174049.1",
+                      "vh": "E-Discovery and Granular Retrival"
+                    },
+                    {
+                      "gnx": "srd.20260204174122.1",
+                      "vh": "Backup and Disaster Recovery"
+                    },
+                    {
+                      "gnx": "srd.20260204174150.1",
+                      "vh": "Data Format and Media Type"
+                    },
+                    {
+                      "gnx": "srd.20260204174228.1",
+                      "vh": "Data Restoration Procedures"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260204174302.1",
+              "vh": "Legal Hold",
+              "children": [
+                {
+                  "gnx": "srd.20260204174403.1",
+                  "vh": "Scope of Data Preservation"
+                },
+                {
+                  "gnx": "srd.20260204174837.1",
+                  "vh": "Preservation Requirements and Formats"
+                },
+                {
+                  "gnx": "srd.20260204174856.1",
+                  "vh": "Duration of the Hold"
+                },
+                {
+                  "gnx": "srd.20260204174921.1",
+                  "vh": "Custody and Protection of Data"
+                },
+                {
+                  "gnx": "srd.20260204174943.1",
+                  "vh": "Escrow or Independent Custody Requirements"
+                },
+                {
+                  "gnx": "srd.20260204174958.1",
+                  "vh": "Compliance and Documentation"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260128204211.1",
-          "vh": "Module 8: Design and Implement Auditability, Traceability, and Accountability of Data Events"
+          "vh": "Module 8: Design and Implement Auditability, Traceability, and Accountability of Data Events",
+          "children": [
+            {
+              "gnx": "srd.20260204203639.1",
+              "vh": "Event Sources"
+            },
+            {
+              "gnx": "srd.20260204203737.1",
+              "vh": "Event Attributes"
+            },
+            {
+              "gnx": "srd.20260204203822.1",
+              "vh": "Logging , Storage and Analysis"
+            },
+            {
+              "gnx": "srd.20260204203846.1",
+              "vh": "Chain of Custody"
+            },
+            {
+              "gnx": "srd.20260204203915.1",
+              "vh": "Non-Repudiation"
+            }
+          ]
         }
       ]
     },
     {
       "gnx": "srd.20260114161206.1",
-      "vh": "Domain 3 - Cloud Platform & Infrastructure Security:"
+      "vh": "**HERE**Domain 3 - Cloud Platform & Infrastructure Security:"
     },
     {
       "gnx": "srd.20260121194711.1",
@@ -1130,6 +1488,86 @@
     "srd.20260203194249.1": "Data Mobility in Cloud Computing: Navigating the Cloud's Geographical Reach\n\nCloud computing offers an unparalleled level of data mobility, enabling seamless access to\nresources from virtually anywhere in the world.\n\nYet, this newfound freedom comes with nuances, particularly concerning the location of data,\nthat organisations must navigate.\n\nIn many cases, cloud customers may not be acutely aware of the precise geographical\nwhereabouts of their data, and for everyday operations, this may not be a significant concern.\n\nHowever, when an enterprise entrusts sensitive data to cloud storage, understanding the\ndata's location becomes paramount.",
     "srd.20260203200033.1": "1. Sensitive Data Management\n\nEnterprises that deal with sensitive or regulated data may have stringent compliance\nrequirements.\n\nKnowing the geographical location of such data is essential for regulatory adherence and\nmaintaining data integrity.\n\n2. Preferred Data Location\n\nSome organisations may wish to define a preferred data location, whether for legal,\ncompliance, or operational reasons.\n\nThis preference often necessitates a contractual agreement between the consumer and the\ncloud service provider, specifying that the data must reside in a specific geographical region or on known servers.",
     "srd.20260203200219.1": "Navigating the Cloud's Geographical Landscape\n\nCloud service providers operate globally, often relying on distributed data centers and\nredundant infrastructure.\n\nWhile this offers benefits like redundancy and high availability, it also adds complexity to\ntracking data locations.\n\nIn response, cloud consumers should proactively engage with their providers to gain clarity on\ndata storage locations and ensure alignment with their specific needs.\n\nThis collaboration helps strike a balance between harnessing the cloud's mobility and\nsafeguarding data according to regulatory and operational requirements.\n\nIn essence, while cloud computing grants unmatched data mobility, organisations must remain\ndiligent in understanding the geographical aspects of their data, especially when dealing with\nsensitive information.",
+    "srd.20260203200417.1": "Data Classification Policy: Safeguarding Organisational Information\n\nA data classification policy is a comprehensive strategy employed by organisations to\ncategorise their stored information based on its sensitivity level, ultimately mitigating\norganisational risks and ensuring proper handling.\n\nThis policy serves as a crucial framework consisting of procedures, processes, and guidelines\nfor classifying data into different categories, each with its corresponding level of sensitivity.\n\nThe overarching goal of a data classification policy is to establish standardised data\nmanagement practices within the company.",
+    "srd.20260204154840.1": "1. Protecting Sensitive Data: A core function of the policy is to identify and safeguard sensitive or\nconfidential data. Through precise categorisation, it ensures that appropriate security\nmeasures are applied to protect such data.\n\n2. Lifecycle Management: The policy extends its influence throughout the entire lifecycle of data.\nFrom creation to disposal, it guides stakeholders on how to handle and protect data at every\nstage.\n\n3. Risk Mitigation: By adhering to data classification guidelines, organisations can significantly\nreduce risks associated with privacy breaches, compliance violations, and data security\nincidents.\n\nTailored to Each Organisation\n\nIt is important to note that a data classification policy is not one size fits all. Rather, it is\ncustomised to the unique needs and requirements of each organisation.\n\nIt is heavily influenced by industry standards and regulations applicable to the organisation's\nspecific sector.",
+    "srd.20260204155044.1": "Compliance with relevant laws and regulations is a critical aspect of data classification policies.\nThese policies help ensure that data handling practices align with legal requirements,\nbolstering data security and enhancing trust among stakeholders.\n\nIn summary, a data classification policy is a fundamental component of modern data\ngovernance.\n\nIt provides a structured approach to managing data based on its sensitivity, reducing risks, and\nenhancing data security and compliance.\n\nAs it is tailored to each organisation's specific Factor, it serves as a crucial tool in protecting\nvaluable information assets.\n\n",
+    "srd.20260203200509.1": "Mapping Strategy for Data Management\n\nAn effective mapping strategy is indispensable for organisations seeking to gain insights into\nthe location of data within their applications and broader storage infrastructure.\n\nThis strategic approach enables organisations to precisely identify where data resides,\nfacilitating data management and governance efforts.\nEnforcing Data Security\n\nA profound understanding of both data and metadata is essential for establishing and enforcing\nrobust data security policies and protocols within an organisation.\n\nWithout this knowledge, organisations may struggle to effectively safeguard their data assets.",
+    "srd.20260204155228.1": "Data Discovery Software and Metadata: Enhancing Data Management:\n\nData discovery software plays a pivotal role in scanning data sources, utilising a variety of\nvaluable attributes.\n\nThese attributes offer different degrees of efficiency when processing vast volumes of data.\nAmong the critical elements used in this process is metadata, which is essentially data about\ndata.",
+    "srd.20260204155245.1": "\nMetadata encompasses information about the data itself. It includes details about the data\ntype, how it is stored and organised, and its origins and purpose.\n\nThis comprehensive understanding of metadata provides crucial insights into the\ncharacteristics and properties of the underlying data.",
+    "srd.20260203200531.1": "Data Labelling and Classification: Enhancing Data Management\n\nData labelling is a process that involves adding additional tagging information to data, typically\nincluding details such as department, location, and creator.\n\nIn certain cases, data classification is a key component of data labelling, allowing data to be\ncategorised based on specific requirements. Classification often includes labels such as \"top\nsecret,\" \"secret,\" or \"classified.“\n\nClassification in Data Labelling\n\nClassification serves as an integral aspect of data labelling. It can be executed through manual\nprocesses, often delegated to the user responsible for creating the data, or through automated\nmechanisms governed by policy rules.\n\nThese rules may consider various factors, including data location, creator, content, and more.",
+    "srd.20260204155846.1": "Complexity of Data Labelling\n\nData labelling can be a complex endeavor, primarily because traditional physical labels cannot\nbe directly applied to digital collections of 0s and 1s.\n\nTo address this challenge, various labelling methods are employed for different types of assets.\nSome of these methods include:\n\n1. Metadata Tagging: Associating metadata with digital assets to provide Factor and information.\n\n2. Header Labels : Incorporating labels within the headers of digital files for quick\n\n3. Access Controls: Implementing access controls and permissions to restrict data access based\non user roles.\n\n4.Policy Based Labelling: Automatically assigning labels based on predefined policy rules.",
+    "srd.20260204160145.1": "Information Rights Management (IRM) extends beyond standard encryption policies to\nenhance the confidentiality and control of data. Below are some key objectives of IRM:\n\n\n",
+    "srd.20260204160635.1": "IRM introduces an additional layer of access controls over data objects and documents.\nThese controls determine who can access a document and specify the permissible actions,\nsuch as printing, saving, copying, and more.\n\n\nThis layered approach aligns with the principle of least privilege, a core concept in modern\nsecurity frameworks.",
+    "srd.20260204160718.1": "IRM leverages Access Control Lists (ACLs) to define and enforce access permissions. ACLs\nprovide detailed information about document access and usage rights, ensuring that\nsensitive data is safeguarded in line with predefined policies.",
+    "srd.20260204161812.1": "A fundamental aspect of IRM is its location agnostic nature, enabling the protection of data\nirrespective of its storage location.\n\nBy embedding ACLs directly into the original file, IRM ensures consistent access control,\ncrucial for cloud environments where data mobility is common.\n\nThis feature supports the CCSP's emphasis on data security across diverse storage solutions\nand platforms.",
+    "srd.20260204161932.1": "IRM is a versatile tool employed to safeguard a broad spectrum of sensitive content within\norganisations.\n\nIt protects diverse data types, including financial documents, emails, database columns,\nweb pages, and other data objects.\n\nIRM is a foundational component in the development of information protection policies\naimed at securing critical assets.\n\nIRM’s ability to consistently enforce access controls, regardless of the data's location, combined\nwith its adaptability in protecting various data types, renders it an invaluable asset for\norganisations striving to maintain the confidentiality and integrity of their sensitive\ninformation.\n\nIts alignment with the comprehensive security frameworks recommended by CCSP ensures\nthat IRM remains a relevant and effective tool in the evolving landscape of cloud security.",
+    "srd.20260204160204.1": "Revocation of certificates in a Public Key Infrastructure (PKI) is a critical aspect of ensuring the security and trustworthiness of digital certificates. Key points regarding certificate revocation and the use of Certificate Revocation Lists (CRLs) include:\n\nEffective certificate revocation maintenance is pivotal in PKI security. While CRLs play a\nsignificant role, alternative methods like OCSP are also used to overcome challenges associated\nwith CRLs, ensuring a more efficient and secure PKI environment.",
+    "srd.20260204165434.1": "The CRL, maintained by the Certificate Authority (CA), lists information about revoked\ndigital certificates.\n\nIt typically includes the serial number of the revoked certificate and the time of revocation.\nThe CRL is an essential tool for identifying invalid or compromised certificates.",
+    "srd.20260204165453.1": "Clients, such as web browsers, perform several checks when establishing a secure\nconnection with a server presenting a digital certificate. One crucial check involves verifying\nthat the certificate is not listed on the CRL, ensuring its validity and trustworthiness.\n",
+    "srd.20260204165654.1": "Clients parse the entire CRL to confirm whether the certificate\nis revoked, which can be resource intensive, especially with\nlarge CRLs containing numerous entries.",
+    "srd.20260204165708.1": "\nCAs distribute CRLs through various channels, including\nwebsites or secure protocols.\n\nClients require access to the latest CRL to ensure accurate\nverification.",
+    "srd.20260204165725.1": "CRLs have an expiration date. Clients must use the most current\nCRL to avoid inaccuracies due to expired lists.",
+    "srd.20260204170113.1": "OCSP offers an alternative to CRLs for checking certificate status. It allows real time queries\nto the CA or an OCSP responder, providing a more immediate check.",
+    "srd.20260204170238.1": "CRL checks can be cumbersome, especially for parsing large lists. Some systems use caching\nmechanisms to minimise the frequency of CRL retrievals, enhancing efficiency.",
+    "srd.20260204171207.1": "Data Protection Policies should encompass guidelines for different phases of the data lifecycle.\nData Retention Policies, a crucial part of these policies, establish protocols within an\norganisation for retaining information to meet regulatory and operational compliance needs.\n\nThese policies strike a balance between regulatory, legal, and business requirements for data\narchiving and the challenges associated with data storage costs, complexities, and other\nconsiderations.\n\n\n",
+    "srd.20260204171702.1": "Key objectives of a Data Retention Policy include:",
+    "srd.20260204171356.1": "Ensuring that data retention practices comply with industry specific\nregulations and legal requirements. This involves retaining necessary records for the legally\nmandated periods.\n",
+    "srd.20260204171422.1": "Optimising the availability and accessibility of important data for\nbusiness operations, while preventing the unnecessary retention of Redundant, Outdated, or\nTrivial (ROT) data.",
+    "srd.20260204171444.1": "Managing the costs associated with data storage and archiving, which\nincludes minimising expenses by retaining only necessary data and disposing of data that is no\nlonger required.",
+    "srd.20260204171459.1": "Reducing the risk of data breaches and ensuring data privacy by securely\nstoring sensitive information and safely disposing of it when it is no longer needed.",
+    "srd.20260204171523.1": "Ensuring that retained data can be efficiently accessed and\nretrieved when needed. This is crucial for responding to legal inquiries, audits, and business\nanalysis.",
+    "srd.20260204171543.1": "Regularly reviewing and updating the data retention policy to\nreflect changes in legal requirements, business needs, and technological advancements.",
+    "srd.20260204171902.1": "A good data retention policy is essential for effective data management and compliance. It\nshould define the following key elements:",
+    "srd.20260204171921.1": "Clearly state the purpose of the policy and its scope within the\norganisation. This includes specifying the types of data covered and the departments or\nbusiness units it applies to.\n",
+    "srd.20260204171937.1": "Define specific retention periods for different types of data, based on legal,\nregulatory, and business requirements. This should detail how long data should be retained\nand the criteria used to determine these periods.",
+    "srd.20260204171947.1": "Include guidelines for classifying data based on its importance, sensitivity,\nand legal requirements. Data classification helps in applying appropriate retention periods and\nsecurity measures.",
+    "srd.20260204172012.1": "Outline the roles and responsibilities of employees, management, and\nother stakeholders in implementing and adhering to the retention policy. This ensures\naccountability and clarity in policy enforcement.",
+    "srd.20260204172025.1": "Detail the storage methods and security measures to protect data during its\nretention period. This should include physical and digital security practices, access controls, and encryption methods.",
+    "srd.20260204172036.1": "Provide clear procedures for the secure disposal or destruction of data after\nthe retention period has expired. This should ensure that data is disposed of in a manner that\nprevents unauthorised access or recovery.",
+    "srd.20260204172052.1": "Address legal and regulatory compliance requirements\nrelevant to data retention, including specific industry regulations and data protection laws.\n",
+    "srd.20260204172129.1": "Establish a process for regular review and updating of the retention policy to reflect changes in legal requirements, business needs, technological advancements, and organisational changes.",
+    "srd.20260204172146.1": "Include provisions for training and raising awareness among employees about the\nimportance of the retention policy and their role in its implementation.",
+    "srd.20260204172201.1": "Outline procedures for auditing and monitoring compliance with the retention policy to\nensure its effectiveness and identify areas for improvement.",
+    "srd.20260204172257.1": "The components of a Data Retention Policy typically encompass several key elements to ensure\nthat it is comprehensive, effective, and compliant with legal and regulatory standards. These\ncomponents include:\n",
+    "srd.20260204172329.1": "An overview of the reasons for implementing the policy, such as legal compliance, data management efficiency, and risk mitigation.",
+    "srd.20260204172344.1": "A description of where and to whom the policy applies within the\norganisation. This can include specific departments, types of data, and data storage locations.",
+    "srd.20260204172357.1": "Guidelines for categorising data based on its importance, sensitivity, and\nthe legal or business requirements for retention. Common categories include confidential,\ninternal, public, and sensitive data.\n",
+    "srd.20260204172508.1": "Detailed schedules for how long different types of data should be retained.\nThese should be based on legal requirements, business needs, and industry best practices.\n",
+    "srd.20260204172545.1": "Clear definitions of who is responsible for implementing and\noverseeing the policy. This typically involves data managers, IT staff, legal teams, and\ndepartment heads.\n",
+    "srd.20260204172547.1": "Instructions on how data should be stored and\nmanaged during the retention period. This includes physical and digital storage solutions, data\naccess controls, and security measures.",
+    "srd.20260204172717.1": "Processes for how retained data can be accessed and retrieved\nwhen needed. This should be efficient and comply with security protocols to protect data\nintegrity.",
+    "srd.20260204172816.1": "Procedures for the secure and proper disposal or deletion of\ndata once the retention period has expired, ensuring that data is irrecoverable to prevent\nunauthorised access.\n",
+    "srd.20260204172835.1": "A section addressing the legal and regulatory\nrequirements affecting data retention, including specific laws and industry regulations.\n",
+    "srd.20260204172852.1": "A mechanism for regular review and updating of the policy to\nreflect changes in legal requirements, technology, business operations, and organisational\nneeds.\n",
+    "srd.20260204172906.1": "Initiatives to educate and inform staff about the retention\npolicy, their responsibilities, and the importance of compliance.\n",
+    "srd.20260204172926.1": "Strategies for regularly auditing the effectiveness of the policy and\nmonitoring compliance to identify areas for improvement and to ensure the policy is being\nproperly implemented.\n",
+    "srd.20260204173223.1": "The components of a Data Retention Policy typically encompass several key elements to\nensure that it is comprehensive, effective, and compliant with legal and regulatory standards.\nThese components include:\n",
+    "srd.20260204173256.1": "An overview of the reasons for implementing the policy, such as legal\ncompliance, data management efficiency, and risk mitigation.\n",
+    "srd.20260204173448.1": "A description of where and to whom the policy applies within the\norganisation. This can include specific departments, types of data, and data storage locations.\n",
+    "srd.20260204173503.1": "Guidelines for categorising data based on its importance, sensitivity, and\nthe legal or business requirements for retention. Common categories include confidential,\ninternal, public, and sensitive data.\n",
+    "srd.20260204173517.1": "Detailed schedules for how long different types of data should be retained.\nThese should be based on legal requirements, business needs, and industry best practices.",
+    "srd.20260204173605.1": "Clear definitions of who is responsible for implementing and\noverseeing the policy. This typically involves data managers, IT staff, legal teams, and\ndepartment heads.\n",
+    "srd.20260204173626.1": "Instructions on how data should be stored and\nmanaged during the retention period. This includes physical and digital storage solutions, data\naccess controls, and security measures.\n",
+    "srd.20260204173644.1": "Processes for how retained data can be accessed and retrieved when needed. This should be efficient and comply with security protocols to protect data integrity. \n",
+    "srd.20260204173704.1": "Procedures for the secure and proper disposal or deletion of\ndata once the retention period has expired, ensuring that data is irrecoverable to prevent\nunauthorised access.",
+    "srd.20260204173732.1": "A section addressing the legal and regulatory requirements affecting data retention, including specific laws and industry regulations.",
+    "srd.20260204173753.1": "A mechanism for regular review and updating of the policy to reflect changes in legal requirements, technology, business operations, and organisational needs.",
+    "srd.20260204173818.1": "Initiatives to educate and inform staff about the retention policy, their responsibilities, and the importance of compliance.",
+    "srd.20260204173830.1": "Strategies for regularly auditing the effectiveness of the policy and monitoring compliance to identify areas for improvement and to ensure the policy is being properly implemented.",
+    "srd.20260204173931.1": "Data Archiving is the process of identifying and moving inactive data into specialised long\nterm archival storage systems. This process not only optimises the performance of primary\nresources but also ensures cost efficient storage. Elements of data archiving policies include:",
+    "srd.20260204174302.1": "Legal Hold refers to the specific process of preserving data in response to legal proceedings.\nThis process becomes relevant when organisations or individuals receive official judicial or law\nenforcement orders related to civil or criminal proceedings.\n\nThese orders typically detail the scope and requirements for data preservation, specifying what\ndata needs to be retained and how.",
+    "srd.20260204174403.1": "The legal hold notice will define the types of data that must be\npreserved. This can range from emails and electronic documents to database records and\nother digital information relevant to the legal matter.",
+    "srd.20260204174837.1": "Legal holds often stipulate specific requirements or\nformats for data preservation. This ensures that the data remains in a state that is acceptable\nand usable for legal purposes.\n",
+    "srd.20260204174856.1": "Data under legal hold is usually required to be preserved until the\nconclusion of the legal proceedings. The duration can vary depending on the nature and\ncomplexity of the case.\n",
+    "srd.20260204174921.1": "In some instances, the organisation itself must retain custody\nand ensure the protection of the data. This involves implementing and maintaining\nappropriate security measures to safeguard the data from alteration or destruction.",
+    "srd.20260204174943.1": "There are circumstances where the data may\nneed to be held in escrow or under independent custody. This means that a third party may be\nrequired to store and manage the data to ensure its integrity and impartiality throughout the\nlegal process.\n",
+    "srd.20260204174958.1": "Organisations must ensure compliance with the legal hold\norder and document their actions. This documentation is critical to demonstrate adherence to\nlegal requirements and to protect the organisation in the legal process.",
+    "srd.20260128204211.1": "The definition of \"Event Sources\" and the \"Requirement of Event Attributes\" are key concepts in the Factor of data management, security, and information systems.",
+    "srd.20260204203639.1": "\nEvent Sources:\n\nIn the Factor of information technology and cybersecurity, an event source is any software,\nhardware, or system that generates data or activity logs.\n\nThese logs are known as 'events'. Common examples of event sources include servers, network\ndevices, applications, security systems (like firewalls and intrusion detection systems), and  even end user devices like workstations and mobile devices.\n\nIdentifying event sources is crucial for effective data monitoring, security incident detection, and compliance management.\n\nBy understanding where data or activity logs originate, organisations can more effectively track, analyse, and respond to various activities within their IT environment.",
+    "srd.20260204203737.1": "These are specific details or characteristics recorded in an event log.\n\nEvent attributes typically include information such as the timestamp of the event, the type of event (e.g., login attempt, file access, system error), the source and destination of the event, user details, and the outcome or status of the event.\n\nThe requirement of event attributes is fundamental for accurate and meaningful analysis of events.\n\nDetailed attributes allow for more granular and precise monitoring, helping in tasks such as troubleshooting, security analysis, auditing, and compliance reporting.\n\nThey enable organisations to construct a clear and comprehensive picture of what is happening across their systems and networks.",
+    "srd.20260204203822.1": "The logging, storage, and analysis of data events are critical components in the management\nand security of information systems.\n\nEach aspect plays a crucial role in ensuring that data is accurately recorded, securely stored,\nand effectively analysed for various purposes, including security, performance monitoring, and\ncompliance.\n\nBelow is an overview of each component:\n\n1. Logging of Data Events\n\nThis involves the recording of events that occur within an information system. An event log\nmight include a wide range of data such as user activities, system errors, security alerts, and\ntransaction histories.\n\nImportance: Logging is essential for tracking the behavior and performance of systems and\napplications. it is also crucial for security monitoring, as logs can provide the first indicators of a security incident or breach.\n\n2. Storage of Data Events\n\nOnce events are logged, they must be stored in a secure and manageable way. This involves\ndetermining the appropriate storage location, format, and retention period for log data, which can vary based on regulatory requirements and organisational policies.\n\nImportance: Secure and organised storage of log data is vital for ensuring that the data remains intact and accessible for future analysis. It also plays a critical role in compliance, as many regulations require specific standards for data retention and protection.\n\n3. Analysis of Data Events\n\nThis is the process of examining event logs to extract useful information. Analysis can be performed manually by system administrators or automatically using specialised tools like SIEM (Security Information and Event Management) systems.\n\nImportance:\n\nThe analysis of log data helps in identifying trends, diagnosing system issues, and detecting\nanomalies that may indicate security incidents.\n\nIt is also key for making informed decisions about system improvements and security\nenhancements.\n\nEach of these components is interconnected.\n\nEffective logging ensures that valuable data is captured, proper storage guarantees that this data is kept secure and accessible, and thorough analysis allows organisations to derive meaningful insights from their data.\n\nTogether, these practices form a foundation for robust information system management and\nsecurity.",
+    "srd.20260204203846.1": "Chain of Custody in digital forensics and information security refers to the process of\ndocumenting the handling, storage, and transfer of digital evidence.\n\nIt involves creating a chronological record of who has had access to the evidence, how and\nwhen it was transferred, and any actions performed on it.\n\nMaintaining a rigorous chain of custody is crucial in legal Factors because it establishes the\nintegrity and credibility of the evidence.\n\nIt demonstrates that the evidence has been collected, stored, and preserved in a manner\nthat prevents tampering or alteration, ensuring that it is admissible in court or other legal\nproceedings\n\nNOTE: The concepts of \"Chain of Custody\" and \"Non repudiation\" are critical in the Factor of digital forensics, cybersecurity, and legal proceedings involving digital evidence. \nUnderstanding these terms is essential for ensuring the integrity and reliability of digital\ninformation, particularly in situations where this information may be scrutinised or\nchallenged.",
+    "srd.20260204203915.1": "Non repudiation in cybersecurity and digital communications refers to the assurance that\nsomeone cannot deny the validity of their digital actions or communications.\n\nThis is typically achieved through the use of digital signatures and other cryptographic\ntechniques.\n\nNon repudiation is vital in various scenarios, such as financial transactions, contract signing, and email communications, where it is important to confirm that a specific action or\ncommunication truly originated from a particular individual or entity.\n\nIt provides proof of the origin and integrity of the data, ensuring accountability and\npreventing denial of actions.\n\nNOTE: \nBoth chain of custody and non repudiation are fundamental in preserving the authenticity and\nreliability of digital data.\n\nWhile the chain of custody focuses on the traceability and handling of digital evidence, non\nrepudiation ensures that individuals or entities cannot falsely deny their involvement in digital transactions or communications.",
     "srd.20260114161206.1": "Domian 3: Cloud Platform and Infrastructure security \n17%",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
