@@ -1430,13 +1430,61 @@
         },
         {
           "gnx": "n30.20260204185034.1",
-          "vh": "Module 5: Disaster Recovery & Business Continuity Plans"
+          "vh": "Module 5: Disaster Recovery & Business Continuity Strategy's",
+          "children": [
+            {
+              "gnx": "srd.20260205181230.1",
+              "vh": "RPO (Recovery Point Objective)"
+            },
+            {
+              "gnx": "srd.20260205181258.1",
+              "vh": "RTO (Recovery Time Objective)"
+            },
+            {
+              "gnx": "srd.20260205181339.1",
+              "vh": "RSL (Recovery Service Level)"
+            },
+            {
+              "gnx": "srd.20260205180820.1",
+              "vh": "Components"
+            }
+          ]
         }
       ]
     },
     {
       "gnx": "srd.20260121194711.1",
-      "vh": "Domain 4 - Cloud Application Security:"
+      "vh": "Domain 4 - Cloud Application Security:",
+      "children": [
+        {
+          "gnx": "srd.20260205183205.1",
+          "vh": "** HERE**Module 1:  Advocate Training & Awareness"
+        },
+        {
+          "gnx": "srd.20260205183428.1",
+          "vh": "Module 2:  Describe the SDLC (Secure Software Development Life Cycle)"
+        },
+        {
+          "gnx": "srd.20260205183532.1",
+          "vh": "Module 3: Apply the SDLC  (Secure Software Development Life Cycle)"
+        },
+        {
+          "gnx": "srd.20260205183742.1",
+          "vh": "Module 4: Apply Cloud Software Assurance and Validation"
+        },
+        {
+          "gnx": "srd.20260205183836.1",
+          "vh": "Module 5 : Use Verified Secure Software"
+        },
+        {
+          "gnx": "srd.20260205184033.1",
+          "vh": "Module 6: Comprehend the Specifics of Cloud Application Architecture"
+        },
+        {
+          "gnx": "srd.20260205184120.1",
+          "vh": "Module 7: Design Appropriate Idenity & Access Management (IAM) dolutions "
+        }
+      ]
     },
     {
       "gnx": "srd.20260121194820.1",
@@ -1726,7 +1774,13 @@
     "srd.20260205154813.1": "\nThe purpose of an audit is to ensure that a sufficient number of risk controls exist and that they\nare operationally efficient.\n\nThere are various reasons for conducting audits, with the most obvious ones being regulatory\nor compliance related.\n\nIt makes sense to integrate audits into existing corporate governance and enterprise risk\nmanagement structures.\n\nWithin these frameworks, all requirements for risk controls can be consolidated, including\nlegal, technical, jurisdictional, contractual, and compliance requirements.\n\nThis consolidation helps streamline audit processes and ensures that all risk controls are\naligned with overall corporate objectives and legal obligations.\n\nAdditionally, integrating audits within these frameworks promotes continuous improvement\nand adherence to best practices, enhancing organisational resilience and security posture.",
     "srd.20260205154840.1": "\nIn cloud environments, the main challenge in log collection is determining which logs the customer\ncan access, beyond the typical difficulties found in traditional data centers.\n\nThe level of access is highly variable and depends on the cloud deployment and the contract with\nthe cloud provider.\n\nIn an IaaS environment, cloud customers have extensive access to logs from the OS, virtual devices,\nplatform, and application levels.\n\nWithin a PaaS (Platform as a Service) environment, the same level of comprehensive logs would be\navailable to the customer at the platform and application levels.\n\nAccess to logs at the operating system and network device levels, as well as at the application level\nin SaaS environments, depends on availability from the cloud provider.",
     "srd.20260205154858.1": "In a cloud environment, packet capture encounters many of the same challenges as log\ncollection.\n\nThe level of packet capture available will depend on the cloud deployment and the control over\nessential network appliances, as well as the point at which capture is anticipated.\n\nIf packet capture is required on the virtual machine within an IaaS environment, the cloud\ncustomer likely has the necessary level of access.\n\nHowever, within a PaaS or SaaS environment, their capability for packet capture would depend\non the services provided by the cloud provider.\n\nMoreover, the effectiveness of packet capture is influenced by the cloud provider's policies and\nthe tools they offer, which can vary significantly between providers.",
+    "n30.20260204185034.1": "\nBCDR (Business Continuity and Disaster Recovery) protects against the risk of data not being\navailable and the possibility that the business processes it supports are not functional, which\ncan result in adverse consequences for the organisation.\n\nThe following are the main strategies of BCDR: \n\nLocation\n\nData Replication\n\nFunctionality Replication\n\nPlanning, Preparing and Provisioning\n\nFailover Capability\n\nReturning to Normal\n\n\n\nThree key terms to remember in this Factor are: RPO, RTO, and RSL.",
+    "srd.20260205181230.1": "This term helps determine how much information must be restored and recovered.",
+    "srd.20260205181258.1": "It measures how quickly each system needs to be up and running in the event of a critical failure or disaster.\n\n\n                       DISASTER\n|-----------*-------------()---------------*------------>\n           RPO                            RTO     \n\n         {----------------}\n          Lost transactions\n                          {--RecoveryTime--}\n\n                          ",
+    "srd.20260205181339.1": "This is a percentage measurement (ranging from 0 to 100%) of how much computing power is needed based on the percentage of the production system required during a disaster.",
+    "srd.20260205180820.1": "\nImplementing a Business Continuity and Disaster Recovery (BCDR) plan involves several critical\nsteps to ensure that an organisation can continue operations and recover swiftly from any\ndisaster or significant disruption.\n\nThe following are the key components of implementing a BCDR plan:\n\n- Scope of the BCDR plan\n\n- Gathering Requirements and Factors\n\n- Analysis of the plan\n\n- Risk Assesment\n\n- Plan Design\n\n- Oter Plan Considerations\n\n- Planning, Exercising, Accessing the Plan\n\n- Test Plan Review\n",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
+    "srd.20260205184120.1": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
   },
