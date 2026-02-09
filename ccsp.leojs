@@ -1458,27 +1458,299 @@
       "children": [
         {
           "gnx": "srd.20260205183205.1",
-          "vh": "** HERE**Module 1:  Advocate Training & Awareness"
+          "vh": "Module 1:  Advocate Training & Awareness",
+          "children": [
+            {
+              "gnx": "srd.20260209161705.1",
+              "vh": "Basic Components",
+              "children": [
+                {
+                  "gnx": "srd.20260209161222.1",
+                  "vh": "Security by Design"
+                },
+                {
+                  "gnx": "srd.20260209161246.1",
+                  "vh": "Shared Security Responsibility"
+                },
+                {
+                  "gnx": "srd.20260209161304.1",
+                  "vh": "Security as a Business Objective"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260209161734.1",
+              "vh": "Common Pitfalls"
+            },
+            {
+              "gnx": "srd.20260209162124.1",
+              "vh": "Common Vulnerabilities",
+              "children": [
+                {
+                  "gnx": "srd.20260209162315.1",
+                  "vh": "OWASP Tep Ten (Open Web Applications Security Project)",
+                  "children": [
+                    {
+                      "gnx": "srd.20260209162406.1",
+                      "vh": "1. Broken Acces Control"
+                    },
+                    {
+                      "gnx": "srd.20260209162447.1",
+                      "vh": "2. Cryptographic Failures"
+                    },
+                    {
+                      "gnx": "srd.20260209162502.1",
+                      "vh": "3. Injection"
+                    },
+                    {
+                      "gnx": "srd.20260209162530.1",
+                      "vh": "4. Insecure Design"
+                    },
+                    {
+                      "gnx": "srd.20260209162559.1",
+                      "vh": "5. Security Misconfiguration"
+                    },
+                    {
+                      "gnx": "srd.20260209162634.1",
+                      "vh": "6. Vulnerable and Outdated Components"
+                    },
+                    {
+                      "gnx": "srd.20260209162656.1",
+                      "vh": "7. Identification & Authentication Failures"
+                    },
+                    {
+                      "gnx": "srd.20260209162739.1",
+                      "vh": "8. Software and Data Integity Failures"
+                    },
+                    {
+                      "gnx": "srd.20260209162825.1",
+                      "vh": "9. Secueity Logging & Monitoring Failures"
+                    },
+                    {
+                      "gnx": "srd.20260209162852.1",
+                      "vh": "10. Server-Side Request Forgery (SSRF)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260205183428.1",
-          "vh": "Module 2:  Describe the SDLC (Secure Software Development Life Cycle)"
+          "vh": "Module 2:  Describe the SDLC (Secure Software Development Life Cycle)",
+          "children": [
+            {
+              "gnx": "srd.20260209163127.1",
+              "vh": "1- Business Requirements"
+            },
+            {
+              "gnx": "srd.20260209163628.1",
+              "vh": "2- Design"
+            },
+            {
+              "gnx": "srd.20260209163643.1",
+              "vh": "3- Development"
+            },
+            {
+              "gnx": "srd.20260209163654.1",
+              "vh": "4- Testing"
+            },
+            {
+              "gnx": "srd.20260209163711.1",
+              "vh": "5- Deployment"
+            },
+            {
+              "gnx": "srd.20260209163740.1",
+              "vh": "6- O & M"
+            }
+          ]
         },
         {
           "gnx": "srd.20260205183532.1",
-          "vh": "Module 3: Apply the SDLC  (Secure Software Development Life Cycle)"
+          "vh": "Module 3: Apply the SSDLC  (Secure Software Development Life Cycle)",
+          "children": [
+            {
+              "gnx": "srd.20260209164209.1",
+              "vh": "Cloud Threat & Vulnerability Mitigation",
+              "children": [
+                {
+                  "gnx": "srd.20260209164551.1",
+                  "vh": "Risk",
+                  "children": [
+                    {
+                      "gnx": "srd.20260209164919.1",
+                      "vh": "Data Breaches"
+                    },
+                    {
+                      "gnx": "srd.20260209165100.1",
+                      "vh": "Insufficient Identity Credential & Access Management "
+                    },
+                    {
+                      "gnx": "srd.20260209165136.1",
+                      "vh": "Insecure Interfaces and APIs"
+                    },
+                    {
+                      "gnx": "srd.20260209165214.1",
+                      "vh": "System Vulnerabilities"
+                    },
+                    {
+                      "gnx": "srd.20260209165226.1",
+                      "vh": "Account Hijackinig"
+                    },
+                    {
+                      "gnx": "srd.20260209165241.1",
+                      "vh": "Malicious Insiders"
+                    },
+                    {
+                      "gnx": "srd.20260209165327.1",
+                      "vh": "Advanced Persistent Threats"
+                    },
+                    {
+                      "gnx": "srd.20260209165352.1",
+                      "vh": "Data Loss"
+                    },
+                    {
+                      "gnx": "srd.20260209165422.1",
+                      "vh": "Insufficient Due Diligence"
+                    },
+                    {
+                      "gnx": "srd.20260209165530.1",
+                      "vh": "Abuse & Nefarious Use of Cloud Services"
+                    },
+                    {
+                      "gnx": "srd.20260209165547.1",
+                      "vh": "Denial of Service"
+                    },
+                    {
+                      "gnx": "srd.20260209165655.1",
+                      "vh": "Shared Technology Issues "
+                    },
+                    {
+                      "gnx": "srd.20260209165741.1",
+                      "vh": "Compliance Risks"
+                    },
+                    {
+                      "gnx": "srd.20260209165850.1",
+                      "vh": "Data  Sovereignty"
+                    },
+                    {
+                      "gnx": "srd.20260209165903.1",
+                      "vh": "Vendor Lock-In"
+                    },
+                    {
+                      "gnx": "srd.20260209165941.1",
+                      "vh": "Service Reliability"
+                    },
+                    {
+                      "gnx": "srd.20260209165953.1",
+                      "vh": "Scalibility Issues"
+                    },
+                    {
+                      "gnx": "srd.20260209170003.1",
+                      "vh": "Cost Management"
+                    },
+                    {
+                      "gnx": "srd.20260209170017.1",
+                      "vh": "Integration Challenges"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260209164725.1",
+                  "vh": "Modeling"
+                },
+                {
+                  "gnx": "srd.20260209164844.1",
+                  "vh": "Mitigation "
+                },
+                {
+                  "gnx": "srd.20260209170546.1",
+                  "vh": "Verification",
+                  "children": [
+                    {
+                      "gnx": "srd.20260209170659.1",
+                      "vh": "ASVS Standard"
+                    },
+                    {
+                      "gnx": "srd.20260209170817.1",
+                      "vh": "Software Assurance Forum for Excellence in Code (SAFECode)"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260209171146.1",
+                  "vh": "Versioning"
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260205183742.1",
-          "vh": "Module 4: Apply Cloud Software Assurance and Validation"
+          "vh": "Module 4: Apply Cloud Software Assurance and Validation",
+          "children": [
+            {
+              "gnx": "srd.20260209171407.1",
+              "vh": "Functional Testing"
+            },
+            {
+              "gnx": "srd.20260209171422.1",
+              "vh": "Non-Functional Testing"
+            },
+            {
+              "gnx": "srd.20260209171917.1",
+              "vh": "Testing Methodologies",
+              "children": [
+                {
+                  "gnx": "srd.20260209172011.1",
+                  "vh": "White Box Testing"
+                },
+                {
+                  "gnx": "srd.20260209172049.1",
+                  "vh": "Grey Box Testing"
+                },
+                {
+                  "gnx": "srd.20260209172102.1",
+                  "vh": "Black Box Testing"
+                },
+                {
+                  "gnx": "srd.20260209172227.1",
+                  "vh": "Abuse Case Testing"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260209172159.1",
+              "vh": "Quality Assurance"
+            }
+          ]
         },
         {
           "gnx": "srd.20260205183836.1",
-          "vh": "Module 5 : Use Verified Secure Software"
+          "vh": "Module 5 : Use Verified Secure Software",
+          "children": [
+            {
+              "gnx": "srd.20260209173224.1",
+              "vh": "Secure API Interfaces"
+            },
+            {
+              "gnx": "srd.20260209173257.1",
+              "vh": "Supply Chain Management"
+            },
+            {
+              "gnx": "srd.20260209173333.1",
+              "vh": "Third-party Software Management"
+            },
+            {
+              "gnx": "srd.20260209173428.1",
+              "vh": "Validated  Open-source Software"
+            }
+          ]
         },
         {
           "gnx": "srd.20260205184033.1",
-          "vh": "Module 6: Comprehend the Specifics of Cloud Application Architecture"
+          "vh": "**HERE**Module 6: Comprehend the Specifics of Cloud Application Architecture"
         },
         {
           "gnx": "srd.20260205184120.1",
@@ -1780,6 +2052,33 @@
     "srd.20260205181339.1": "This is a percentage measurement (ranging from 0 to 100%) of how much computing power is needed based on the percentage of the production system required during a disaster.",
     "srd.20260205180820.1": "\nImplementing a Business Continuity and Disaster Recovery (BCDR) plan involves several critical\nsteps to ensure that an organisation can continue operations and recover swiftly from any\ndisaster or significant disruption.\n\nThe following are the key components of implementing a BCDR plan:\n\n- Scope of the BCDR plan\n\n- Gathering Requirements and Factors\n\n- Analysis of the plan\n\n- Risk Assesment\n\n- Plan Design\n\n- Oter Plan Considerations\n\n- Planning, Exercising, Accessing the Plan\n\n- Test Plan Review\n",
     "srd.20260121194711.1": "Domain 4: Cloud Application Security \n17%",
+    "srd.20260205183205.1": "According to the Cloud Security Alliance (CSA) and the Software Assurance Forum for\nExcellence in Code (SAFECode), establishing collaborative accountability is both crucial and\nchallenging in the development of a safety conscious application development program.\n\nThere are three distinct components to this effort:",
+    "srd.20260209161222.1": "This principle dictates that security must be a fundamental consideration at every stage of the\nprocess.\n\nSecurity is not an afterthought or a response to a security flaw; it is an integral element of the\nprocess from the initial feasibility of the application through to its retirement.",
+    "srd.20260209161246.1": "Everyone, from senior management to the newest team member, holds accountability for\nsecurity.\n\nThe notion that someone is not responsible for security is explicitly rejected. In practice,\npersonal accountability and trust are the bedrock of effective security.",
+    "srd.20260209161304.1": "\nSecurity is not just a part of business operations; it is\ncentral to them, with a focus on secure computing\npermeating every aspect.\n\nEvery business goal incorporates an element of\nsecurity, reflecting its fundamental importance.\n\nUnderstanding these core principles requires a\ncomprehensive grasp of organisational culture,\nawareness of security vulnerabilities, and an\nalignment with the organisation's vision and goals.",
+    "srd.20260209161734.1": "The primary pitfall is the failure to receive immediate and ongoing support from upper\nmanagement.\n\nIf senior leadership does not demonstrate their commitment by approving, adhering to\nsecurity policies, and adequately funding and staffing security projects aligned with the\norganisation's goals, efforts to instill a security culture are likely to fail.\n\nA common mistake is not fully understanding the organisation's culture. Even businesses within\nthe same industry can have vastly different cultures.\n\nIt requires careful planning to discern an organisation's unique culture and develop program\nlevel activities that integrate well within it to foster and sustain a security culture.\n\nAnother significant challenge is staffing. The size of an organisation may limit the availability of\nsecurity experts. Rather than being concentrated in a single team, these experts might be\ndispersed, serving as resources for various developmental processes.\n\nDevelopment teams in larger organisations may either utilise security experts as consultants or\nintegrate them directly into the team.\n\nIn both scenarios, ensuring uniformity in the development of security aware applications\nacross the organisation can be challenging. This task becomes particularly difficult without an\nestablished framework for secure software development.\n\nA mature organisation typically has a well defined process that incorporates security at every\nstage.\n\nThe absence of such a framework or process leads to inconsistent security practices and\nundermines the establishment of a security conscious organisational culture.\n\nA critical issue to consider is the impact of financial constraints on training. In times of budget\ntightening, funds allocated for training, especially for what is perceived as non essential\ntraining, are often among the first to be reduced.\n\nWhile it may seem easy to cut training programs when there are no immediate repercussions,\nan organisation committed to security will find ways to continue secure computing practices\nand security awareness training, even under financial constraints.\n\nTo maintain a broad range of training options while reducing expenses, several strategies can\nbe employed.\n\nThese include subscriptions to online security courses, as well as both asynchronous and\nsynchronous training methods. These alternatives eliminate the need for travel, allowing\ntraining initiatives to persist even with significantly reduced budgets.\n\nAdditionally, bringing trainers directly to the workplace can be a cost effective solution. When\nmultiple individuals require the same training, it may prove more economical to have the\ntrainer come onsite rather than sending staff to an external training location.\n",
+    "srd.20260209162124.1": "Cloud computing is vulnerable to data breaches, compromised integrity, insecure APIs, and DoS\nattacks due to its extensive reliance on network systems.\n\nApplications and data transmissions over the Internet operate in potentially hostile\nenvironments.\n\nThe following are the Open Web Application Security Project (OWASP) Top 10:",
+    "srd.20260205183428.1": "There are numerous models for SDLCs, ranging from sequential and linear techniques like\nWaterfall to interactive and incremental approaches like Spiral, Agile, and the more recent\nDevelopment and Operations (DevOps), which enhance deployment frequency and speed.\n\nAny SDLC, including an SSDLC, has numerous basic phases. They are as follows:\n\n",
+    "srd.20260209163127.1": "\nGathering, reviewing, and understanding the business requirements for any system or software\ndesign, or even for improvements to an existing one, is crucial in achieving organisational goals\nand meeting customer expectations.\n\nWhen a project is conceptualised, the foundation of its business requirements should be a\ncomprehensive understanding of its necessity, objectives, and target audience.\n\nIncorporating feedback from as many stakeholders as possible will enhance the likelihood of\nadequately capturing and comprehending all requirements.\n\nWhere feasible, software users, whether internal to the organisation or from the public, should\nalso be involved.\n\nThis inclusion brings diverse perspectives and insights into what both management and\ninternal audiences are likely to expect. It is particularly important given that a software's\nperformance is ultimately judged by its usability and end user satisfaction.",
+    "srd.20260205183532.1": "NOTES - SSDLC: \n\nThe Secure Software Development Lifecycle (SSDLC) integrates security measures throughout the software development process, unlike the traditional Software Development Lifecycle (SDLC), which often addresses security later. Below are two correct statements comparing SSDLC with SDLC:\n\nProactive Security Integration: SSDLC embeds security considerations from the planning stage, ensuring a proactive approach to identifying and mitigating risks early. In contrast, SDLC typically adopts a reactive approach, addressing security issues after the software is developed or during the testing phase.\n\nLower Cost of Fixing Issues: By detecting and resolving security vulnerabilities early in the development process, SSDLC reduces the cost and effort required to fix issues. In SDLC, addressing security flaws later in the lifecycle often results in higher costs and delays due to rework.",
+    "srd.20260209164209.1": "Cloud specific risks refer to the unique vulnerabilities and threats that arise when organisations\nutilise cloud computing services.\n\n\n\n",
+    "srd.20260209164725.1": "Threat Modeling Techniques\n\nTo effectively mitigate these risks, cloud security professionals use various threat modeling\ntechniques:\n\nSTRIDE: Identifies threats by categorising them into Spoofing, Tampering, Repudiation,\nInformation Disclosure, Denial of Service, and Elevation of Privilege.\n\nDREAD: Assesses threats based on Damage potential, Reproducibility, Exploitability,\nAffected users, and Discoverability.\n\nPASTA: A risk centric methodology that integrates threat analysis into the organisational\nsecurity strategy, enhancing the identification of potential security flaws.",
+    "srd.20260209164844.1": "Vulnerability Mitigation Strategies\n\nRobust Encryption:\n\nImplement strong encryption standards for data at rest and in transit to protect against\nunauthorised data breaches.\n\nAccess Control Enhancements:\n\nEmploy least privilege access principles, strong authentication mechanisms, and\ncomprehensive identity management solutions to control access to cloud resources.\n\nRegular Security Assessments:\n\nConduct vulnerability scans, penetration testing, and security audits to identify and address\nsecurity weaknesses promptly.",
+    "srd.20260209170659.1": "The OWASP Application Security Verification Standard (ASVS) Project provides a comprehensive\nframework for evaluating the technical security measures implemented in online applications.\n\nThe primary objective of the OWASP ASVS Project is to establish a balanced and standardised\napproach to web application security verification.\n\nIt aims to bridge the gap between the varying levels of coverage and rigor available in the market\nby promoting the use of an open standard that can be adopted commercially.\n\nThis standard serves as a foundational framework for assessing the technological security measures\nimplemented within the application environment. It plays a critical role in safeguarding against\nvulnerabilities like SQL injection and cross site scripting (XSS).",
+    "srd.20260209170817.1": "\nIt provides a platform for company executives and technical experts to engage in knowledge\nsharing and collaborative discussions focused on the development, improvement, and promotion\nof scalable and efficient software security systems.\n\nThe primary goal of SAFECode is to assist businesses in establishing or enhancing their software\nassurance programs.\n\nSAFECode's areas of focus include:\n\nThese encompass key aspects of the Secure Software Development Lifecycle (SDLC), Application\nSecurity Control, Secure Design, Threat Modeling, and Secure Coding.\n\nSAFECode also addresses emerging technical considerations, ensuring that its guidance remains\nup to date and relevant in the evolving field of software security.",
+    "srd.20260209171146.1": "\nVersioning and configuration management are vital considerations for any system.\n\nIn a cloud environment, these considerations take on added significance due to the rapid\nprovisioning and self elasticity inherent in cloud services. Ensuring system stability and\ncohesiveness becomes paramount.\n\nIn conventional data center deployments, upgrades and patches are typically applied directly\nto servers and hosts.\n\nHowever, in a cloud environment, a different approach is often employed. It involves the use of\nnew images and deployments to maintain systems and versions, rather than pushing individual\nchanges.\n\nThis approach includes scanning to verify the correct application of changes and thorough\ntesting to ensure system integrity.",
+    "srd.20260209171407.1": "Functional Testing\n\nFunctional testing is a focused and specific assessment of a particular function or component\nwithin a system.\n\nWhen it comes to cloud based application and software development, there are standard\nconsiderations that apply to any project. However, additional considerations come into play\ndue to the unique nature of cloud technology.\n\nOne crucial aspect is understanding all legal and regulatory requirements relevant to the\nsystem when transitioning to the cloud.\n\nThis includes compliance with regulations specific to the jurisdiction where the cloud is hosted\nand the authorities overseeing it.\n\nThese requirements should align, at a minimum, with those applicable to the applications\nbeing migrated.",
+    "srd.20260209171422.1": "Non-functional Testing\n\nNon functional testing focuses on aspects of a software application, such as performance,\nusability, and dependability, which are not covered by functional testing.\n\nNon functional testing is instrumental in assessing whether a system is prepared for use. Unlike\nfunctional testing, which examines the precise behaviors of a system in line with its functional\nrequirements, non functional testing specifies how the system operates.\n\nIn essence, non functional testing is conducted to evaluate and assess all non functional\nfactors that are not addressed by functional testing.\n\nBoth functional and non functional testing are essential components of comprehensive testing.\nNon functional testing encompasses critical aspects of an application, including speed,\nscalability, security, dependability, and efficiency.",
+    "srd.20260209171917.1": "The purpose of security testing is to verify that the organisation's security strategy and\narchitecture are followed and that all security requirements have been satisfied.",
+    "srd.20260209172011.1": "A white box solution refers to a testing or validation approach where the tester has full visibility into the internal structure, logic, and code of the software being evaluated. It is also called Clear Box, Structural, or Code-Based Testing and is used to ensure that the internal operations of a system work as intended, are secure, and optimized.\n\nIn this approach, testers analyze source code, understand control flows, and design test cases that cover statements, branches, conditions, and data flows. ",
+    "srd.20260209172049.1": "Grey box testing technique that focuses on analyzing historical defect data to proactively identify potential failures before they occur in production. It leverages partial knowledge of the internal code to determine why a defect happened, enabling testers to design more targeted test cases.\n\nThe process involves reviewing past defect logs, identifying recurring failure patterns, and creating test cases that specifically target those weak points in the system. This approach helps in preventing defect recurrence and improving overall software quality.\n\n",
+    "srd.20260209172102.1": "Black Box Testing is a software testing approach where the tester evaluates an application’s functionality without any knowledge of its internal code, logic, or structure. The focus is entirely on inputs, outputs, and expected behavior based on requirements, making it a user-centric validation method.\n\nKey characteristics include:\n\nNo programming knowledge required.\n\nTests from an end-user perspective.\n\nApplicable to functional and non-functional requirements.\n\nOften used in system testing, acceptance testing, and regression testing.",
+    "srd.20260209172227.1": "Abuse case testing is a method employed by software testers to assess the vulnerability of\ntheir software to potential risks.\n\nIn this process, testers start by compiling a list of known misuse cases and then proceed to\nactively attempt to exploit those use cases. This involves the application of manual and/or\nautomated attack techniques.",
+    "srd.20260209172159.1": "\nToday, the foundation of digital transformation lies in cloud computing. Within the cloud\nservice model, Quality Assurance (QA) plays a pivotal role in delivering essential and high\nquality services.\n\nQA ensures the highest quality across all cloud service models, including public, private, hybrid,\nand community clouds, among others.\n\nIt encompasses planning, evaluation, and inspection to guarantee that the constructed system\naligns with and fulfills the customer's requirements.\n\nIn the realm of cloud computing, two primary concerns take center stage: security and privacy.\n\nQA actively addresses these concerns, striving to rectify privacy and trustworthiness issues and\nenhance overall system integrity.",
+    "srd.20260209173224.1": "\nAPI security is paramount to the overall security of applications. The introduction of\ninadequately secured APIs, particularly when integrating APIs that are outside of an\napplication's control or security boundary, poses a significant risk.\n\nSuch a scenario can jeopardise the security of the entire dataset within the application,\npotentially leading to data exposure or loss.\n\nA Cloud Security Professional plays a critical role in ensuring that external APIs undergo the\nsame rigorous review and security testing as any internal program or code.\n\nThe absence of comprehensive testing and validation of external APIs can lead to the\nconsumption of insecure API calls and data by an application.\n\nWhether the APIs are based on REST or SOAP, it is essential to verify the appropriate security\nprotocols, such as SSL/TLS or encryption.",
+    "srd.20260209173257.1": "\nSupply chain management can be divided into two key components. Firstly, it describes the\nneed for a Cloud Service Provider (CSP) and potentially the customer to engage third party\nproviders to deliver services.\n\nFor example, a CSP may rely on other vendors to provide the services required by their\ncustomers.\n\nThis aspect of supply chain management also encompasses vendor risk management. When\nestablishing relationships with these providers, it is crucial to consider both operational and\nsecurity aspects.\n\nMoreover, conventional supply chain management is increasingly transitioning to the cloud.\nThis shift introduces its own set of risks associated with cloud computing.\n\nCloud computing plays a transformative role in extending the scope and benefits of supply\nchain management. In today globally interconnected supply chains, sourcing goods often\nrequires access to both primary and secondary sources.\n\nCloud computing provides a solution to this challenge by enhancing infrastructure, leading to\noperational efficiency and financial gains within the supply chain.",
+    "srd.20260209173333.1": "\nIn the recent years, cloud computing has witnessed a significant surge in popularity. This trend\nsignifies a substantial shift away from the traditional approach of storing, processing, and\nmanaging data on local servers or individual computers.\n\nInstead, businesses increasingly adopt a model that relies on a network of remote servers\nhosted on the Internet. This shift is often referred to as cloud computing.\n\nIt involves the management of cloud resources by an external company rather than an internal\none.\n\nModern software companies leverage cloud technology to deliver and license their software to\ncustomers while imposing access restrictions. Only users with a valid license are granted access\nto the software, a concept known as cloud based software licensing.\n\nThe key distinction between cloud based software license management and traditional\nlicensing methods lies in the significant reduction, if not elimination, of manual licensing\nprocedures for both the software vendor and end users.\n\nCloud based licensing is so efficient from the end user's standpoint that, ideally, they may not\neven realise it.\n\nIn other words, clients are not required to navigate additional \"license processes\" when\npurchasing, installing, and using a software application. From their perspective, licensing\nessentially becomes invisible.",
+    "srd.20260209173428.1": "\nOpen source software plays a pivotal role in the IT industry and is widely embraced in many cloud environments.\n\nCloud developers frequently rely on open source software applications, development toolsets, and application frameworks to power their projects.\n\nWhat sets apart the most popular and widely used open source software packages is their rigorous development process.\n\nThey undergo extensive code review, testing, collaborative development, and scrutiny.\n\nThis level of examination often surpasses that of closed source and proprietary software packages.",
     "srd.20260205184120.1": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
