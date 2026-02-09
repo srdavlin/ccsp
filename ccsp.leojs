@@ -1750,7 +1750,73 @@
         },
         {
           "gnx": "srd.20260205184033.1",
-          "vh": "**HERE**Module 6: Comprehend the Specifics of Cloud Application Architecture"
+          "vh": "Module 6: Comprehend the Specifics of Cloud Application Architecture",
+          "children": [
+            {
+              "gnx": "srd.20260209192204.1",
+              "vh": "Supplemental Security Components",
+              "children": [
+                {
+                  "gnx": "srd.20260209193252.1",
+                  "vh": "Web Application Firewall"
+                },
+                {
+                  "gnx": "srd.20260209193340.1",
+                  "vh": "Database Activety Monoriting"
+                },
+                {
+                  "gnx": "srd.20260209193440.1",
+                  "vh": "XML"
+                },
+                {
+                  "gnx": "srd.20260209193544.1",
+                  "vh": "Firewalls"
+                },
+                {
+                  "gnx": "srd.20260209193614.1",
+                  "vh": "API Gateway"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260209193011.1",
+              "vh": "Cryptography",
+              "children": [
+                {
+                  "gnx": "srd.20260209193843.1",
+                  "vh": "TLS (Transport Layer Security)"
+                },
+                {
+                  "gnx": "srd.20260209194008.1",
+                  "vh": "SSL"
+                },
+                {
+                  "gnx": "srd.20260209194129.1",
+                  "vh": "Virtual Provate Network"
+                },
+                {
+                  "gnx": "srd.20260209194324.1",
+                  "vh": "Whole Instance Encryption"
+                },
+                {
+                  "gnx": "srd.20260209194416.1",
+                  "vh": "Volume Encrption"
+                },
+                {
+                  "gnx": "srd.20260209194718.1",
+                  "vh": "File or Directory Encrptuib"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260209194814.1",
+              "vh": "Sandboxing"
+            },
+            {
+              "gnx": "srd.20260209201941.1",
+              "vh": "Virtualization & Orchestration"
+            }
+          ]
         },
         {
           "gnx": "srd.20260205184120.1",
@@ -2079,6 +2145,20 @@
     "srd.20260209173257.1": "\nSupply chain management can be divided into two key components. Firstly, it describes the\nneed for a Cloud Service Provider (CSP) and potentially the customer to engage third party\nproviders to deliver services.\n\nFor example, a CSP may rely on other vendors to provide the services required by their\ncustomers.\n\nThis aspect of supply chain management also encompasses vendor risk management. When\nestablishing relationships with these providers, it is crucial to consider both operational and\nsecurity aspects.\n\nMoreover, conventional supply chain management is increasingly transitioning to the cloud.\nThis shift introduces its own set of risks associated with cloud computing.\n\nCloud computing plays a transformative role in extending the scope and benefits of supply\nchain management. In today globally interconnected supply chains, sourcing goods often\nrequires access to both primary and secondary sources.\n\nCloud computing provides a solution to this challenge by enhancing infrastructure, leading to\noperational efficiency and financial gains within the supply chain.",
     "srd.20260209173333.1": "\nIn the recent years, cloud computing has witnessed a significant surge in popularity. This trend\nsignifies a substantial shift away from the traditional approach of storing, processing, and\nmanaging data on local servers or individual computers.\n\nInstead, businesses increasingly adopt a model that relies on a network of remote servers\nhosted on the Internet. This shift is often referred to as cloud computing.\n\nIt involves the management of cloud resources by an external company rather than an internal\none.\n\nModern software companies leverage cloud technology to deliver and license their software to\ncustomers while imposing access restrictions. Only users with a valid license are granted access\nto the software, a concept known as cloud based software licensing.\n\nThe key distinction between cloud based software license management and traditional\nlicensing methods lies in the significant reduction, if not elimination, of manual licensing\nprocedures for both the software vendor and end users.\n\nCloud based licensing is so efficient from the end user's standpoint that, ideally, they may not\neven realise it.\n\nIn other words, clients are not required to navigate additional \"license processes\" when\npurchasing, installing, and using a software application. From their perspective, licensing\nessentially becomes invisible.",
     "srd.20260209173428.1": "\nOpen source software plays a pivotal role in the IT industry and is widely embraced in many cloud environments.\n\nCloud developers frequently rely on open source software applications, development toolsets, and application frameworks to power their projects.\n\nWhat sets apart the most popular and widely used open source software packages is their rigorous development process.\n\nThey undergo extensive code review, testing, collaborative development, and scrutiny.\n\nThis level of examination often surpasses that of closed source and proprietary software packages.",
+    "srd.20260209192204.1": "Supplement security devices play a crucial role in augmenting the layers and components of a defense in\ndepth architecture.\n\nIn a defense in depth architecture, the overarching strategy involves designing with multiple layers of security that overlap and mutually reinforce each other.\n\nThis approach is aimed at establishing a resilient and robust security framework.\n\nBy carefully selecting supplement security devices, a Certified Cloud Security Professional (CCSP) can enhance an organisation's security architecture.\n\nThese devices contribute to strengthening the border defenses, fortifying the overall security posture.",
+    "srd.20260209193252.1": "It is a layer 7 firewall that understands HTTP traffic",
+    "srd.20260209193340.1": "It is a layer 7 monitoring device that understands SQL commands\n",
+    "srd.20260209193440.1": "XML transforms the sensitive data and way services to developers and cloud users",
+    "srd.20260209193544.1": "Firewalls can be distributed among the SaaS, PaaS, and IaaS landscapes",
+    "srd.20260209193614.1": "It is a device that filters the API traffic",
+    "srd.20260209193011.1": "\nWhen working with cloud based systems, it is essential to bear in mind that they operate in\nboth trusted and untrusted networks. These environments can also be described as hostile and\nsemi hostile.\n\nIn light of this, it is crucial to implement data encryption for information stored within and\ntransmitted between services and systems operating in the cloud.\n\nEncryption serves as a fundamental safeguard for ensuring data security in such diverse and potentially challenging network settings.\n",
+    "srd.20260209193843.1": "A protocol that ensures the privacy among communicating applications and their uses on the internet",
+    "srd.20260209194008.1": "A standard security technology to establish an encrypted link among a browser and a web serverq",
+    "srd.20260209194129.1": "A network that is constructed to connect to a private network by using public wires (usually the internet)",
+    "srd.20260209194324.1": "•\nA method to encrypt all the data that is associated with the operation and use of\nvirtual machine",
+    "srd.20260209194416.1": "•\nA method to encrypt a single volume on a drive",
+    "srd.20260209194814.1": " refers to the segregation and isolation of information or processes within the same\nsystem or application, primarily for security purposes.\n\nIt serves as a means of data isolation, ensuring that different communities and user\npopulations remain isolated from similar data, enhancing security.\n\nThe need for sandboxing can arise from internal factors, such as organisational policies, or\nexternal sources, such as regulatory or legal requirements.\n\norganisations utilise a sandbox environm```````ent to gain a comprehensive understanding of\napplication operations.\n\nIt allows them to fully test applications and closely observe file behavior for any signs of\nmalicious activity.",
+    "srd.20260209201941.1": "\nInfrastructure virtualisation is a fundamental component of cloud computing, while\ncontainerisation of applications is a key element in various cloud application architectures,\nincluding microservices.\n\nClients have the flexibility to use a range of devices, such as laptops, virtual machines, or\nmobile devices, to run virtualised desktops, containers, virtual machines, or business\napplications.\n\nThese programs operate independently of the host operating system and provide secure access\nto corporate applications and data. They achieve this without the need to virtualise the entire\ndevice.\n\nApplication virtualisation through containers enables applications to be packaged with all their\ndependencies.\n\nThis approach allows for precise configuration control, patch management, and the\nimplementation of repeatable build procedures for the containerised applications.\n\nContainers play a vital role in separating corporate data and software from the user's device.\n\nThis separation allows companies to remotely wipe corporate data, applications, and access\nwithout affecting the employee's personal device. It provides a crucial layer of security for both\nemployees and employers.\n\nApplication virtualisation contributes to making the BYOD movement safer by ensuring that\ncorporate assets remain isolated.\n\nKubernetes (often abbreviated as K8s) stands out as a popular tool for orchestrating\ncontainerisation. While there are alternative containerisation solutions, Kubernetes was\npurpose built for container orchestration.\n\n\nIn addition to the management of containers and applications, orchestration software plays a\ncritical role in ensuring security and compliance with an organisation's secure computing\npolicies and standards.\n\nCloud orchestration empowers customers to efficiently and economically oversee all their\ncloud resources from a centralised platform.\n\nAs the migration to the cloud continues to accelerate, the complexity of managing corporate\ncloud requirements is set to increase.\n\nOrchestration addresses this challenge by facilitating the deployment of cloud applications,\ncontainerised solutions, and services.\n\nIt achieves this while automating workflows, managing user accounts, and ensuring adherence\nto corporate policies within the cloud environment.",
     "srd.20260205184120.1": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
