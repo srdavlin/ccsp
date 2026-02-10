@@ -1852,11 +1852,201 @@
     },
     {
       "gnx": "srd.20260121194820.1",
-      "vh": "Domain 5 - Cloud Security Operations:"
+      "vh": "Domain 5 - Cloud Security Operations:",
+      "children": [
+        {
+          "gnx": "srd.20260210180707.1",
+          "vh": "Module 1: Building & Implementing Physical & Logivcal Infrastructure for Cloud Envs",
+          "children": [
+            {
+              "gnx": "srd.20260210194206.1",
+              "vh": "Physical Infrastructure for Cloud Environments"
+            },
+            {
+              "gnx": "srd.20260210185022.1",
+              "vh": "Virtual Hardware Securiy Config Requirements",
+              "children": [
+                {
+                  "gnx": "srd.20260210191433.1",
+                  "vh": "Servers"
+                },
+                {
+                  "gnx": "srd.20260210191523.1",
+                  "vh": "Workstations & Endpoints"
+                },
+                {
+                  "gnx": "srd.20260210185348.1",
+                  "vh": "Network"
+                },
+                {
+                  "gnx": "srd.20260210185358.1",
+                  "vh": "Storage"
+                },
+                {
+                  "gnx": "srd.20260210185556.1",
+                  "vh": "Memory"
+                },
+                {
+                  "gnx": "srd.20260210193749.1",
+                  "vh": "Specific Devices"
+                },
+                {
+                  "gnx": "srd.20260210185812.1",
+                  "vh": "Central Processing Unit (CPU)",
+                  "children": [
+                    {
+                      "gnx": "srd.20260210190046.1",
+                      "vh": "Hypervisor",
+                      "children": [
+                        {
+                          "gnx": "srd.20260210190210.1",
+                          "vh": "Type 1"
+                        },
+                        {
+                          "gnx": "srd.20260210191042.1",
+                          "vh": "Type 2"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260210194533.1",
+              "vh": "Management Toolsets"
+            },
+            {
+              "gnx": "srd.20260210194849.1",
+              "vh": "Virtualization Toolsets",
+              "children": [
+                {
+                  "gnx": "srd.20260210195000.1",
+                  "vh": "Common Features"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gnx": "srd.20260210180758.1",
+          "vh": "Module 2: Operate  & Maintain Physical & Logivcal Infrastructure for Cloud Envs",
+          "children": [
+            {
+              "gnx": "srd.20260210200220.1",
+              "vh": "Access Controls",
+              "children": [
+                {
+                  "gnx": "srd.20260210200321.1",
+                  "vh": "Local Access Controls"
+                },
+                {
+                  "gnx": "srd.20260210200339.1",
+                  "vh": "Remote Access Controls"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260210200839.1",
+              "vh": "Integrated Network Security "
+            },
+            {
+              "gnx": "srd.20260210201045.1",
+              "vh": "Secure Network Configiuration"
+            },
+            {
+              "gnx": "srd.20260210201213.1",
+              "vh": "Network Security Conttrols"
+            },
+            {
+              "gnx": "srd.20260210201434.1",
+              "vh": "Management Approches "
+            },
+            {
+              "gnx": "srd.20260210201652.1",
+              "vh": "Strateegic  Implementation "
+            },
+            {
+              "gnx": "srd.20260210203111.1",
+              "vh": "OS Hardening"
+            },
+            {
+              "gnx": "srd.20260210203200.1",
+              "vh": "Application Baselines"
+            },
+            {
+              "gnx": "srd.20260210203343.1",
+              "vh": "Monitoring"
+            },
+            {
+              "gnx": "srd.20260210203437.1",
+              "vh": "Remidiation",
+              "children": [
+                {
+                  "gnx": "srd.20260210203741.1",
+                  "vh": "Patch Management Process",
+                  "children": [
+                    {
+                      "gnx": "srd.20260210203912.1",
+                      "vh": "Identification and Assessment"
+                    },
+                    {
+                      "gnx": "srd.20260210204249.1",
+                      "vh": "Acquisition and Testing"
+                    },
+                    {
+                      "gnx": "srd.20260210204300.1",
+                      "vh": "Deployment"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260210204459.1",
+              "vh": "Infrastucture as Code Strategy",
+              "children": [
+                {
+                  "gnx": "srd.20260210204618.1",
+                  "vh": "Benefits"
+                },
+                {
+                  "gnx": "srd.20260210204822.1",
+                  "vh": "Core Components"
+                },
+                {
+                  "gnx": "srd.20260210204852.1",
+                  "vh": "Challenges & Best Practices"
+                },
+                {
+                  "gnx": "srd.20260210204918.1",
+                  "vh": "Key Cosiderations"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "gnx": "srd.20260210180848.1",
+          "vh": "Module 3: Implement Operational Controls & Standards"
+        },
+        {
+          "gnx": "srd.20260210180931.1",
+          "vh": "Module 4: Support Digital Forensics"
+        },
+        {
+          "gnx": "srd.20260210181013.1",
+          "vh": "Module 5: Manage Communication woth Relevant Parties"
+        },
+        {
+          "gnx": "srd.20260210181304.1",
+          "vh": "Module 6: Manage Security Operations"
+        }
+      ]
     },
     {
       "gnx": "srd.20260121194856.1",
-      "vh": "Domain 6 - Legal,Risk and Compliance:"
+      "vh": "Domain 6 - Legal, Risk and Compliance:"
     }
   ],
   "tnodes": {
@@ -2193,6 +2383,39 @@
     "srd.20260210174752.1": "\nA Cloud Access Security Broker (CASB) is a software product or service positioned between a\ncompany's on premises infrastructure and a cloud provider's infrastructure.\n\nFunctioning as a gatekeeper, the CASB enables organisations to extend their reach beyond their\nnetwork boundaries and enforce security policies in the cloud environment.\n\nUsually, the CASBs offer the following:\n\n- Firewalls\n- Authentication\n- Web Application Firewalls\n- Data Loss Prevention\n\n\n",
     "srd.20260210175024.1": "Cloud secrets management refers to the methods and technologies employed by businesses to\nsafeguard and manage their digital credentials, including signatures and keys, in a cloud based\nenvironment.\n\nKey priorities of cloud secrets management include accessibility and authorisation . It is\nimportant to note that each cloud based platform may implement secrets management\nservices differently.\n\nWhile the services and outcomes may be similar, different cloud providers offer various useful\ntools to achieve these objectives.\n\nWithout proper cloud based secrets management and a knowledgeable DevOps team, keys\nand secrets could potentially be exposed to everyone, including malicious actors.\n\nSome instances of cloud based secrets include the following:\n\n- APIs\n- SSH keys\n- Encrption keys\n- Passwords\n- Tokens\n- Private Certificats",
     "srd.20260121194820.1": "Domian 5: Cloud Security Operations\n16%",
+    "srd.20260210194206.1": "In a public cloud, computing resources are shared with other companies. The following are\nsome important considerations for resource sharing:\n\nLegal\n\nCompatibility\n\nControl\n\nLog data\n\nPCI (Portable Spacecraft Simulator), DSS (Decision Support System) access\n\nUpgrades and changes\n\nFailover technology\n\nCompliance\n\nRegulations\n\nOutsourcing\n\nPlacement of security\n\nVirtualisation\n\nOperating system and application files\n\nData fluidity",
+    "srd.20260210185022.1": "\nHardware Specific Security Configuration Requirements refers to the tailored security measures\nand settings that must be applied to various types of hardware to mitigate vulnerabilities and\nprotect against potential threats.\n\nThis entails a broad spectrum of devices ranging from servers and workstations to routers and\nswitches, each of which may have distinct security configurations based on their roles and the\ndata they handle.\n\nThe virtualisation platform dictates the management tools to be installed on the host.\n\nThe fundamental principles applied to the security of any system are also applied to the\nsecurity of virtualisation management tools.\n\nThe most recent tools should be installed on each host, and guidelines for updating these\ntools should be incorporated into the configuration management plan.\n\nAdequate server resources should be allocated to facilitate the migration of VMs (Virtual\nMachines) during updates to the virtualisation platform, as such updates may necessitate\nserver downtime.\n\nThe following are key Aspects:",
+    "srd.20260210191433.1": "Servers, whether hosting databases, applications, or web services, require stringent security\ncontrols to safeguard the data they store and process.\n\nThis typically includes using BIOS passwords to prevent unauthorised changes to system\nsettings, disabling unused ports and services to minimise attack vectors, and configuring\nfirewalls and intrusion detection systems to monitor and block malicious activities.",
+    "srd.20260210191523.1": "\nWorkstations and other endpoints are common targets for attackers looking to gain entry into\nnetwork systems.\n\nSecurity configurations for these devices include installing and regularly updating antivirus and anti malware software, enabling firewalls, and implementing full disk encryption to protect data at rest.\n\nUser access should be controlled through the use of strong, complex passwords, or better yet,\nthrough multi factor authentication mechanisms that add an extra layer of security.",
+    "srd.20260210185348.1": "Network Devices\n\nDevices that control data flow across networks, such as routers, switches, and firewalls, must\nbe specially configured to prevent unauthorised access and ensure data integrity.\n\nThis includes changing default passwords, updating firmware to patch vulnerabilities, and\nconfiguring secure protocols for remote management, such as using SSH instead of Telnet.\n\n\nNetwork\n\nBoth virtual and physical network devices play significant roles within a cloud environment.\n\nThe usage of virtual network devices adds a layer of complexity above and beyond the traditional data center model.\n\nAlthough virtual and physical network devices may perform identical operations, they have distinct considerations when it comes to potential problems, security, and their impact on the data center. \n",
+    "srd.20260210185358.1": "Storage\n\nStorage traffic should be isolated and segregated on its own LAN whenever possible in virtualised systems.\n\nDue to their heavy network utilisation and critical importance, storage systems must be classified as LAN traffic rather than WAN traffic.\n\nLatency issues are the primary concern for storage systems, in contrast to typical network traffic,which tends to be more flexible and resilient.\n\nWhile general application traffic and web service calls usually have built in or easily added\nencryption capabilities, this is not typically the case with storage systems.\n\nWhen vendors provide this capability, it should always be used. However, in cases where it is not feasible or possible, separating storage traffic from application and user traffic on a dedicated LAN will greatly enhance the security and confidentiality of data transmissions.",
+    "srd.20260210185556.1": "Memory is the second major hardware component of the system, serving as the storage bank for\nthe information that the computer requires to keep readily available.\n\nRead Only Memory\n\nROM operates exactly as the name implies; it is the memory that the PC can read but cannot\nchange. Standard ROM chip contents are permanently set at the factory and cannot be altered by\nthe end user.\n\nRead Only Memory chips often include \"bootstrap\" information that is used by computers to start up before loading an operating system from the disk.\n\nRandom Access Memory\n\nRAM is defined as readable and wriable memory, containing\ninformation used by the computer throughout processing.\n\nHowever, RAM retains its contents only when power is\ncontinuously supplied to it.\n\nUnlike read only memory, when the computer is turned off, all\nthe data stored in RAM disappears.",
+    "srd.20260210193749.1": "Certain specialised devices, such as Point of Sale (POS) systems or Internet of Things (IoT)\ndevices, have specific security requirements due to the sensitive nature of their functions.\n\nFor these devices, it is essential to ensure that they are only running necessary services and that their software is regularly updated to guard against exploits.\n\nIt is also vital to monitor these devices continuously for signs of suspicious activity.",
+    "srd.20260210185812.1": "\nWhile the majority of individuals are aware that CPU stands for Central Processing Unit, few fully comprehend its function.\n\nIf your company operates in the public cloud, where virtual CPUs (vCPUs) share physical CPU\nresources, understanding what a CPU does can be crucial. In a physical environment, a CPU serves as the operational center of a computer.\n\nIt receives instructions from applications and programs, executes the parts of instructions it can handle, and delegates tasks it cannot perform to other hardware components before sending the completed task to memory and instructing memory on how to handle it.\n\nIn the cloud, a CPU works a bit differently. When provisioning a Virtual Machine (VM), the CPU\ncapacity allocated by you represents a share of the physical host's CPU.",
+    "srd.20260210190046.1": "\nThe virtualisation component that creates, manages, and operates the virtual machines is the\nhypervisor, also referred to as the virtual machine monitor (VMM). There are two types:",
+    "srd.20260210190210.1": "The Type 1 hypervisor is a bare metal or native hypervisor. In this configuration, there is no host operating system; instead, the hypervisor is directly installed on the hardware, which typically serves as the host OS.\n\nThese hypervisors are commonly used to support server virtualisation, allowing for the\nmaximisation of hardware resources while eliminating resource or risk reductions caused by the\npresence of a host OS.",
+    "srd.20260210191042.1": "•\nA Type 2 hypervisor is defined as a hosted hypervisor. In this\nconfiguration, a standard operating system is present on the\nhardware, and then the hypervisor is installed as another\nsoftware application.\n\nThese hypervisors are commonly used in desktop\ndeployments, where guest OSs provide secure sandbox\nenvironments for testing new code, giving users access to the\ncapabilities of the host OS, supporting applications from\nalternate OSs, and enabling the execution of legacy\n\napplications.",
+    "srd.20260210194533.1": "The fundamental principles applied to the security of any system are also applied to the\nsecurity of virtualisation management tools.\n\n\nThe combination of security protocols within the actual virtual management infrastructure\nand the use of network segregation and isolation is known as layered defense.\n\nRobust role based authentication and strict limitations on the number of employees with\naccess to the hypervisors and the management plane promote strong access control within\nthe system.\n\nLike any system, even with effective segregation and access control, consistent and\ncomprehensive logging and monitoring are crucial to ensure that only authorised access and\nappropriate system resources are used by administrative staff.\n",
+    "srd.20260210194849.1": "\nThe installation of guest operating system (OS) virtualisation toolsets refers to the process of setting up and configuring software within a virtual machine (VM) to optimise the performance, management and integration of the guest OS with the host environment.\n\nThe primary purpose of these toolsets is to enhance the functionality and user experience within a VM by providing drivers and system applications tailored to the virtual environment.\n\nThese enhancements include improved video performance, mouse and keyboard integration,\nseamless window resizing, shared folders, better network adaptability, and clipboard sharing\nbetween the host and the guest OS.\n\nAdditionally, these toolsets often offer tools for automated guest OS updates and system\nmanagement tools that help in monitoring and managing the health and performance of the guest\nOS.",
+    "srd.20260210195000.1": "Common Features of Virtualisation Toolsets\n\nDevice Drivers: Enhanced drivers for the virtual hardware, including graphics and network\nadapters, ensure better performance and usability of the guest OS by allowing it to run more\nefficiently and stably within the virtual environment.\n\nSystem Utilities: Tools and utilities for system management and integration tasks, such as time synchronisation between host and guest, automated logins, and file exchange mechanisms.\n\nDrag and Drop Functionality: Enables users to drag and drop files between the host and the guest operating systems, simplifying data transfer.\n\nClipboard Sharing: Allows copying and pasting of text and other data between the host and the\nguest OS.\n\nImproved Input Devices Handling: Enhances the responsiveness and synchronisation of keyboards\nand pointing devices across the host and guest operating systems.",
+    "srd.20260210200220.1": "Access controls are critical for securing cloud environments, ensuring that only authorised\nindividuals can access sensitive resources, whether locally or remotely.\n\nImplementing robust access control measures involves a combination of physical security\npractices and logical controls.",
+    "srd.20260210200321.1": "\nLocal access controls are concerned with securing physical access to cloud infrastructure\ncomponents such as servers, networking equipment, and data storage devices located in data\ncentres or other facilities. \n\nThe following are some of the key practices include:\n\n- Physical Security Measures\n- On-site Authentications\n",
+    "srd.20260210200339.1": "Remote access controls focus on securing access to the cloud infrastructure from external\nlocations.\n\nAs remote work and cloud based services become more prevalent, ensuring secure remote\naccess is paramount. \n\nThe following are some of the key practices include:\n\n1 - Virtual Private Network\n2 - Multi factor Authentication\n3 - Access Control Policies\n4 - Endpoint Security\n5 - Monitoring and Logging\n6 - Zero Trust Architecture",
+    "srd.20260210200839.1": "Effective network security management in cloud environments requires a comprehensive\napproach that integrates preventive, detective, corrective, and recovery controls.\n\nThis integrated strategy ensures the confidentiality, integrity, and availability of network\nresources and data.\n",
+    "srd.20260210201045.1": "The foundation of robust network security starts with secure network configurations that\nminimise vulnerabilities:\n\n1. Network Device Hardening: Modify default configurations, usernames, and passwords.\nRegularly update firmware to patch known vulnerabilities.\n\n2. Segmentation and Isolation: Use VLANs and subnetting to control traffic flow and isolate\nnetwork segments, reducing the spread of attacks.\n\n3. Encryption: Encrypt data in transit using SSL/TLS, IPSec, or SSH to protect against\neavesdropping and man in the middle attacks.\n\n4. Regular Audits and Compliance Checks : Perform security audits to assess the effectiveness of implemented controls and ensure compliance with standards like HIPAA, PCI DSS, or GDPR.",
+    "srd.20260210201213.1": "\nImplementing various types of network security controls is essential for protecting network\nassets:\n\n1. Preventive Controls: Firewalls and access control lists (ACLs) block unauthorised access and traffic. Antivirus and anti malware software prevent the installation of malicious software.\n\n2. Detective Controls: Intrusion detection systems (IDS) and security information and event\nmanagement (SIEM) systems detect and alert on suspicious activities.\n\n3. Corrective Controls: Patch management and change management processes address\nvulnerabilities and apply necessary modifications to thwart potential attacks.\n\n4. Recovery Controls: Implement data backup solutions and disaster recovery plans to restore IT operations and ensure data integrity following an incident.",
+    "srd.20260210201434.1": "Integrating these controls involves several best practices:\n\n1. Unified Security Policies: Develop and enforce unified security policies that govern all network activities to ensure a consistent security posture.\n\n2. Comprehensive Monitoring: Utilise network monitoring tools to continuously watch for\nunusual activity that could indicate security threats or network breaches.\n\n3. Advanced Threat Protection: Employ advanced threat protection technologies such as next\ngeneration firewalls (NGFWs) and advanced persistent threat (APT) protection systems that\nprovide more sophisticated detection and response mechanisms.\n\n4. Collaborative Incident Response: Foster a collaborative incident response team that operates across different departments to quickly address and mitigate security incidents.",
+    "srd.20260210201652.1": "For effective implementation of integrated network security management, consider the\nfollowing strategies:\n\n1. Security by Design: Integrate security into the network design phase to address potential risks proactively rather than reactively.\n\n2. Risk Assessment: Regularly conduct risk assessments to identify and prioritise risks based on their potential impact on network operations.\n\n",
+    "srd.20260210203111.1": "OS hardening is the process of securing an operating system by reducing its surface of vulnerability. \n\nThis process involves configuring and enhancing the security settings of the OS to protect it against various types of attacks.\n\nHardening measures typically include the removal of unnecessary services, applications, and\nnetwork protocols, as well as the implementation of stringent access controls and security policies.\n",
+    "srd.20260210203200.1": "Baselines are predefined sets of security configurations and settings that serve as a standard for securing an OS.\n\nThese baselines are created based on industry standards,\nregulatory requirements, and best practices. The process\ninvolves:\n\n1. Assessment: Identifying the current security posture of\nthe OS by comparing it against the baseline.\n\n2. Implementation: Applying the baseline configurations to\nensure that the OS settings align with the security\nrequirements.\n\n3. Validation: Verifying that the baseline has been correctly\nimplemented and that the OS is secure.",
+    "srd.20260210203343.1": "\nMonitoring is a continuous process that involves observing and analysing the performance and\nsecurity of the OS to detect any deviations from the baseline. This includes:\n\n1. Log Management: Collecting and analysing logs from various sources such as system logs,\napplication logs, and security logs to identify potential security incidents.\n\n2. Intrusion Detection Systems (IDS): Implementing IDS to monitor network and system activities for malicious actions or policy violations.\n\n3. Regular Audits: Conducting periodic security audits to ensure that the OS remains in compliance with the established baselines and to identify any vulnerabilities that may have been introduced.",
+    "srd.20260210203437.1": "Remediation involves taking corrective actions to address vulnerabilities or deviations identified during the monitoring process.\n\nThis ensures that the OS remains secure and compliant with the baseline. Key steps in remediation include:\n\n1. Patch Management: Regularly applying patches and updates to fix known vulnerabilities and\nenhance the security of the OS.\n\n2. Configuration Management: Adjusting configurations to correct deviations from the baseline and improve security settings.\n\n3. Incident Response: Implementing incident response procedures to address security breaches\npromptly and effectively, minimising the impact on the OS and the overall cloud environment.",
+    "srd.20260210203741.1": "Patch management involves the process of identifying, acquiring, testing, and installing\nupdates (patches) for software applications and systems to enhance security, improve\nfunctionality, and fix bugs.\n\nEffective patch management is critical for maintaining the security and stability of cloud\ninfrastructure, protecting against vulnerabilities, and ensuring compliance with security\npolicies and regulations.\n\nChallenges in Cloud Patch Management\n\n1. Scalability: Cloud environments often involve a large number of virtual machines and\napplications spread across various regions and data centers, making the patching process\ncomplex and extensive.\n\n2. Diverse Environments: Different types of software, operating systems, and configurations are used in cloud environments, requiring a tailored approach to patch management.\n\n3. Downtime and Availability: Patching can lead to downtime, impacting the availability of\nservices. Balancing patch application with minimal disruption is crucial.\n\n4. Automation and Orchestration: Manual patching is impractical at scale. Automating patch\nmanagement processes is essential to ensure timely and efficient updates.",
+    "srd.20260210203912.1": "1. Identification and Assessment:\n\nRegularly scan the cloud environment to identify missing patches and assess their criticality\nbased on the potential impact on security and operations.\n\nUtilise vulnerability management tools and threat intelligence to stay updated on new\nvulnerabilities and patches.",
+    "srd.20260210204249.1": "Obtain patches from trusted sources, such as software vendors and repositories.\n\nTest patches in a staging environment that mirrors the production environment to ensure\ncompatibility and stability, preventing unforeseen issues in live systems.",
+    "srd.20260210204300.1": "Prioritise patches based on the severity of vulnerabilities and the criticality of the systems\ninvolved.\n\nUse automation tools to deploy patches across multiple systems and environments. Tools\nlike AWS Systems Manager, Microsoft Azure Update Management Patch Management\nstreamline this process.\n\nImplement a phased rollout strategy to minimise the impact on operations, starting with\nless critical systems and gradually moving to more critical ones.",
+    "srd.20260210204459.1": "\nInfrastructure as Code (IaC) is a key DevOps practice that involves managing and provisioning\ncomputing infrastructure through machine readable definition files, rather than through\nphysical hardware configuration or interactive configuration tools.\n\nThis approach ensures that the infrastructure is versioned and reusable, promoting\nconsistency and reducing human error.",
+    "srd.20260210204618.1": "1. Consistency & Standerization\n\n2. Version control\n\n3. Automation & Effieciency\n\n4. Scalibility & Flexibility",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
   },
   "uas": {
