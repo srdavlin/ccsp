@@ -1933,70 +1933,76 @@
           "vh": "Module 2: Operate  & Maintain Physical & Logivcal Infrastructure for Cloud Envs",
           "children": [
             {
-              "gnx": "srd.20260210200220.1",
-              "vh": "Access Controls",
+              "gnx": "srd.20260210205502.1",
+              "vh": "Considerations",
               "children": [
                 {
-                  "gnx": "srd.20260210200321.1",
-                  "vh": "Local Access Controls"
-                },
-                {
-                  "gnx": "srd.20260210200339.1",
-                  "vh": "Remote Access Controls"
-                }
-              ]
-            },
-            {
-              "gnx": "srd.20260210200839.1",
-              "vh": "Integrated Network Security "
-            },
-            {
-              "gnx": "srd.20260210201045.1",
-              "vh": "Secure Network Configiuration"
-            },
-            {
-              "gnx": "srd.20260210201213.1",
-              "vh": "Network Security Conttrols"
-            },
-            {
-              "gnx": "srd.20260210201434.1",
-              "vh": "Management Approches "
-            },
-            {
-              "gnx": "srd.20260210201652.1",
-              "vh": "Strateegic  Implementation "
-            },
-            {
-              "gnx": "srd.20260210203111.1",
-              "vh": "OS Hardening"
-            },
-            {
-              "gnx": "srd.20260210203200.1",
-              "vh": "Application Baselines"
-            },
-            {
-              "gnx": "srd.20260210203343.1",
-              "vh": "Monitoring"
-            },
-            {
-              "gnx": "srd.20260210203437.1",
-              "vh": "Remidiation",
-              "children": [
-                {
-                  "gnx": "srd.20260210203741.1",
-                  "vh": "Patch Management Process",
+                  "gnx": "srd.20260210200220.1",
+                  "vh": "Access Controls",
                   "children": [
                     {
-                      "gnx": "srd.20260210203912.1",
-                      "vh": "Identification and Assessment"
+                      "gnx": "srd.20260210200321.1",
+                      "vh": "Local Access Controls"
                     },
                     {
-                      "gnx": "srd.20260210204249.1",
-                      "vh": "Acquisition and Testing"
-                    },
+                      "gnx": "srd.20260210200339.1",
+                      "vh": "Remote Access Controls"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260210200839.1",
+                  "vh": "Integrated Network Security "
+                },
+                {
+                  "gnx": "srd.20260210201045.1",
+                  "vh": "Secure Network Configiuration"
+                },
+                {
+                  "gnx": "srd.20260210201213.1",
+                  "vh": "Network Security Conttrols"
+                },
+                {
+                  "gnx": "srd.20260210201434.1",
+                  "vh": "Management Approches "
+                },
+                {
+                  "gnx": "srd.20260210201652.1",
+                  "vh": "Strateegic  Implementation "
+                },
+                {
+                  "gnx": "srd.20260210203111.1",
+                  "vh": "OS Hardening"
+                },
+                {
+                  "gnx": "srd.20260210203200.1",
+                  "vh": "Application Baselines"
+                },
+                {
+                  "gnx": "srd.20260210203343.1",
+                  "vh": "Monitoring"
+                },
+                {
+                  "gnx": "srd.20260210203437.1",
+                  "vh": "Remidiation",
+                  "children": [
                     {
-                      "gnx": "srd.20260210204300.1",
-                      "vh": "Deployment"
+                      "gnx": "srd.20260210203741.1",
+                      "vh": "Patch Management Process",
+                      "children": [
+                        {
+                          "gnx": "srd.20260210203912.1",
+                          "vh": "Identification and Assessment"
+                        },
+                        {
+                          "gnx": "srd.20260210204249.1",
+                          "vh": "Acquisition and Testing"
+                        },
+                        {
+                          "gnx": "srd.20260210204300.1",
+                          "vh": "Deployment"
+                        }
+                      ]
                     }
                   ]
                 }
@@ -2416,6 +2422,8 @@
     "srd.20260210204300.1": "Prioritise patches based on the severity of vulnerabilities and the criticality of the systems\ninvolved.\n\nUse automation tools to deploy patches across multiple systems and environments. Tools\nlike AWS Systems Manager, Microsoft Azure Update Management Patch Management\nstreamline this process.\n\nImplement a phased rollout strategy to minimise the impact on operations, starting with\nless critical systems and gradually moving to more critical ones.",
     "srd.20260210204459.1": "\nInfrastructure as Code (IaC) is a key DevOps practice that involves managing and provisioning\ncomputing infrastructure through machine readable definition files, rather than through\nphysical hardware configuration or interactive configuration tools.\n\nThis approach ensures that the infrastructure is versioned and reusable, promoting\nconsistency and reducing human error.",
     "srd.20260210204618.1": "1. Consistency & Standerization\n\n2. Version control\n\n3. Automation & Effieciency\n\n4. Scalibility & Flexibility",
+    "srd.20260210204822.1": "1. Configuration Management Tools:\n\nTools like Ansible, Puppet, and Chef are used to automate the management of configuration\nfiles and software installations across servers. These tools help in maintaining desired states for server configurations.\n\n2. Orchestration Tools:\n\nTools such as Kubernetes and Docker Swarm are used to manage the deployment, scaling,\nand operations of containerised applications. They orchestrate the infrastructure resources\nneeded for applications to run efficiently.\n\n3. Provisioning Tools:\n\nTools like Terraform and AWS CloudFormation are employed to define and manage\ninfrastructure resources through code.\n\n4. Monitoring and Logging:\n\nImplementing robust monitoring and logging solutions is essential for tracking the\nperformance and health of the infrastructure.\n\nTools like Prometheus, Grafana, and ELK Stack (Elasticsearch, Logstash, Kibana) are\ncommonly used for this purpose.",
+    "srd.20260210204852.1": "1. Security and Compliance: Ensure that the IaC strategy includes security best practices such as secret management, least privilege access, and compliance with regulatory standards.\n\n2. Code Quality and Maintenance: Regularly review and refactor IaC scripts to maintain code\nquality and adapt to changing requirements.\n\nEnsuring the availability of clustered hosts is a critical aspect of maintaining the physical and logical infrastructure of a cloud environment.\n\nClustered hosts are groups of interconnected servers that work together to improve\nperformance, load balancing, and failover capabilities.",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
   },
   "uas": {
