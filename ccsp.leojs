@@ -2406,13 +2406,77 @@
         },
         {
           "gnx": "srd.20260210181304.1",
-          "vh": "**HERE**Module 6: Manage Security Operations"
+          "vh": "Module 6: Manage Security Operations",
+          "children": [
+            {
+              "gnx": "srd.20260211191240.1",
+              "vh": "Key Components",
+              "children": [
+                {
+                  "gnx": "srd.20260211191354.1",
+                  "vh": "People"
+                },
+                {
+                  "gnx": "srd.20260211191440.1",
+                  "vh": "Processes"
+                },
+                {
+                  "gnx": "srd.20260211191537.1",
+                  "vh": "Technolgy"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260211191307.1",
+              "vh": "Models"
+            },
+            {
+              "gnx": "srd.20260211192217.1",
+              "vh": "Benefits"
+            },
+            {
+              "gnx": "srd.20260211192423.1",
+              "vh": "Monitoring ",
+              "children": [
+                {
+                  "gnx": "srd.20260211192644.1",
+                  "vh": "Log Capture & Analysys"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260211193126.1",
+              "vh": "Vulnerability  Assesments"
+            }
+          ]
         }
       ]
     },
     {
       "gnx": "srd.20260121194856.1",
-      "vh": "Domain 6 - Legal, Risk and Compliance:"
+      "vh": "Domain 6 - Legal, Risk and Compliance:",
+      "children": [
+        {
+          "gnx": "srd.20260211193551.1",
+          "vh": "**HERE**Module 1: Legal Requirments & Unique Risk  in a Cloud Env"
+        },
+        {
+          "gnx": "srd.20260211193707.1",
+          "vh": "Module 2: Privacy Issues"
+        },
+        {
+          "gnx": "srd.20260211193812.1",
+          "vh": "Module 3: Audit Processes, Methodologies & Required Adaptations"
+        },
+        {
+          "gnx": "srd.20260211193842.1",
+          "vh": "Module 4: Implecations of  Cloud  to Enterprise Risk Management"
+        },
+        {
+          "gnx": "srd.20260211194119.1",
+          "vh": "Module 5: Outsourcing & Cloud Contract Design"
+        }
+      ]
     }
   ],
   "tnodes": {
@@ -2845,6 +2909,16 @@
     "srd.20260211174552.1": "\nManaging communication with partners is essential for fostering strong, collaborative\nrelationships and ensuring that all relevant parties are aligned and informed. The following are\nsome of the key components of this process include:\n\n1. Establishing Communication Protocols: Define clear communication guidelines with partners,\nincluding preferred methods, frequency of updates, and procedures for addressing issues or\nchanges.\n\n2. Regular Updates and Meetings: Schedule regular meetings and updates to discuss progress,\nshare information, and address any concerns.\n\n3. Performance Monitoring and Reporting: Track the performance of partnerships against\nagreed objectives and deliverables. Provide regular reports to ensure both parties are meeting\ntheir commitments and to identify areas for improvement.\n\n4. Issue Resolution and Escalation: Implement a structured process for resolving issues with\npartners, including clear escalation paths and timelines for addressing problems.\n© The Knowledge Academy Ltd",
     "srd.20260211174606.1": "\nManaging communication with regulators is a critical aspect of ensuring compliance and\nmaintaining a good standing with relevant authorities.\n\nEffective communication with regulators helps organisations navigate complex regulatory\nlandscapes, mitigate risks, and demonstrate their commitment to legal and ethical standards.\nKey components of this process include:\n\n1. Establishing Communication Protocols:\n\nDefine and document protocols for interacting with regulators, including designated points\nof contact, preferred communication channels (e.g., formal letters, emails, secure portals),\nand timelines for responding to regulatory requests.\n\n2. Regular Reporting and Updates:\n\nEnsure timely and accurate submission of required reports and updates to regulators. This\nincludes periodic compliance reports, incident notifications, and updates on corrective\nactions taken in response to regulatory findings.\n\n3. Regulatory Compliance Monitoring:\n\nContinuously monitor and review compliance with relevant laws, regulations, and industry\nstandards. Maintain up to date records and documentation to support regulatory audits\nand inspections.\n\n4. Issue Resolution and Escalation:\n\nImplement a structured process for addressing regulatory concerns and findings. This\ninvolves timely investigation and resolution of issues, clear documentation of actions taken,\nand effective communication with regulators throughout the process.\n\n5. Documentation and Record Keeping:\n\nMaintain comprehensive and organised records of all communications with regulators,\nincluding submissions, correspondence, meeting notes, and audit findings.",
     "srd.20260211174637.1": "\nManaging communication with other stakeholders, such as employees, customers, investors,\nand the community, is vital for ensuring the smooth operation and success of an organisation.\nThe following are some of the k ey components include in this process are as:\n\n1. Defining Communication Strategies: Develop tailored communication strategies for different\nstakeholder groups, taking into account their specific needs, interests, and preferred\ncommunication channels (e.g., newsletters, social media, meetings, reports).\n\n2. Regular Updates and Engagement: Provide regular updates and engage with stakeholders\nthrough scheduled communications such as town hall meetings, quarterly reports, or\nnewsletters.\n\n3.Feedback Mechanisms: Establish mechanisms for stakeholders to provide feedback, ask\nquestions, and express concerns.\n\n4. Transparency and Accountability: Ensure transparency in communication by providing\naccurate and timely information. Address stakeholder concerns openly and honestly to build\ntrust and demonstrate accountability.",
+    "srd.20260210181304.1": "A Security Operations Center (SOC) is a centralised unit that deals with security issues on an\norganisational and technical level.\n\nThe following are the steps to illustrate security operations center:",
+    "srd.20260211191240.1": "A Security Operations Center (SOC) is a centralised unit that deals with security issues on an\norganisational and technical level. The following are the steps to illustrate security operations\ncenter:",
+    "srd.20260211191354.1": "\nSkilled security analysts, incident responders, and SOC managers who operate and manage\nthe SOC functions. Their expertise and continuous training are vital for effective security\noperations.",
+    "srd.20260211191440.1": "\nWell defined procedures and playbooks for monitoring, incident response, threat hunting,\nand communication. These processes ensure consistency, efficiency, and effectiveness in\nmanaging security operations.",
+    "srd.20260211191537.1": "Advanced security tools and technologies like Security Information and Event Management\n(SIEM) systems, intrusion detection/prevention systems (IDS/IPS), endpoint detection and\nresponse (EDR), and threat intelligence platforms.",
+    "srd.20260211191307.1": "1. In House SOC:\n\nThis model offers full control over security operations but requires significant investment in\nresources and expertise.\n\n2. Managed SOC:\n\nOutsourced to a third party provider who manages the security operations on behalf of the\norganisation. This can be cost effective and provides access to specialised expertise and\ntechnology.\n\n3. Hybrid SOC:\n\nCombines elements of both in house and managed SOCs, where some functions are\nmanaged internally, and others are outsourced. This approach offers flexibility and can be\ntailored to meet specific organisational needs.",
+    "srd.20260211192217.1": "1. Enhanced Security Posture:\n\nContinuous monitoring and proactive threat management significantly improve an\norganisation’s security posture.\n\n2. Quick Incident Response:\n\nThe ability to detect and respond to incidents quickly minimises the impact and reduces\nrecovery time.",
+    "srd.20260211192423.1": "\nIntelligent monitoring of security controls involves the use of advanced technologies and\nmethodologies to continuously oversee and analyse security mechanisms.\n\nThis proactive approach aims to detect, prevent, and respond to security incidents efficiently.\nBy leveraging automation, machine learning, and artificial intelligence, organisations can\nenhance their ability to monitor and manage security controls dynamically.\n\nKey Components\n\n1 - Automation\n2 - Machine Learning\n3 - Artificial Intelligence",
+    "srd.20260211192644.1": "It is a critical component in managing security operations within cloud environments.\n\nThis process involves several key elements:\n\n01 -  Collection\n02 - Storage\n03 - Analysis\n04 - Real time Monitoring\n05 - Compliance and Auditing\n06 - Integration with Incident Response",
+    "srd.20260211193126.1": "Vulnerability Assessments are a vital element of managing security operations, particularly in\ncloud environments where resources and services are dynamically scaled and updated.\n\nThe following are the vulnerability assessments are structured and implemented:\n\n1. Identification of Assets\n2. Scanning for Vulnerabilities\n3. Risk Assessment\n4. Remediation\n5. Verification and Reporting\n6. Continuous Assessment\n",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
   },
   "uas": {
