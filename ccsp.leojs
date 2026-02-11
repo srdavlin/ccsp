@@ -1934,7 +1934,7 @@
           "children": [
             {
               "gnx": "srd.20260210205502.1",
-              "vh": "Considerations",
+              "vh": "Main Considerations",
               "children": [
                 {
                   "gnx": "srd.20260210200220.1",
@@ -2025,8 +2025,142 @@
                   "vh": "Challenges & Best Practices"
                 },
                 {
-                  "gnx": "srd.20260210204918.1",
-                  "vh": "Key Cosiderations"
+                  "gnx": "srd.20260211153148.1",
+                  "vh": "Availibility of Clustered Hosts",
+                  "children": [
+                    {
+                      "gnx": "srd.20260210204918.1",
+                      "vh": "Key Considerations",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211152142.1",
+                          "vh": "High Availibility Architecture"
+                        },
+                        {
+                          "gnx": "srd.20260211152201.1",
+                          "vh": "Load Balencing"
+                        },
+                        {
+                          "gnx": "srd.20260211152216.1",
+                          "vh": "Failover Mechanisims"
+                        },
+                        {
+                          "gnx": "srd.20260211152238.1",
+                          "vh": "Health Monitoring"
+                        },
+                        {
+                          "gnx": "srd.20260211152301.1",
+                          "vh": "Redundancy & Replication"
+                        },
+                        {
+                          "gnx": "srd.20260211152317.1",
+                          "vh": "Maintenance & Patching"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260211153244.1",
+                  "vh": "Availibility of Guest Operating System",
+                  "children": [
+                    {
+                      "gnx": "srd.20260211153347.1",
+                      "vh": "High Availibility Strategies"
+                    },
+                    {
+                      "gnx": "srd.20260211153458.1",
+                      "vh": "Monitoring & Maintenance"
+                    },
+                    {
+                      "gnx": "srd.20260211153534.1",
+                      "vh": "Patch Management"
+                    },
+                    {
+                      "gnx": "srd.20260211153635.1",
+                      "vh": "Performance & Capacity Monitoring",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211153717.1",
+                          "vh": "Key Aspects of Performance Monitoring",
+                          "children": [
+                            {
+                              "gnx": "srd.20260211153827.1",
+                              "vh": "Metrics & Indicators"
+                            },
+                            {
+                              "gnx": "srd.20260211153857.1",
+                              "vh": "Tools & Technologies"
+                            },
+                            {
+                              "gnx": "srd.20260211153914.1",
+                              "vh": "Real Time Monitoring & Alerts"
+                            }
+                          ]
+                        },
+                        {
+                          "gnx": "srd.20260211153940.1",
+                          "vh": "Key Aspects of capacity Monitoring",
+                          "children": [
+                            {
+                              "gnx": "srd.20260211154015.1",
+                              "vh": "Resource Utilization"
+                            },
+                            {
+                              "gnx": "srd.20260211153955.1",
+                              "vh": "Scalability"
+                            },
+                            {
+                              "gnx": "srd.20260211154039.1",
+                              "vh": "Capacity Planning"
+                            },
+                            {
+                              "gnx": "srd.20260211154103.1",
+                              "vh": "Performance Benchmarking"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211154327.1",
+                      "vh": "Configuration, Backup & Restore Functions",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211154414.1",
+                          "vh": "Type of Backups"
+                        },
+                        {
+                          "gnx": "srd.20260211154546.1",
+                          "vh": "Configuration Steps"
+                        },
+                        {
+                          "gnx": "srd.20260211161157.1",
+                          "vh": "Procedures"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260211161504.1",
+              "vh": "Management Plane",
+              "children": [
+                {
+                  "gnx": "srd.20260211161535.1",
+                  "vh": "Key Aspects",
+                  "children": [
+                    {
+                      "gnx": "srd.20260211161636.1",
+                      "vh": "Components & Interfaces"
+                    },
+                    {
+                      "gnx": "srd.20260211161725.1",
+                      "vh": "Functions & Capabilities"
+                    }
+                  ]
                 }
               ]
             }
@@ -2034,19 +2168,245 @@
         },
         {
           "gnx": "srd.20260210180848.1",
-          "vh": "Module 3: Implement Operational Controls & Standards"
+          "vh": "Module 3: Implement Operational Controls & Standards",
+          "children": [
+            {
+              "gnx": "srd.20260211161922.1",
+              "vh": "Incident Management",
+              "children": [
+                {
+                  "gnx": "srd.20260211162038.1",
+                  "vh": "Incident Detection & Recording"
+                },
+                {
+                  "gnx": "srd.20260211162258.1",
+                  "vh": "Classification & Prioritisation"
+                },
+                {
+                  "gnx": "srd.20260211162410.1",
+                  "vh": "Incident Response"
+                },
+                {
+                  "gnx": "srd.20260211162510.1",
+                  "vh": "Communication & Coordination"
+                },
+                {
+                  "gnx": "srd.20260211162601.1",
+                  "vh": "Incident Resolution & Recovery"
+                }
+              ]
+            },
+            {
+              "gnx": "srd.20260211162709.1",
+              "vh": "Problem Management",
+              "children": [
+                {
+                  "gnx": "srd.20260211162818.1",
+                  "vh": "Key Aspects",
+                  "children": [
+                    {
+                      "gnx": "srd.20260211162906.1",
+                      "vh": "Identification & Looging"
+                    },
+                    {
+                      "gnx": "srd.20260211163053.1",
+                      "vh": "Categorization & Prioritization"
+                    },
+                    {
+                      "gnx": "srd.20260211163225.1",
+                      "vh": "Root Cause Analysis (RCA)"
+                    },
+                    {
+                      "gnx": "srd.20260211163424.1",
+                      "vh": "Resolution & Recovery"
+                    },
+                    {
+                      "gnx": "srd.20260211163503.1",
+                      "vh": "Knowledge Management "
+                    },
+                    {
+                      "gnx": "srd.20260211163611.1",
+                      "vh": "Release Management",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211163748.1",
+                          "vh": "Planning & Scheduling"
+                        },
+                        {
+                          "gnx": "srd.20260211163827.1",
+                          "vh": "Design & Build"
+                        },
+                        {
+                          "gnx": "srd.20260211163903.1",
+                          "vh": "Testing "
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211164103.1",
+                      "vh": "Deployment Management",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211164337.1",
+                          "vh": "Deployment Planning "
+                        },
+                        {
+                          "gnx": "srd.20260211164451.1",
+                          "vh": "Execution & Monitoring"
+                        },
+                        {
+                          "gnx": "srd.20260211164532.1",
+                          "vh": "Validation & Verification"
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211164742.1",
+                      "vh": "Configuration Management"
+                    },
+                    {
+                      "gnx": "srd.20260211164902.1",
+                      "vh": "Service Level Management",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211165026.1",
+                          "vh": "Key Aspects ",
+                          "children": [
+                            {
+                              "gnx": "srd.20260211165137.1",
+                              "vh": "Service Level Agreements (SLA's)"
+                            },
+                            {
+                              "gnx": "srd.20260211170210.1",
+                              "vh": "Service Level Requirements (SLRs)"
+                            },
+                            {
+                              "gnx": "srd.20260211170312.1",
+                              "vh": "Service Level Monitoring & Reporting "
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211170505.1",
+                      "vh": "Availibility Management ",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211170558.1",
+                          "vh": "Benefits"
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211170702.1",
+                      "vh": "Capacity Management",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211170811.1",
+                          "vh": "Benefits"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260210180931.1",
-          "vh": "Module 4: Support Digital Forensics"
+          "vh": "Module 4: Support Digital Forensics",
+          "children": [
+            {
+              "gnx": "srd.20260211172617.1",
+              "vh": "Evidence Management",
+              "children": [
+                {
+                  "gnx": "srd.20260211172830.1",
+                  "vh": "Key Aspects of Exploration"
+                },
+                {
+                  "gnx": "srd.20260211172909.1",
+                  "vh": "Key Steps"
+                },
+                {
+                  "gnx": "srd.20260211173332.1",
+                  "vh": "Collection, Acqusistion & Perservation",
+                  "children": [
+                    {
+                      "gnx": "srd.20260211173444.1",
+                      "vh": "Collecting Digital Evidence"
+                    },
+                    {
+                      "gnx": "srd.20260211172530.1",
+                      "vh": "Forms of Digitail Evidence Acquistion",
+                      "children": [
+                        {
+                          "gnx": "srd.20260211172037.1",
+                          "vh": "Live Data Acquisition"
+                        },
+                        {
+                          "gnx": "srd.20260211172220.1",
+                          "vh": "Static Data Acquisition"
+                        },
+                        {
+                          "gnx": "srd.20260211172235.1",
+                          "vh": "Network Forensics"
+                        },
+                        {
+                          "gnx": "srd.20260211172417.1",
+                          "vh": "Mobile Device Forensics"
+                        },
+                        {
+                          "gnx": "srd.20260211172243.1",
+                          "vh": "Cloud Forensics"
+                        },
+                        {
+                          "gnx": "srd.20260211172427.1",
+                          "vh": "Memory Forensics"
+                        }
+                      ]
+                    },
+                    {
+                      "gnx": "srd.20260211174031.1",
+                      "vh": "Preserving Digital Evidence"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260210181013.1",
-          "vh": "Module 5: Manage Communication woth Relevant Parties"
+          "vh": "Module 5: Manage Communication woth Relevant Parties",
+          "children": [
+            {
+              "gnx": "srd.20260211174512.1",
+              "vh": "Vendors"
+            },
+            {
+              "gnx": "srd.20260211174541.1",
+              "vh": "Customers"
+            },
+            {
+              "gnx": "srd.20260211174552.1",
+              "vh": "Partners"
+            },
+            {
+              "gnx": "srd.20260211174606.1",
+              "vh": "Regulators"
+            },
+            {
+              "gnx": "srd.20260211174637.1",
+              "vh": "Other Stakeholders"
+            }
+          ]
         },
         {
           "gnx": "srd.20260210181304.1",
-          "vh": "Module 6: Manage Security Operations"
+          "vh": "**HERE**Module 6: Manage Security Operations"
         }
       ]
     },
@@ -2424,6 +2784,67 @@
     "srd.20260210204618.1": "1. Consistency & Standerization\n\n2. Version control\n\n3. Automation & Effieciency\n\n4. Scalibility & Flexibility",
     "srd.20260210204822.1": "1. Configuration Management Tools:\n\nTools like Ansible, Puppet, and Chef are used to automate the management of configuration\nfiles and software installations across servers. These tools help in maintaining desired states for server configurations.\n\n2. Orchestration Tools:\n\nTools such as Kubernetes and Docker Swarm are used to manage the deployment, scaling,\nand operations of containerised applications. They orchestrate the infrastructure resources\nneeded for applications to run efficiently.\n\n3. Provisioning Tools:\n\nTools like Terraform and AWS CloudFormation are employed to define and manage\ninfrastructure resources through code.\n\n4. Monitoring and Logging:\n\nImplementing robust monitoring and logging solutions is essential for tracking the\nperformance and health of the infrastructure.\n\nTools like Prometheus, Grafana, and ELK Stack (Elasticsearch, Logstash, Kibana) are\ncommonly used for this purpose.",
     "srd.20260210204852.1": "1. Security and Compliance: Ensure that the IaC strategy includes security best practices such as secret management, least privilege access, and compliance with regulatory standards.\n\n2. Code Quality and Maintenance: Regularly review and refactor IaC scripts to maintain code\nquality and adapt to changing requirements.\n\nEnsuring the availability of clustered hosts is a critical aspect of maintaining the physical and logical infrastructure of a cloud environment.\n\nClustered hosts are groups of interconnected servers that work together to improve\nperformance, load balancing, and failover capabilities.",
+    "srd.20260210204918.1": "\nEnsuring the availability of clustered hosts is a critical aspect of maintaining the physical and\nlogical infrastructure of a cloud environment.\n\nClustered hosts are groups of interconnected servers that work together to improve\nperformance, load balancing, and failover capabilities.",
+    "srd.20260211153244.1": "In cloud environments, a guest operating system (OS) is an operating system installed on a\nvirtual machine (VM).\n\nThis OS operates within the virtualised environment provided by the host, allowing users to\nrun applications and services as if they were on a physical machine.\n\n",
+    "srd.20260211153347.1": "High Availability Strategies\n\n1. Redundancy\n2. Failover Mechanisms\n3. Snapshot and Backup Management",
+    "srd.20260211153458.1": "1. Proactive Monitoring:\n\nPerformance Metrics: Continuously monitor key performance metrics of the guest OS, such\nas CPU usage, memory utilisation, disk I/O, and network activity.\n\nHealth Checks: Perform regular health checks to ensure that the guest OS is running\noptimally and detect any potential issues before they escalate.",
+    "srd.20260211153534.1": "2. Patch Management:\n\nRegular Updates: Keep the guest OS updated with the latest patches and security updates.\nThis reduces vulnerabilities and enhances the stability and performance of the system.\n\nAutomated Patch Deployment: Use automated tools to deploy patches and updates,\nminimising the risk of human error and reducing downtime.",
+    "srd.20260211153635.1": "\nPerformance and capacity monitoring are essential to ensure that the infrastructure operates\nefficiently and meets the demands of users and applications.\n\nThese monitoring processes help identify potential bottlenecks, resource limitations, and\nperformance issues before they impact the end users.",
+    "srd.20260211154327.1": "Purpose and Importance: Backup and restore functions are critical for ensuring data integrity and\navailability in both host and guest operating systems.\n\nThese functions help in recovering data during unexpected failures, cyber attacks, or system\ncrashes, ensuring business continuity.",
+    "srd.20260211154414.1": "\nFull Backup: A complete copy of all data, essential for a baseline.\n\nIncremental Backup: Only the changes made since the last backup, reducing storage needs.\n\nDifferential Backup: Cumulative changes since the last full backup, balancing storage and\nrecovery time.\n",
+    "srd.20260211154546.1": "Selecting Backup Software: Choose reliable backup solutions compatible with the host OS, such\nas Veeam, Acronis, or native tools like Windows Server Backup.\n\nScheduling Backups: Define backup schedules to minimise system downtime and impact on\nperformance. Typically, full backups are scheduled weekly, with incremental backups daily.\n\nStorage Solutions: Configure storage options, including local storage, Network Attached Storage\n(NAS), and cloud storage solutions like AWS S3 or Azure Blob\n\nEncryption and Compression: Enable encryption for data security and compression to optimise\nstorage space.\n\nVerification and Testing: Regularly test backup integrity and restore procedures to ensure\nreliability and readiness.",
+    "srd.20260211161157.1": "\nSnapshot Based Backups:\n\nSnapshots: Take point in time snapshots of virtual machines (VMs) running guest OS. This\nmethod is efficient for VM level backup and quick restores.\n\nAgent Based Backups:\n\nBackup Agents: Install backup agents within the guest OS to facilitate file level backups. Tools\nlike Veeam Agent or Azure Backup can be used.\n\nConfiguration Steps:\n\nBackup Agent Installation: Deploy backup agents on each guest OS, ensuring they are\nconfigured to communicate with the backup server.\n\n\nHost OS Restore:\n\nBooting from Recovery Media: Use recovery media to boot the host system in case of a\ncomplete failure.\n\nRestoring System State: Restore the full system or selected components from the most recent\nbackup.\n\nGuest OS Restore:\n\nRestoring from Snapshots: Revert VMs to a specific snapshot for quick recovery. This method is\nuseful for recent failures or minor issues.\n\nFile Level Restores: Use backup agents to restore specific files or directories within the guest OS.\nThis is ideal for partial data loss scenarios.",
+    "srd.20260211161504.1": "The management plane is a critical component in cloud infrastructure, responsible for the\ncontrol and administration of cloud resources.\n\nIt provides the interface and tools for administrators to manage the cloud environment\neffectively.",
+    "srd.20260211161636.1": "\nUser Interface (UI): Web based consoles and dashboards for visual management and\nconfiguration.\n\nApplication Programming Interfaces (APIs): Programmatic interfaces for automating\nmanagement tasks.\n\nCommand Line Interface (CLI): Text based interface for direct interaction and scripting.\n© The Knowledge Academy Ltd",
+    "srd.20260211161725.1": "\nResource Provisioning: Adding, modifying, and deleting\ncloud resources such as virtual machines, storage, and\nnetworks.\n\nMonitoring and Logging: Collecting and analysing data\non resource usage, performance, and security events.\n\nPolicy Enforcement: Implementing and enforcing\npolicies related to security, compliance, and resource\nusage.\n\nAccess Control: Managing user identities, roles, and\npermissions to ensure only authorised users can perform\nspecific actions.",
+    "srd.20260211161922.1": "Incident management within the factor of implementing operational controls and standards is\na critical process that ensures the effective handling of unexpected events or disruptions that\ncould impact the normal functioning of IT services and infrastructure.\n\nThe following are the key aspects of incident management:",
+    "srd.20260211162038.1": "\nMonitoring Tools: Implementing robust monitoring tools and systems (e.g., SIEM, network\nmonitoring tools, application performance monitoring) to detect incidents promptly.\n\nUser Reporting: Establishing channels for users to report incidents, such as helpdesk systems,\nemail, or hotlines.\n\nAutomated Alerts: Configuring automated alerts to notify IT staff immediately when an\nincident is detected.\n",
+    "srd.20260211162258.1": "\nSeverity Levels: Defining severity levels for incidents based on their impact on business\noperations, ranging from minor issues to critical outages.\n\nImpact Analysis: Assessing the potential impact of the incident on various business functions\nand prioritising incidents accordingly to ensure that the most critical issues are addressed first.",
+    "srd.20260211162410.1": "\nIncident Response Team: Establishing a dedicated incident response team responsible for\nmanaging and resolving incidents. This team should include members with the necessary skills\nand authority to take appropriate actions.\n\nResponse Procedures: Developing and maintaining detailed incident response procedures,\nincluding steps for initial assessment, containment, eradication and recovery.\n",
+    "srd.20260211162510.1": "\nInternal Communication: Ensuring clear and timely communication among IT staff,\nmanagement, and other relevant stakeholders during an incident.\n\nExternal Communication: Managing communication with external parties, such as customers,\npartners, and vendors, to provide updates and manage expectations.",
+    "srd.20260211162601.1": "Root Cause Analysis: Conducting a thorough analysis to identify the root cause of the incident\nand implementing corrective actions to prevent recurrence.\n\nService Restoration: Taking steps to restore affected services to normal operation as quickly as\npossible, using predefined recovery procedures and plans.",
+    "srd.20260211162709.1": "\nProblem Management in the factor of implementing operational controls and standards\ninvolves identifying, analysing, and resolving underlying issues that cause incidents within an\nIT infrastructure.\n\nThis process aims to prevent problems from recurring, reduce the impact of incidents, and\nensure the stability and reliability of IT services.",
+    "srd.20260211162906.1": "\nProactive Identification: Identifying problems before they cause incidents by analysing trends\nand patterns in incident data, system logs, and performance metrics.\n\nReactive Identification: Logging problems in response to recurring incidents or significant\noutages reported by users or detected by monitoring systems.",
+    "srd.20260211163053.1": "\nCategorisation: Classifying problems based on their nature, such as hardware failures,\nsoftware bugs, network issues, or configuration errors. This helps in assigning the right\nresources for resolution.\n\nPrioritisation: Assessing the impact and urgency of problems to prioritise them appropriately.\nHigh impact problems affecting critical services are addressed first.",
+    "srd.20260211163225.1": "\nTechniques: Using techniques like the Five Whys, Fishbone Diagram (Ishikawa), and Failure\nMode and Effects Analysis (FMEA) to systematically investigate and identify the root cause of\nproblems.\n\nData Collection: Gathering relevant data from logs, incident records, and user reports to\nsupport the analysis process.",
+    "srd.20260211163424.1": "Solution Implementation: Developing and implementing solutions to address the root cause of\nthe problem. This may involve applying patches, reconfiguring systems, replacing faulty\nhardware, or updating procedures.\n\nWorkarounds: Implementing temporary workarounds to mitigate the impact of the problem\nwhile a permanent solution is being developed.",
+    "srd.20260211163503.1": "Documentation: Documenting the problem, its root cause, and the solution in a knowledge\nbase. This helps in sharing knowledge across the organisation and aids in quicker resolution of\nsimilar issues in the future.\n\nLessons Learned: Conducting post implementation reviews to capture lessons learned and\nimprove problem management processes.",
+    "srd.20260211163611.1": "Release Management encompasses the planning, design, build, configuration, and testing of\nhardware and software releases to create a set of release components.\n\nIt ensures that new features, improvements, and fixes are bundled into manageable releases\nthat can be effectively deployed. The release management process involves:",
+    "srd.20260211163748.1": "\nRelease Planning: This involves defining the scope and content of releases, including\nidentifying which features, updates and bug fixes will be included. It also includes setting\ntimelines and resource requirements.\n\nRelease Calendar: Creating a release calendar to schedule releases in a way that minimises\nimpact on business operations. This calendar helps in coordinating with various stakeholders\nand ensuring that releases do not conflict with other organisational activities.",
+    "srd.20260211163827.1": "\nRelease Design: Designing the release package, which includes detailed specifications of the\nnew or changed features and configurations. This design should align with business\nrequirements and technical constraints.\n\nBuild and Configure: Building and configuring the release components, which may involve\ndeveloping new software, configuring hardware, and integrating with existing systems.",
+    "srd.20260211163903.1": "\nQuality Assurance (QA): Conducting rigorous testing to ensure that the release components\nmeet quality standards. This includes unit testing, integration testing, system testing and user\nacceptance testing (UAT).\n\nUser Training and Documentation: Preparing training materials and documentation to ensure\nthat end users and support staff can effectively use and manage the new release.",
+    "srd.20260211164103.1": "\nDeployment Management involves the movement of release components from a development\nor test environment to a live production environment.\n\nThe goal is to deploy releases smoothly and efficiently while minimising disruption to existing\nservices. Deployment management includes:",
+    "srd.20260211164337.1": "\nDeployment Strategy: Defining the deployment strategy, which can include phased rollouts,\nbig bang deployments, or blue green deployments, depending on the complexity and criticality\nof the release.\n\nRisk Assessment: Assessing risks associated with the deployment and planning mitigation\nstrategies to address potential issues. This includes identifying critical dependencies and\npotential points of failure.",
+    "srd.20260211164451.1": "\nDeployment Execution: Carrying out the deployment according to the planned strategy. This\ninvolves coordinating with various teams, such as development, operations, and support, to\nensure a seamless deployment process.\n\nReal Time Monitoring: Monitoring the deployment process in real time to identify and address\nany issues immediately. This includes monitoring system performance, application functionality\nand user feedback.",
+    "srd.20260211164532.1": "\nPost Deployment Testing: Conducting validation and verification tests to ensure that the\nrelease has been deployed correctly and is functioning as expected in the live environment.\n\nUser Feedback: Collecting feedback from end users to identify any issues or areas for\nimprovement. This feedback is crucial for continuous improvement and ensuring that the\nrelease meets user expectations.",
+    "srd.20260211164742.1": "\nConfiguration management is a crucial process in implementing operational controls and\nstandards within an IT environment.\n\nIt involves systematically managing and maintaining the configuration of hardware, software,\nand other IT assets to ensure their integrity, security, and performance.\n\nThis process helps organisations maintain a consistent and accurate record of configurations,\nwhich is essential for effective governance, compliance, and operational efficiency.\n\nConfiguration management also facilitates quick identification and resolution of issues,\nenhances change management processes, and supports disaster recovery by providing a\nreliable baseline for system restorations.\n\nThrough automation tools and best practices, configuration management streamlines the\ndeployment, maintenance, and monitoring of IT assets, ensuring that all components function\nas intended and contribute to a stable and secure IT infrastructure.\n",
+    "srd.20260211164902.1": "\nService Level Management (SLM) is a critical IT Service Management (ITSM) process that\nfocuses on negotiating, defining, and managing the performance and quality of IT services\ndelivered to customers.\n",
+    "srd.20260211165137.1": "\nDefinition and Negotiation: SLAs are formal agreements between the service provider and the\ncustomer that define the expected level of service. These agreements specify metrics such as\nuptime, response time, and resolution time.\n\nDocumentation: SLAs must be clearly documented and communicated to all stakeholders. This\ndocumentation serves as a reference point for measuring service performance and handling\nany disputes that may arise.",
+    "srd.20260211170210.1": "\nRequirements Gathering: SLRs are the customer specific needs and expectations regarding the\nservice. Gathering SLRs involves understanding the customer business processes, critical\napplications, and operational needs.\n\nTranslation to SLAs: Once SLRs are gathered, they are translated into measurable service level\ntargets that can be included in the SLAs.",
+    "srd.20260211170312.1": "\nPerformance Monitoring: Continuous monitoring of service performance against the agreed\nupon SLA metrics is essential. This involves tracking key performance indicators (KPIs) and\nusing monitoring tools to collect data.\n\nReporting: Regular reports are generated to show how well the services are performing\nrelative to the SLAs. These reports highlight areas of success and areas needing improvement.\nThey are shared with customers and internal stakeholders to maintain transparency.",
+    "srd.20260211170505.1": "\nAvailability Management is a crucial process within IT Service Management (ITSM) that ensures\nIT services and infrastructure components are available to meet business requirements\nconsistently and reliably.\n\nThe primary objective of availability management is to optimise the capability of the IT\ninfrastructure, services, and support organisation to deliver a cost effective and sustained level\nof availability that enables the business to meet its objectives.\n\nThis involves not only minimising downtime and disruptions but also ensuring that\nperformance levels meet or exceed agreed upon service level agreements (SLAs).\n\nBy proactively identifying potential issues and implementing preventive measures, availability\nmanagement helps in maintaining service continuity.\n\nAdditionally, it supports the alignment of IT resources with business priorities, ensuring that\ncritical services are prioritised and adequately supported.",
+    "srd.20260211170558.1": "\nEnhanced Service Reliability: By proactively managing and optimising availability,\norganisations can ensure more reliable IT services, reducing the frequency and impact of\noutages.\n\nImproved Customer Satisfaction: High availability of services leads to greater customer\nsatisfaction and trust, as users can rely on IT services to be available when needed.\n\nOperational Efficiency: Effective availability management reduces the time and resources\nspent on handling outages and their aftermath, allowing the IT team to focus on other strategic\ninitiatives.\n\nBusiness Continuity: Ensuring that critical services are always available supports business\ncontinuity, enabling the organisation to maintain operations even in the face of disruptions.\n\nCost Effectiveness: Preventive maintenance and proactive measures can reduce the cost\nassociated with emergency repairs, downtime, and lost productivity.\n\n",
+    "srd.20260211170702.1": "\nCapacity Management is a fundamental process within IT Service Management (ITSM) that\nfocuses on ensuring that the IT infrastructure and services have the right amount of resources\nto meet current and future business demands.\n\nThe primary purpose of capacity management is to optimise the use of IT resources, balancing\ncost and performance while ensuring that the capacity of IT services aligns with business\nrequirements.\n\nThis process involves monitoring, analysing, and forecasting the demand for IT resources, and\nplanning accordingly to ensure that adequate capacity is available at all times.\n\nCapacity management encompasses three main sub processes business capacity management,\nservice capacity management, and component capacity management.\n\nBy accurately predicting future needs based on historical data and business growth projections,\ncapacity management helps prevent resource shortages and avoids over provisioning, thus\noptimising costs and improving service reliability.",
+    "srd.20260211170811.1": "\nImproved Service Performance: By ensuring that IT resources are adequately provisioned,\ncapacity management helps maintain optimal performance levels for services, preventing\nslowdowns and disruptions caused by resource bottlenecks.\n\nCost Optimisation : Capacity management helps in avoiding both under utilisation and over\nprovisioning of resources. By accurately matching capacity to demand, organisations can\noptimise their IT spending and reduce unnecessary costs.\n\nEnhanced Business Agility: Through proactive planning and forecasting, capacity management\nenables organisations to quickly adapt to changing business needs and market conditions,\nsupporting business growth and innovation.\n\nIncreased Customer Satisfaction: Ensuring that IT services consistently meet performance and\navailability expectations leads to higher customer satisfaction and trust, as users experience\nfewer service interruptions and better service quality.",
+    "srd.20260210180931.1": "\nForensic data collection methodologies are critical for ensuring that digital evidence is\naccurately and securely gathered, preserved, and analysed\n\nThis process involves a series of steps designed to maintain the integrity of the data while\nmaking it available for investigation.\n\nThe following are the detailed look at various methodologies:",
+    "srd.20260211172617.1": "Evidence management is a crucial component of digital forensics, ensuring that digital evidence\nis accurately collected, preserved, and presented in a manner that maintains its integrity and\nadmissibility in legal contexts.\n\nThis process encompasses various practices and methodologies designed to handle digital\nevidence systematically and securely.",
+    "srd.20260211172830.1": "1 - Chain of Custody\n\n2 - Evidence Preservation\n\n3 - Secure Staorage \n\n4 - Documetation\n\n5 - LegalCompliance \n\n6- Audit & Review\n",
+    "srd.20260211172909.1": "1. Collection: Gather digital evidence using appropriate tools and techniques to avoid data\nalteration. Ensure collection is documented thoroughly.\n\n2. Transport: Securely transport evidence to avoid tampering or damage. Document the\ntransportation process meticulously.\n\n3. Analysis: Conduct forensic analysis on copies of the evidence to preserve the original. Use\nvalidated tools and techniques to ensure reliable results.\n\n4. Storage: Store evidence in a secure, controlled environment. Implement redundant storage\nsolutions and regularly verify the integrity of stored data.\n\n5. Presentation: Prepare evidence for presentation in legal proceedings. Ensure that all\ndocumentation, including the chain of custody and analysis reports, is complete and accurate.",
+    "srd.20260211173332.1": "The processes of collecting, acquiring, and preserving digital evidence are critical components\nof digital forensics. These steps ensure that evidence remains intact and unaltered,\nmaintaining its integrity and admissibility in legal proceedings.\n",
+    "srd.20260211173444.1": "Collection refers to the initial gathering of digital evidence from various sources. This step\ninvolves identifying, locating, and securing potential evidence while minimising the risk of data\nalteration.\n\n1 - Identification\n2 - Documentation\n3 - Securing the Scene\n4 - Handeling Procedures\n",
+    "srd.20260211172530.1": "Acquisition involves creating an exact, bit by bit copy of the original data for analysis. This\nprocess is crucial for ensuring that the original evidence is preserved intact.",
+    "srd.20260211172037.1": "\nLive data acquisition involves capturing data from a system that is still running. This method is\nessential when there is a need to collect volatile data that would be lost if the system were\npowered down.\n\nExamples include RAM contents, active network connections, running processes, and system\nlogs.",
+    "srd.20260211172220.1": "\nStatic data acquisition involves collecting data from a powered off system. This method is used\nwhen there is no need to capture volatile data. It focuses on non volatile storage such as hard\ndrives, SSDs, and other storage media.",
+    "srd.20260211172235.1": "\nNetwork forensics involves capturing and analysing network traffic to gather evidence of a\nsecurity incident. This includes monitoring network traffic in real time or analysing stored\ntraffic data.",
+    "srd.20260211172417.1": "Mobile device forensics focuses on collecting data from\nsmartphones, tablets, and other mobile devices. This includes\ntext messages, call logs, app data, and geolocation information.\n",
+    "srd.20260211172243.1": "\nCloud forensics is increasingly important as more data and services migrate to cloud\nenvironments. This methodology involves collecting and analysing data stored in cloud services\nand platforms.",
+    "srd.20260211172427.1": "Memory forensics involves analysing the volatile memory\n(RAM) of a computer to find artifacts related to running\nprocesses, open network connections, loaded drivers, and\nother live system data.",
+    "srd.20260211174031.1": "Preservation involves protecting the integrity of the digital evidence to ensure it remains\nunchanged from the moment of collection through to its analysis and presentation in court.\n\n1 - Imaging\n2 - Hashing\n3 - Write-Blockers\n4 - Storage\n5 - Access Conrtol\n6 - documentation",
+    "srd.20260211174512.1": "\nManaging communication with vendors is a crucial aspect of maintaining effective and efficient\noperations within an organisation.\n\nThis process involves establishing clear and consistent communication channels to ensure that\nall relevant parties, including internal stakeholders and external vendors, are informed, aligned,\nand engaged. The following are some of the key components of vendors:\n\n1. Establishing Communication Protocols:\n\nDefine clear guidelines and protocols for communication with vendors, including preferred\nchannels (e.g., email, phone, collaboration tools), frequency of updates, and escalation\nprocedures for issues.\n\n2. Regular Updates and Meetings:\n\nSchedule regular meetings and updates with vendors to discuss ongoing projects,\nperformance metrics, and any issues or concerns.\n\n3. Performance Monitoring and Reporting:\n\nMonitor vendor performance against agreed upon service levels and deliverables. Regularly\nreport on these metrics to ensure vendors meet their commitments and address any\ndeviations promptly.\n\n4. Issue Resolution and Escalation:\n\nImplement a structured process for resolving issues and disputes with vendors. This includes\nclear escalation paths and timelines for addressing and resolving problems.\n\n5. Documentation and Record Keeping:\n\nMaintain detailed records of all communications, agreements, and performance evaluations\nwith vendors. This ensures accountability and provides a reference for future interactions\nand decisions.",
+    "srd.20260211174541.1": "\nEffective communication with customers is vital for building trust, ensuring satisfaction and\nfostering long term relationships.\n\nManaging communication with customers involves several key components to keep them\ninformed, engaged and satisfied:\n\n1. Clear Communication Channels: Establish and maintain clear communication channels such as\nemail, phone, chat, and social media to ensure customers can easily reach support and receive\ntimely responses.\n\n2. Regular Updates and Notifications: Provide regular updates on service status, product\nchanges, and other relevant information. This includes proactive notifications about planned\nmaintenance, new features, or potential issues that may affect them.\n\n3. Feedback Collection: Actively seek customer feedback through surveys, reviews, and direct\ninteractions. Use this feedback to improve products, services, and customer support\nprocesses.",
+    "srd.20260211174552.1": "\nManaging communication with partners is essential for fostering strong, collaborative\nrelationships and ensuring that all relevant parties are aligned and informed. The following are\nsome of the key components of this process include:\n\n1. Establishing Communication Protocols: Define clear communication guidelines with partners,\nincluding preferred methods, frequency of updates, and procedures for addressing issues or\nchanges.\n\n2. Regular Updates and Meetings: Schedule regular meetings and updates to discuss progress,\nshare information, and address any concerns.\n\n3. Performance Monitoring and Reporting: Track the performance of partnerships against\nagreed objectives and deliverables. Provide regular reports to ensure both parties are meeting\ntheir commitments and to identify areas for improvement.\n\n4. Issue Resolution and Escalation: Implement a structured process for resolving issues with\npartners, including clear escalation paths and timelines for addressing problems.\n© The Knowledge Academy Ltd",
+    "srd.20260211174606.1": "\nManaging communication with regulators is a critical aspect of ensuring compliance and\nmaintaining a good standing with relevant authorities.\n\nEffective communication with regulators helps organisations navigate complex regulatory\nlandscapes, mitigate risks, and demonstrate their commitment to legal and ethical standards.\nKey components of this process include:\n\n1. Establishing Communication Protocols:\n\nDefine and document protocols for interacting with regulators, including designated points\nof contact, preferred communication channels (e.g., formal letters, emails, secure portals),\nand timelines for responding to regulatory requests.\n\n2. Regular Reporting and Updates:\n\nEnsure timely and accurate submission of required reports and updates to regulators. This\nincludes periodic compliance reports, incident notifications, and updates on corrective\nactions taken in response to regulatory findings.\n\n3. Regulatory Compliance Monitoring:\n\nContinuously monitor and review compliance with relevant laws, regulations, and industry\nstandards. Maintain up to date records and documentation to support regulatory audits\nand inspections.\n\n4. Issue Resolution and Escalation:\n\nImplement a structured process for addressing regulatory concerns and findings. This\ninvolves timely investigation and resolution of issues, clear documentation of actions taken,\nand effective communication with regulators throughout the process.\n\n5. Documentation and Record Keeping:\n\nMaintain comprehensive and organised records of all communications with regulators,\nincluding submissions, correspondence, meeting notes, and audit findings.",
+    "srd.20260211174637.1": "\nManaging communication with other stakeholders, such as employees, customers, investors,\nand the community, is vital for ensuring the smooth operation and success of an organisation.\nThe following are some of the k ey components include in this process are as:\n\n1. Defining Communication Strategies: Develop tailored communication strategies for different\nstakeholder groups, taking into account their specific needs, interests, and preferred\ncommunication channels (e.g., newsletters, social media, meetings, reports).\n\n2. Regular Updates and Engagement: Provide regular updates and engage with stakeholders\nthrough scheduled communications such as town hall meetings, quarterly reports, or\nnewsletters.\n\n3.Feedback Mechanisms: Establish mechanisms for stakeholders to provide feedback, ask\nquestions, and express concerns.\n\n4. Transparency and Accountability: Ensure transparency in communication by providing\naccurate and timely information. Address stakeholder concerns openly and honestly to build\ntrust and demonstrate accountability.",
     "srd.20260121194856.1": "Domian 6: Legal, Risk and Complaince\n13%"
   },
   "uas": {
