@@ -2742,7 +2742,85 @@
               "children": [
                 {
                   "gnx": "srd.20260212193741.1",
-                  "vh": "**HERE**Type of Audit Reports"
+                  "vh": "Type of Audit Reports",
+                  "children": [
+                    {
+                      "gnx": "srd.20260212194454.1",
+                      "vh": "SOC 1 Report"
+                    },
+                    {
+                      "gnx": "srd.20260212194507.1",
+                      "vh": "SOC 2 Report"
+                    },
+                    {
+                      "gnx": "srd.20260212194522.1",
+                      "vh": "SOC 3 Report"
+                    },
+                    {
+                      "gnx": "srd.20260212194558.1",
+                      "vh": "ISO/ IEC 27001 Certification Report"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260212194908.1",
+                  "vh": "Restrictions of Audit Scope Statements"
+                },
+                {
+                  "gnx": "srd.20260212195047.1",
+                  "vh": "Gap Analysis",
+                  "children": [
+                    {
+                      "gnx": "srd.20260212195136.1",
+                      "vh": "Preparation: "
+                    },
+                    {
+                      "gnx": "srd.20260212195228.1",
+                      "vh": "Execution:"
+                    },
+                    {
+                      "gnx": "srd.20260212195247.1",
+                      "vh": "Reporting:"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260212195413.1",
+                  "vh": "Audit Planning",
+                  "children": [
+                    {
+                      "gnx": "srd.20260212195509.1",
+                      "vh": "Understanding the Audit Objectives:"
+                    },
+                    {
+                      "gnx": "srd.20260212195533.1",
+                      "vh": "Scope Definition:"
+                    },
+                    {
+                      "gnx": "srd.20260212195553.1",
+                      "vh": "Audit Criteria:"
+                    },
+                    {
+                      "gnx": "srd.20260212195720.1",
+                      "vh": "Risk Assessment:"
+                    },
+                    {
+                      "gnx": "srd.20260212195911.1",
+                      "vh": "Audit Team Selection"
+                    },
+                    {
+                      "gnx": "srd.20260212195924.1",
+                      "vh": "Audit Plan Development"
+                    },
+                    {
+                      "gnx": "srd.20260212195942.1",
+                      "vh": "Resource Allocation"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260212200154.1",
+                  "vh": "Internal Information Security Management System (ISMS)"
                 }
               ]
             }
@@ -3259,7 +3337,26 @@
     "srd.20260212192944.1": "\nEnsuring that virtualised systems, including both VMs and hypervisors, are up to date with\nthe latest security patches and updates is a significant challenge.\n\nCCSPs must verify that systems are regularly patched to address vulnerabilities. They should\nalso assess whether a patch management process is in place and effective.",
     "srd.20260212193417.1": "\nHardening involves configuring VMs and hypervisors to minimise security risks. CCSPs\nshould verify that hardening guidelines and best practices are followed.\n\nThis includes assessing whether unnecessary services are disabled, access controls are\nproperly configured, and default settings are changed to enhance security.",
     "srd.20260212193501.1": "\nConfiguration management is critical for maintaining the security and compliance of\nvirtualised environments.\n\n\nCCSPs must verify that the configuration of hypervisors\naligns with organisational policies and security standards.\n\nThey should also assess whether changes to\nconfigurations are tracked and audited.",
-    "srd.20260212193551.1": "\nVM images serve as templates for VM deployment.\nEnsuring the security of these images is challenging, as\nany vulnerabilities present in the image can propagate to\ndeployed VMs.\n\nCCSPs should assess image security, including how images\nare created, stored, and updated.\n"
+    "srd.20260212193551.1": "\nVM images serve as templates for VM deployment.\nEnsuring the security of these images is challenging, as\nany vulnerabilities present in the image can propagate to\ndeployed VMs.\n\nCCSPs should assess image security, including how images\nare created, stored, and updated.\n",
+    "srd.20260212193741.1": "Audit reports are essential tools used by Certified Cloud Security Professionals to validate the\neffectiveness of security controls and compliance within cloud environments.\n\n",
+    "srd.20260212194454.1": "Primarily concerned with controls over financial reporting, this report is crucial for service\nproviders that affect clients' financial statements. There are two types of SOC 1 reports:\n\nType I: Evaluates the design of controls at a specific point in time.\n\nType II: Reviews both the design and operating effectiveness of controls over a specified\nperiod.",
+    "srd.20260212194507.1": "Focused on non financial reporting controls relating to security, availability, processing\nintegrity, confidentiality, and privacy.\n\nThese aspects are vital for maintaining the security and reliability of services provided by cloud service providers (CSPs).\n\nType I and Type II reports, similar to SOC 1.\n\nTrust Service Criteria: These criteria provide a framework for the controls covered in the\nreport.",
+    "srd.20260212194522.1": "It provides a high level overview without the detailed controls and tests found in SOC 2,\nmaking it useful for public dissemination.",
+    "srd.20260212194558.1": "Demonstrates compliance with international standards for an information security\nmanagement system (ISMS).\n\nThis certification process involves a rigorous audit to confirm the implementation and\neffectiveness of the service provider's security practices.",
+    "srd.20260212194908.1": "Scope statements define the boundaries of an audit, ensuring that it remains focused and\nrelevant while minimising disruption to normal business operations. The following are some of\nthe important aspects are as:\n\nOperational Impact Limitation: -\n\nEnsures that audit activities do not adversely affect day to\nday operations.\n\nProtection of Critical Components: -\n\nHigh priority components are often shielded from\nexhaustive audit activities to prevent any potential disruption.\n\nAsset Restrictions: Certain critical or sensitive assets may be explicitly excluded from the\naudit scope to protect them.\n\nAccepted Times and Time Periods: Audits are scheduled during times that are least\ndisruptive to business operations.",
+    "srd.20260212195047.1": "Gap analysis in the context of cloud security is a methodical process aimed at identifying\nshortfalls or vulnerabilities that might compromise the security or performance of cloud\nservices. The process typically follows these stages:\n",
+    "srd.20260212195136.1": "Engaging stakeholders to ensure alignment on the purpose and scope of the\ngap analysis.\n",
+    "srd.20260212195228.1": "Information Gathering: Collecting data from various sources such as documentation,\ninterviews, and system analysis.\n\nVerification: Ensuring the accuracy and completeness of the information gathered.\n\nRisk Identification: Analysing the data to identify potential risks and vulnerabilities.",
+    "srd.20260212195247.1": "Documentation of Findings: Creating a detailed record of all identified gaps and\npotential risks.\n\nRecommendations: Developing actionable suggestions for addressing these gaps.\n",
+    "srd.20260212195413.1": "Audit planning is a critical phase in the audit process, where auditors carefully plan and prepare for an effective and efficient audit. The planning phase sets the foundation for the entire audit engagement. Below are the key aspects and steps involved in audit planning:",
+    "srd.20260212195509.1": "The first step in audit planning is to clearly understand the\naudit objectives. Auditors need to know what they are trying to achieve with the audit, whether it is compliance verification, risk assessment, or process improvement.\n",
+    "srd.20260212195533.1": "Define the scope of the audit, which includes specifying the areas, processes, or\nsystems that will be audited. The scope should be well defined to ensure that audit efforts are\nfocused and relevant.\n",
+    "srd.20260212195553.1": "Establish the audit criteria, which serve as the benchmark against which audit\nfindings will be assessed. Criteria can include industry standards, regulations, internal policies, and best practices.",
+    "srd.20260212195720.1": "Conduct a risk assessment to identify\npotential risks and areas of concern within the audit scope.\nThis helps prioritise audit resources and focus on high risk\nareas.\n",
+    "srd.20260212195911.1": "Assemble the audit team with individuals possessing the necessary skills and expertise to\nconduct the audit effectively.",
+    "srd.20260212195924.1": "Develop a detailed audit plan that outlines the approach, methodologies, and procedures to\nbe used during the audit.\n",
+    "srd.20260212195942.1": "Allocate the required resources for the\naudit, including personnel, tools, and technology. Ensure\nthat the audit team has access to all necessary resources.\n",
+    "srd.20260212200154.1": "An Information Security Management System (ISMS) is a crucial component for medium to large\nscale entities aiming to reduce risks related to the Akaike Information Criterion (AIC) of information and assets. Below are key points regarding ISMS and its alignment with standards like ISO 27001:2024:"
   },
   "uas": {
     "srd.20260113205330.1": {
