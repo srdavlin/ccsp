@@ -2820,7 +2820,71 @@
                 },
                 {
                   "gnx": "srd.20260212200154.1",
-                  "vh": "Internal Information Security Management System (ISMS)"
+                  "vh": "Internal Information Security Management System (ISMS)",
+                  "children": [
+                    {
+                      "gnx": "srd.20260212202758.1",
+                      "vh": "Risk Assesment & Treatment:"
+                    },
+                    {
+                      "gnx": "srd.20260212202819.1",
+                      "vh": "Policy & Objective Setting:"
+                    },
+                    {
+                      "gnx": "srd.20260212202951.1",
+                      "vh": "Organization of Information Security:"
+                    },
+                    {
+                      "gnx": "srd.20260212203319.1",
+                      "vh": "Asses Management:"
+                    },
+                    {
+                      "gnx": "srd.20260212203336.1",
+                      "vh": "Human Resource Security:"
+                    },
+                    {
+                      "gnx": "srd.20260212203400.1",
+                      "vh": "Physical & Environmental Security:"
+                    },
+                    {
+                      "gnx": "srd.20260212203417.1",
+                      "vh": "Communications & Operations Management:"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "srd.20260212203717.1",
+                  "vh": "**HERE**Internal Information Security Controls System pg 413",
+                  "children": [
+                    {
+                      "gnx": "srd.20260212203811.1",
+                      "vh": "Context of Organization:"
+                    },
+                    {
+                      "gnx": "srd.20260212203821.1",
+                      "vh": "Leadership:"
+                    },
+                    {
+                      "gnx": "srd.20260212204013.1",
+                      "vh": "Planning:"
+                    },
+                    {
+                      "gnx": "srd.20260212204109.1",
+                      "vh": "Support:"
+                    },
+                    {
+                      "gnx": "srd.20260212204122.1",
+                      "vh": "Operation:"
+                    },
+                    {
+                      "gnx": "srd.20260212204139.1",
+                      "vh": "Performance Evaluation:"
+                    },
+                    {
+                      "gnx": "srd.20260212204211.1",
+                      "vh": "Imporvement:"
+                    }
+                  ]
                 }
               ]
             }
@@ -3356,7 +3420,15 @@
     "srd.20260212195911.1": "Assemble the audit team with individuals possessing the necessary skills and expertise to\nconduct the audit effectively.",
     "srd.20260212195924.1": "Develop a detailed audit plan that outlines the approach, methodologies, and procedures to\nbe used during the audit.\n",
     "srd.20260212195942.1": "Allocate the required resources for the\naudit, including personnel, tools, and technology. Ensure\nthat the audit team has access to all necessary resources.\n",
-    "srd.20260212200154.1": "An Information Security Management System (ISMS) is a crucial component for medium to large\nscale entities aiming to reduce risks related to the Akaike Information Criterion (AIC) of information and assets. Below are key points regarding ISMS and its alignment with standards like ISO 27001:2024:"
+    "srd.20260212200154.1": "An Information Security Management System (ISMS) is a crucial component for medium to large\nscale entities aiming to reduce risks related to the Akaike Information Criterion (AIC) of information and assets. Below are key points regarding ISMS and its alignment with standards like ISO 27001:2024:",
+    "srd.20260212202758.1": "An ISMS requires organisations to perform systematic risk assessments to identify threats and vulnerabilities that could impact information assets. \n\nUnder ISO 27001:2024, the organisation must define risk acceptance criteria and implement appropriate risk mitigation strategies to manage or reduce these risks to an acceptable level.",
+    "srd.20260212202819.1": "The foundation of an effective ISMS is the establishment of clear\nsecurity policies and objectives that are aligned with the organisation overall business objectives.",
+    "srd.20260212202951.1": "ISO 27001:2024 outlines requirements for the organisation of information security, including the assignment of responsibilities. It requires defining roles and responsibilities for information security management and ensuring that these roles are communicated to all stakeholders.",
+    "srd.20260212203319.1": "This includes classification of assets, defining and implementing appropriate\naccess controls and maintaining an accurate inventory of assets throughout their lifecycle.\n",
+    "srd.20260212203336.1": "Before, during, and after employment, ISO 27001:2024 requires that\norganisations implement policies and procedures to manage and protect against security threats\narising from human resources.",
+    "srd.20260212203400.1": "ISO 27001:2024 includes requirements for protecting physical areas (data centers, offices, etc.), managing access to these areas, protecting against environmental hazards, and securing equipment both on and off premises.",
+    "srd.20260212203417.1": "This involves managing technical and procedural aspects of information systems and handling. It includes clear procedures for system operations, responsibilities, and data management in accordance with security policies.",
+    "srd.20260212203717.1": "\nISO/IEC 27001:2021 is a comprehensive standard that provides a framework for establishing and\nmaintaining an Information Security Management System (ISMS).\n\nIt defines a set of domains that cover various aspects of information security and risk management. \n\nThe following domains are included in ISO/IEC 27001:2021:"
   },
   "uas": {
     "srd.20260113205330.1": {
