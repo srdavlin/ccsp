@@ -3114,7 +3114,33 @@
         },
         {
           "gnx": "srd.20260211194119.1",
-          "vh": "Module 5: Outsourcing & Cloud Contract Design"
+          "vh": "Module 5: Outsourcing & Cloud Contract Design",
+          "children": [
+            {
+              "gnx": "n30.20260213115124.1",
+              "vh": "Business Requirements"
+            },
+            {
+              "gnx": "n30.20260213115214.1",
+              "vh": "Vendor Management"
+            },
+            {
+              "gnx": "n30.20260213115248.1",
+              "vh": "Contract Management"
+            },
+            {
+              "gnx": "n30.20260213115312.1",
+              "vh": "Supply Chain Management"
+            },
+            {
+              "gnx": "n30.20260213115345.1",
+              "vh": "Network Security Managment & Controls"
+            },
+            {
+              "gnx": "n30.20260213115500.1",
+              "vh": "Management Plans"
+            }
+          ]
         }
       ]
     }
