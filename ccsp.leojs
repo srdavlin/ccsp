@@ -2976,7 +2976,141 @@
         },
         {
           "gnx": "srd.20260211193842.1",
-          "vh": "Module 4: Implecations of Cloud to Enterprise Risk Management (pg429)"
+          "vh": "Module 4: Implications of Cloud to Enterprise Risk Management (pg429)",
+          "children": [
+            {
+              "gnx": "n30.20260213102539.1",
+              "vh": "Assess Providers Risk Management Programs",
+              "children": [
+                {
+                  "gnx": "n30.20260213110253.1",
+                  "vh": "Controls"
+                },
+                {
+                  "gnx": "n30.20260213110418.1",
+                  "vh": "Methodologies",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213110446.1",
+                      "vh": "Quantitative Risk Assessment"
+                    },
+                    {
+                      "gnx": "n30.20260213110503.1",
+                      "vh": "Qualitative Risk Assessment"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "n30.20260213110546.1",
+                  "vh": "Policy"
+                },
+                {
+                  "gnx": "n30.20260213110722.1",
+                  "vh": "Risk Profiles"
+                },
+                {
+                  "gnx": "n30.20260213110842.1",
+                  "vh": "Risk Appetite"
+                },
+                {
+                  "gnx": "n30.20260213111000.1",
+                  "vh": "Roles & Responsibilities",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213111131.1",
+                      "vh": "Data Owner (Controller)"
+                    },
+                    {
+                      "gnx": "n30.20260213111150.1",
+                      "vh": "Data Custodian (Processor)"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "n30.20260213111832.1",
+                  "vh": "Regulatory Requirements (Transparency)",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213112009.1",
+                      "vh": "HIPPA Breach Notification"
+                    },
+                    {
+                      "gnx": "n30.20260213112214.1",
+                      "vh": "The Sarbanes-Oxley Act (SOX)"
+                    },
+                    {
+                      "gnx": "n30.20260213112256.1",
+                      "vh": "General Data Protection Regulation (GDPR)"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "n30.20260213112430.1",
+                  "vh": "Risk Treatment",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213112620.1",
+                      "vh": "Response Categories"
+                    },
+                    {
+                      "gnx": "n30.20260213112834.1",
+                      "vh": "Response Options",
+                      "children": [
+                        {
+                          "gnx": "n30.20260213112917.1",
+                          "vh": "1. Accept the Risk"
+                        },
+                        {
+                          "gnx": "n30.20260213113028.1",
+                          "vh": "2. Avoid the Risk"
+                        },
+                        {
+                          "gnx": "n30.20260213113114.1",
+                          "vh": "3. Share the Risk"
+                        },
+                        {
+                          "gnx": "n30.20260213113158.1",
+                          "vh": "4. Mitigate the Risk"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "gnx": "n30.20260213113306.1",
+                  "vh": "Risk Management Frameworks",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213113421.1",
+                      "vh": "ISO 31000:2024"
+                    },
+                    {
+                      "gnx": "n30.20260213113536.1",
+                      "vh": "ENISA"
+                    },
+                    {
+                      "gnx": "n30.20260213113630.1",
+                      "vh": "NIST"
+                    }
+                  ]
+                },
+                {
+                  "gnx": "n30.20260213114107.1",
+                  "vh": "Metrics for Risk Management"
+                },
+                {
+                  "gnx": "n30.20260213114201.1",
+                  "vh": "Assessment of the Risk Environment",
+                  "children": [
+                    {
+                      "gnx": "n30.20260213114523.1",
+                      "vh": "Services"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
           "gnx": "srd.20260211194119.1",
@@ -3538,7 +3672,31 @@
     "n30.20260213093511.1": "    \n\u2022Some industries have their own regulatory bodies and\ncompliance standards.\n\n\u2022For example, the financial industry is subject to regulations\nfrom entities like the SEC (U.S. Securities and Exchange\nCommission) and FINRA (Financial Industry Regulatory\nAuthority).",
     "n30.20260213095616.1": "Adopting distributed IT systems can bring several advantages, but it is crucial to ensure that\nthese models do not negatively impact essential factors such as communication, coordination,\nmanagement, governance, and distributed computing.\n\nBelow is an overview of these considerations:",
     "n30.20260213095812.1": "Drivers for Adopting Distributed IT Systems\n\n\u2022 Increasing Enterprise Productivity: Distributed IT systems can enhance productivity by\nenabling remote work, improving access to resources, and optimising workflows.\n\n\u2022 Reduced Development Cost: Leveraging distributed systems can often lead to cost savings in\ndevelopment and infrastructure.",
-    "n30.20260213095926.1": "Key Considerations for CCSP (Certified Cloud Security Professional)\n\n\u2022 Clear Communications: \nEffective communication is vital in distributed environments. CCSPs\nshould ensure that there are clear communication channels and tools in place to facilitate\ncollaboration among distributed teams and stakeholders.\n\n\u2022 Coordination and Management of Activities:\nDistributed IT systems may involve teams and components located in\ndifferent regions or time zones. CCSPs should focus on\ncoordinating activities and managing resources efficiently\nto ensure project success.\n\n\u2022 Governance of Processes and Activities:\nEstablishing governance frameworks and policies is essential to\nmaintain control and compliance in distributed systems.\n\n\u2022 Distributed Computing: \nDistributed computing involves breaking down software components and tasks into\nsmaller parts that can run on multiple computers.\n\n\nIndeed, there are various forms of distributed computing architectures, each with its own\ncharacteristics and use cases. Below is a brief overview of some common distributed\ncomputing architectures:\n\nClient Server\nN-tier system\nPeer-to-Peer\n"
+    "n30.20260213095926.1": "Key Considerations for CCSP (Certified Cloud Security Professional)\n\n\u2022 Clear Communications: \nEffective communication is vital in distributed environments. CCSPs\nshould ensure that there are clear communication channels and tools in place to facilitate\ncollaboration among distributed teams and stakeholders.\n\n\u2022 Coordination and Management of Activities:\nDistributed IT systems may involve teams and components located in\ndifferent regions or time zones. CCSPs should focus on\ncoordinating activities and managing resources efficiently\nto ensure project success.\n\n\u2022 Governance of Processes and Activities:\nEstablishing governance frameworks and policies is essential to\nmaintain control and compliance in distributed systems.\n\n\u2022 Distributed Computing: \nDistributed computing involves breaking down software components and tasks into\nsmaller parts that can run on multiple computers.\n\n\nIndeed, there are various forms of distributed computing architectures, each with its own\ncharacteristics and use cases. Below is a brief overview of some common distributed\ncomputing architectures:\n\nClient Server\nN-tier system\nPeer-to-Peer\n",
+    "n30.20260213102539.1": "\u2022 It is essential to understand and assess the risk management\nprogram and processes when transitioning to any hosting\nenvironment with a service provider.\n\n\u2022 As the cloud customer hosts their services and data in this\nenvironment, the hosting provider's risk management processes\nand risk acceptance will directly impact the customer's security\nand risk management programs.\n\n\u2022 Certification becomes particularly valuable for the cloud provider\nin this Factor, as it informs the cloud customer about the type of\nrisk management programs and policies that the cloud provider\nhas in place.\n\n\u2022 It also specifies what level of risk can be accepted or what\nmeasures are required to mitigate risks.",
+    "n30.20260213110253.1": "\n\u2022 The goal of this step is to analyse the controls that have been implemented or are planned for\nimplementation by the organisation to minimise or eliminate the likelihood or probability of\nexploiting a system vulnerability or threat.\n\n\u2022 The implementation of current or planned controls must be taken into consideration to derive\nan overall likelihood rating that indicates the probability that a potential vulnerability may be\nexploited within the Factor of the associated threat environment.\n\n\u2022 Analysing the controls involves a thorough examination of both existing and anticipated\nsecurity measures designed to mitigate identified risks.\n\n\u2022 This process not only assesses the adequacy of each control but also evaluates their collective\neffectiveness in the operational environment.",
+    "n30.20260213110546.1": "\n\u2022 The risk policy definition of an organisation typically defines risk as an unexpected event that can\nimpact the organisation's ability to achieve its policy or financial objectives.\nGoals and Steps of WHO's Risk Management Policy\n\n\u2022 The World Health Organisation (WHO) is committed to managing risks effectively to safeguard its\nmission and objectives. WHO's risk management policy outlines specific goals and steps to achieve\nthis aim:\n\nGoals\n\n\u2022 Ensure Continuity of Essential Services: WHO's primary goal is to ensure the uninterrupted delivery\nof essential healthcare services and support, even in the face of unforeseen events or crises.\n\n\u2022 Protect Human and Financial Resources: The organisation seeks to protect its human resources and\nfinancial assets, ensuring they are utilised efficiently and responsibly.",
+    "n30.20260213110722.1": "Risk Profiles\n\n\u2022 The data owners and custodians collaborate with the\norganisation's management to establish the overall risk\nprofile for their systems and applications.\n\n\u2022 The risk profile serves to document and identify the level of\nrisk that management is willing to accept.\n\n\u2022 It also outlines the process for evaluating and approving risk\nfor appropriate use requests.\n\n\u2022 In a cloud environment, the risk profile can become\nconsiderably more complex due to the multitude of systems\nand services that exist beyond the organisation's direct\ncontrol.",
+    "n30.20260213110842.1": "\n\u2022 The willingness of management to embrace and accept\nstrategic risks contributes to the organisation's risk appetite.\n\n\u2022 This, in turn, shapes the overall security culture and\ndetermines the extent to which specific systems and services\ncan be utilised, in conjunction with the classification of the\ndata being handled.\n\n\u2022 A clear understanding of an organisation's risk appetite\nempowers systems staff and application managers to make\ntimely decisions for development and operations without\nrequiring consultation with management for every decision.",
+    "n30.20260213111000.1": "\u2022 To comprehend risk as it pertains to data, it is essential to first\nhave a clear understanding of the various roles and their\nassociated responsibilities.\n\n\u2022 In many organisations, these roles are formalised and come\nwith dedicated responsibilities.\n\n\u2022 Regulatory and certification bodies often mandate the\nappointment of individuals as data owners and data\ncustodians, placing upon them significant responsibilities\nconcerning liability.\n\n\u2022 For these purposes, the key roles involved can be defined as\nthe Data Owner and Data Custodian.\n\n",
+    "n30.20260213111131.1": "Data Owner or Data Controller: \n\nThis is an individual, either independently or as part of a\ngroup, who defines the purposes for processing any personal data.\n\nData controllers typically bear responsibility for managing data Factor, content, and related\nbusiness rules.\n\nData controllers/ owners, possess legal rights and full control over individual pieces or sets of data\nelements. \n\no They both may share responsibilities for defining distribution and related policies.",
+    "n30.20260213111150.1": "Data Custodian or Data Processor: \n\nThis role refers to any person who processes data on behalf of the data controller.\n\nData custodians are responsible for data storage,\nsafekeeping, transportation, and the enforcement of\nbusiness rules.\n\no They both may share responsibilities for defining distribution and related policies.",
+    "n30.20260213112009.1": "\n\u2022The HIPAA Breach Notification Rule mandates that HIPAA\ncovered entities, along with their business associates, must\nprovide notification in the event of a breach involving\nunsecured protected health information.\n\n\u2022Additionally, similar breach notification provisions, enforced\nby the Federal Trade Commission (FTC), are applicable to\npersonal health record vendors and their third-party service\nproviders.\n\n\u2022A breach is defined as an impermissible use or disclosure\nunder the Privacy Rule, which compromises the privacy and\nsecurity of protected health information.\n\n\u2022The covered entity or business associate, as applicable, can demonstrate a low probability of\ncompromised protected health information through a risk assessment that considers at least\nthe following factors, an unauthorised use or disclosure of protected health information is\npresumed to be a breach:\n\no Nature and Extent: This includes the types of identifiers within the protected health\ninformation and the likelihood of re-identification.\n\no Unauthorised User or Recipient: Consideration of who accessed or received the protected\nhealth information without authorisation.\n\no Access and Viewing: Whether the protected health information was viewed or obtained by\nthe unauthorised party.",
+    "n30.20260213112214.1": "\n\u2022 While SOX does not primarily focus on preserving privacy or IT security, it plays a crucial role in\nregulating the accounting and financial practices employed by organisations.\n\n\u2022 This act was enacted to safeguard the interests of stakeholders and shareholders by addressing\nimproper practices and errors.\n\n\u2022 It establishes stringent rules for compliance, which are regulated and enforced by the\nSecurities and Exchange Commission (SEC).\n\n\u2022 SOX imposes substantial requirements, often surpassing those mandated by other regulatory\nor certification standards, on virtually every aspect of a financial system's operations and\ncontrols.",
+    "n30.20260213112256.1": "\n\u2022 Cloud computing has become an integral part of most global businesses, revolutionising the\nway industries operate and thrive.\n\n\u2022 However, complying with various data protection and data privacy standards has posed\nsignificant challenges for the cloud industry. Much has changed for most businesses with the\nenforcement of the General Data Protection Regulation (GDPR).\n\n\u2022 The enforcement of GDPR has had a profound impact on cloud service providers and their\noperations, particularly concerning operational implementation and security control\nmechanisms.\n\n\u2022 Cloud service providers are now obligated to fully understand their responsibilities regarding\ndata protection and privacy. They must adapt and adjust their services, contracts, and\nprocesses accordingly.\n",
+    "n30.20260213112430.1": "\n\u2022Risk measures the threats that an organisation, its IT systems, and its data are exposed to.\n\n\u2022Risk assessment involves evaluating the organisation's vulnerability level, identifying the threats it\nencounters, assessing the likelihood of a threat succeeding, and considering mitigation measures\nthat can be implemented to further reduce the risk level.\n\n\u2022The organisation has two options: it can actively work to reduce and minimise the level of risk\nfacing its systems, or it can choose to accept and manage the existing level of risk.",
+    "n30.20260213112620.1": "Framing Risk\n\nAssessing Risk\n\nResponding to Risk\n\nMonitoring Risk",
+    "n30.20260213112917.1": "\n\n\u2022 An organisation may choose to accept the risk associated with a specific exploit and the threats\nit poses.\n\n\u2022 This decision typically follows a comprehensive risk assessment, including an evaluation of\nmitigation costs.\n\n\u2022 In cases where the cost of mitigation exceeds the potential costs of accepting the risk and\naddressing any potential consequences, the organisation may decide to address the exploit if\nand when it occurs.\"",
+    "n30.20260213113028.1": "\n\u2022 An organisation may choose to take proactive measures to ensure that a risk is never realised,\ninstead of accepting or mitigating it.\n\n\u2022 This often involves decisions not to utilise certain services or systems. For instance, if a company\ndetermines that enabling direct purchasing through its website poses a significant risk to its\nsystems and data protections, it may opt not to offer online ordering at all.",
+    "n30.20260213113114.1": "\n\u2022 Risk transfer involves another entity assuming the risk on behalf of the organisation. However, it is\nimportant to note that not all risks can be transferred.\n\n\u2022 A common example of risk transfer is through insurance policies, which can help cover the\nfinancial costs of successful risk exploits.",
+    "n30.20260213113158.1": "\n\n\u2022 Risk mitigation is the most commonly expected and understood\nstrategy.\n\n\u2022 In risk mitigation, an organisation takes proactive measures,\nwhich may include investing in new systems or technologies, to\nrectify and prevent potential exploits.\n\n\u2022 These actions can range from completely eliminating a specific\nrisk to reducing the likelihood of an exploit occurring or\nmitigating the impact of a successful exploit.\n\n\u2022 The decision to pursue risk mitigation is typically based on a cost-\nbenefit analysis derived from the assessments conducted.",
+    "n30.20260213113306.1": "Common risk frameworks encompass ISO 31000:2024, ENISA and NIST, \nparticularly their Cloud Computing Synopsis and Recommendations",
+    "n30.20260213113421.1": "\n\n\u2022 Framework: ISO 31000 is an international standard that provides guidelines on risk management\nprinciples and practices.\n\n\u2022 The 2024 revision of this standard continues to emphasise a structured and comprehensive\napproach to risk management that is applicable across all organisational activities and sectors.\n\n\u2022 Application to Cloud Computing: While ISO 31000 is not specific to cloud computing, its principles\ncan be applied to manage risks associated with cloud services.\n\n\u2022 This includes establishing a risk management Factor, identifying risks, analysing and evaluating\nthese risks, and then implementing strategies to mitigate them.",
+    "n30.20260213113536.1": "\n\u2022 The European Union Agency for Cybersecurity (ENISA) offers extensive guidance and reports\nthat address security and risk management in various aspects of information technology, with\na strong focus on cybersecurity.\n\n\u2022 NISA provides specific guidelines and recommendations for securing cloud environments.\nThese guidelines help organisations understand the security risks associated with cloud\nservices and suggest best practices to mitigate these risks.\n\n\u2022 ENISA reports often include strategies for managing data protection, resilience and regulatory\ncompliance within the cloud.",
+    "n30.20260213113630.1": "NIST (National Institute of Standards & Technology)\n- Cloud Computing Synopsis and Recommendations\n\n\u2022 NIST is known for its detailed and technical guidelines that cover many aspects of information\ntechnology and cybersecurity.\n\n\u2022 The Cloud Computing Synopsis and Recommendations is a part of NIST broader efforts to\nprovide clear guidance on cloud computing technologies.\n\n\u2022 This particular document from NIST explains the security challenges and risks specific to cloud\ncomputing.\n\n\u2022 It provides a comprehensive overview of cloud service models (IaaS, PaaS, SaaS), deployment\nmodels (public, private, hybrid, community) and discusses strategies to mitigate risks\nassociated with cloud service adoption.\n\n\u2022 The recommendations aim to help organisations make informed decisions about cloud service\nproviders, data security and compliance with relevant standards and regulations.",
+    "n30.20260213114107.1": "Metrics for Risk Management\n\n\u2022 Risks must be described in a way that is easily understandable and clear. This is essential not\nonly for internal communication but also for conveying risk information outside the\norganisation.\n\n\u2022 To achieve success in this endeavor, the organisation must agree on a set of risk management\nmetrics.\n\n\u2022 Each risk's probability and impact are assessed separately using a recommended risk scorecard.\nThe results are then combined to indicate the exposure, typically using a five-level scale for\nboth probability and impact, with the following categories:\n\no Minimal\no Low\no Moderate\no High\no Maximum",
+    "n30.20260213114201.1": "\n\u2022 Properly assessing risk in a cloud environment necessitates the\nevaluation of multiple levels.\n\n\u2022 The first component is the individual application, device, or\nservice, which requires a similar analysis to that of hosting in a\ntraditional data center.\n\n\u2022 However, in the cloud, additional cloud-specific aspects must\nalso be taken into account.\n\n\u2022 Additionally, the cloud provider itself needs to undergo a risk\nassessment.\n\n\u2022 This assessment should consider factors such as the provider's\ntrack record, reliability, concentration of services, financial\nhealth, and future trajectory.",
+    "n30.20260213114523.1": "\n\u2022 A definition of cloud computing encompasses core features and advantages that are common\nacross all clouds. However, cloud services may vary in their specific details.\n\n\u2022 From the perspective of service users, cloud computing services possess the following key\ncharacteristics:\n\no Provider Hosts and Maintains the Infrastructure: Cloud hosting providers purchase, host,\nand maintain the necessary hardware and software in-house. This arrangement allows users\nto avoid capital expenditures and the maintenance challenges they would face if they were\nto develop and manage the service on-premises.\n\no Self-Service via a Web Interface: Users have the ability to initiate specific service functions\nand adjust their service usage levels with ease through a web interface. This self-service\ncapability minimises the need for extensive interaction with the service provider."
   },
   "uas": {
     "srd.20260113205330.1": {
